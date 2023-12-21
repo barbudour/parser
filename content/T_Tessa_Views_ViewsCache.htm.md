@@ -1,0 +1,164 @@
+# ViewsCache - класс
+Потокобезопасный кэш представлений
+## __Definition
+ **Пространство имён:** [Tessa.Views](N_Tessa_Views.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public sealed class ViewsCache : GlobalCache<SharedEventArgs>
+VB __Копировать
+     Public NotInheritable Class ViewsCache
+    	Inherits GlobalCache(Of SharedEventArgs)
+C++ __Копировать
+     public ref class ViewsCache sealed : public GlobalCache<SharedEventArgs^>
+F# __Копировать
+     [<SealedAttribute>]
+    type ViewsCache = 
+        class
+            inherit GlobalCache<SharedEventArgs>
+        end
+Inheritance
+    [Object](https://learn.microsoft.com/dotnet/api/system.object) __[GlobalCache](T_Tessa_Platform_Caching_GlobalCache_1.htm)<[SharedEventArgs](T_Tessa_Platform_IPC_SharedEventArgs.htm)> __ ViewsCache
+##  __Конструкторы
+[ViewsCache](M_Tessa_Views_ViewsCache__ctor.htm)|  Создаёт экземпляр класса с
+указанием заданного имени экземпляра кэша. Глобальный кэш сбрасывает своё
+состояние только в рамках экземпляра.  
+---|---  
+## __Свойства
+[InstanceName](P_Tessa_Platform_Caching_GlobalCache_1_InstanceName.htm)|  Имя
+экземпляра класса, являющееся глобально уникальным для экземпляров кэша того
+же типа, расположенных в различных процессах. Значение null определяет, что
+синхронизация не используется.  
+(Унаследован от
+[GlobalCache<TEventArgs>](T_Tessa_Platform_Caching_GlobalCache_1.htm))  
+---|---  
+[InstanceType](P_Tessa_Platform_Caching_GlobalCache_1_InstanceType.htm)|  Тип
+объекта, используемый для синхронизации экземпляров между потоками и
+процессами.  
+(Унаследован от
+[GlobalCache<TEventArgs>](T_Tessa_Platform_Caching_GlobalCache_1.htm))  
+[InterprocessCommunicationIsEnabled](P_Tessa_Platform_Caching_GlobalCache_1_InterprocessCommunicationIsEnabled.htm)|
+Возвращает признак того, что кэш использует коммуникацию между процессами.
+Значение false определяет, что кэш перестаёт быть глобальным и кэширует данные
+только в текущем объекте.  
+(Унаследован от
+[GlobalCache<TEventArgs>](T_Tessa_Platform_Caching_GlobalCache_1.htm))  
+[IsDisposed](P_Tessa_Platform_Caching_GlobalCache_1_IsDisposed.htm)| Признак
+того, что ресурсы объекта были освобождены.  
+(Унаследован от
+[GlobalCache<TEventArgs>](T_Tessa_Platform_Caching_GlobalCache_1.htm))  
+##  __Методы
+[DisposeAsync()](M_Tessa_Platform_Caching_GlobalCache_1_DisposeAsync.htm)|
+Освобождает ресурсы, занимаемые объектом.  
+(Унаследован от
+[GlobalCache<TEventArgs>](T_Tessa_Platform_Caching_GlobalCache_1.htm))  
+---|---  
+[DisposeAsync(Boolean)](M_Tessa_Platform_Caching_GlobalCache_1_DisposeAsync_1.htm)|
+Освобождает ресурсы, занимаемые объектом.  
+(Унаследован от
+[GlobalCache<TEventArgs>](T_Tessa_Platform_Caching_GlobalCache_1.htm))  
+[EnsureInvalidateCacheSubscribedAsync](M_Tessa_Platform_Caching_GlobalCache_1_EnsureInvalidateCacheSubscribedAsync.htm)|
+Выполняет подписку на глобальное событие сброса кэша, если объект ещё не был
+подписан. Метод следует вызывать только в том случае, если доступ к кэшируемым
+данным осуществляется не только через методы
+[GetAsync<T>(Func<CancellationToken, Task<T>>, Func<CancellationToken,
+Task<T>>, Boolean,
+CancellationToken)](M_Tessa_Platform_Caching_GlobalCache_1_GetAsync__1.htm) и
+[TryGetAsync<T>(Func<CancellationToken, Task<T>>, Boolean,
+CancellationToken)](M_Tessa_Platform_Caching_GlobalCache_1_TryGetAsync__1.htm).  
+(Унаследован от
+[GlobalCache<TEventArgs>](T_Tessa_Platform_Caching_GlobalCache_1.htm))  
+[Equals](https://learn.microsoft.com/dotnet/api/system.object.equals#system-
+object-equals\(system-object\))| Determines whether the specified object is
+equal to the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[Finalize](https://learn.microsoft.com/dotnet/api/system.object.finalize#system-
+object-finalize)| Allows an object to try to free resources and perform other
+cleanup operations before it is reclaimed by garbage collection.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetAsync<T>](M_Tessa_Platform_Caching_GlobalCache_1_GetAsync__1.htm)|
+Инициирует заполнение кэша при необходимости и возвращает запрошенное из кэша
+значение.  
+(Унаследован от
+[GlobalCache<TEventArgs>](T_Tessa_Platform_Caching_GlobalCache_1.htm))  
+[GetHashCode](https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-
+object-gethashcode)| Serves as the default hash function.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetType](https://learn.microsoft.com/dotnet/api/system.object.gettype#system-
+object-gettype)| Gets the
+[Type](https://learn.microsoft.com/dotnet/api/system.type) of the current
+instance.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetViewsAsync](M_Tessa_Views_ViewsCache_GetViewsAsync.htm)|  Возвращает все
+представления, доступные в кэше.  
+[InvalidateGlobalAsync](M_Tessa_Views_ViewsCache_InvalidateGlobalAsync.htm)|
+Сбрасывает кэш представлений  
+[InvalidateGlobalCacheAsync](M_Tessa_Platform_Caching_GlobalCache_1_InvalidateGlobalCacheAsync.htm)|
+Инициирует глобальный сброс кэша, который затрагивает как текущий, так и
+другие экземпляры кэша с тем же именем, которые могут располагаться в других
+процессах.  
+(Унаследован от
+[GlobalCache<TEventArgs>](T_Tessa_Platform_Caching_GlobalCache_1.htm))  
+[InvalidateLocalCacheAsync](M_Tessa_Platform_Caching_GlobalCache_1_InvalidateLocalCacheAsync.htm)|
+Метод, реализующий сброс кэша в текущем экземпляре. Метод является
+потокобезопасным и может обращаться к кэшу без дополнительной синхронизации.  
+(Унаследован от
+[GlobalCache<TEventArgs>](T_Tessa_Platform_Caching_GlobalCache_1.htm))  
+[InvalidateLocalCacheOverrideAsync](M_Tessa_Views_ViewsCache_InvalidateLocalCacheOverrideAsync.htm)|
+Метод, реализующий сброс кэша в текущем экземпляре. Метод является
+потокобезопасным и может обращаться к кэшу без дополнительной синхронизации.
+Любые необработанные исключения, возникшие внутри делегата, игнорируются с
+записью в лог.  
+(Переопределяет
+[GlobalCache<TEventArgs>.InvalidateLocalCacheOverrideAsync(TEventArgs,
+CancellationToken)](M_Tessa_Platform_Caching_GlobalCache_1_InvalidateLocalCacheOverrideAsync.htm))  
+[MemberwiseClone](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-
+object-memberwiseclone)| Creates a shallow copy of the current
+[Object](https://learn.microsoft.com/dotnet/api/system.object).  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[ToString](https://learn.microsoft.com/dotnet/api/system.object.tostring#system-
+object-tostring)| Returns a string that represents the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[TryGetAsync<T>](M_Tessa_Platform_Caching_GlobalCache_1_TryGetAsync__1.htm)|
+Возвращает запрошенное из кэша значение или null, если значение отсутствует.  
+(Унаследован от
+[GlobalCache<TEventArgs>](T_Tessa_Platform_Caching_GlobalCache_1.htm))  
+##  __События
+[Invalidated](E_Tessa_Platform_Caching_GlobalCache_1_Invalidated.htm)|
+Событие, которое содержит вызовы на сброс внешнего кэша, зависимого от
+текущего кэша. Обработчики событий должны как можно более быстро выполнить код
+по сбросу кэша. Все исключения, возникшие в обработчиках, игнорируются с
+записью в лог.  
+(Унаследован от
+[GlobalCache<TEventArgs>](T_Tessa_Platform_Caching_GlobalCache_1.htm))  
+---|---  
+##  __Методы расширения
+[Get](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Get.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+---|---  
+[InternalMarkerCanvas](M_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor_InternalMarkerCanvas.htm)|
+Возвращает маркер аннотации  
+(Определяется
+[AnnotationInternalsAccessor](T_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor.htm))  
+[Invoke](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Invoke.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+[RegisterInConstructor<SharedEventArgs>](M_Tessa_Platform_PlatformExtensions_RegisterInConstructor__1.htm)|
+Выполняет регистрацию текущего глобального кэша cache в контейнере container.
+Все ресурсы глобального кэша могут быть освобождены, если регистрация в
+контейнере container завершена по причине того, что все объекты контейнера уже
+были освобождены. Возвращает признак того, что ресурсы глобального кэша не
+были освобождены.  
+(Определяется [PlatformExtensions](T_Tessa_Platform_PlatformExtensions.htm))  
+[Set](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Set.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+##  __См. также
+#### Ссылки
+[Tessa.Views - пространство имён](N_Tessa_Views.htm)

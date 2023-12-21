@@ -1,0 +1,375 @@
+# Behavior<T> \- класс
+##  __Definition
+ **Пространство имён:** [Tessa.UI.Behaviors](N_Tessa_UI_Behaviors.htm)  
+ **Сборка:** Tessa.UI (в Tessa.UI.dll) Версия: 3.6.0.17
+C# __Копировать
+     public abstract class Behavior<T> : Behavior
+    where T : DependencyObject
+VB __Копировать
+     Public MustInherit Class Behavior(Of T As DependencyObject)
+    	Inherits Behavior
+C++ __Копировать
+    generic<typename T>
+    where T : DependencyObject
+    public ref class Behavior abstract : public Behavior
+F# __Копировать
+     [<AbstractClassAttribute>]
+    type Behavior<'T when 'T : DependencyObject> = 
+        class
+            inherit Behavior
+        end
+Inheritance
+    [Object](https://learn.microsoft.com/dotnet/api/system.object) __[DispatcherObject](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject) __[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject) __[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable) __[LinkedFreezable](T_Tessa_UI_LinkedFreezable.htm) __[Behavior](T_Tessa_UI_Behaviors_Behavior.htm) __ Behavior<T>
+Derived
+[Tessa.UI.AppManager.Controls.PasswordBehavior](T_Tessa_UI_AppManager_Controls_PasswordBehavior.htm)
+[Tessa.UI.Behaviors.BorderlessWindowBehavior](T_Tessa_UI_Behaviors_BorderlessWindowBehavior.htm)
+[Tessa.UI.Behaviors.ChangeExpandedOnMiddleMouseDown](T_Tessa_UI_Behaviors_ChangeExpandedOnMiddleMouseDown.htm)
+[Tessa.UI.Behaviors.ChangeFocusOnDisabling](T_Tessa_UI_Behaviors_ChangeFocusOnDisabling.htm)
+[Tessa.UI.Behaviors.ContextMenu](T_Tessa_UI_Behaviors_ContextMenu.htm)
+[Tessa.UI.Behaviors.DisableOnValidationErrors](T_Tessa_UI_Behaviors_DisableOnValidationErrors.htm)
+[Tessa.UI.Behaviors.ExpandGroupsOnMouseButtonDown](T_Tessa_UI_Behaviors_ExpandGroupsOnMouseButtonDown.htm)
+[Tessa.UI.Behaviors.Focusable](T_Tessa_UI_Behaviors_Focusable.htm)
+[Tessa.UI.Behaviors.IgnoreMouseWheel](T_Tessa_UI_Behaviors_IgnoreMouseWheel.htm)
+[Tessa.UI.Behaviors.LanguageBinding](T_Tessa_UI_Behaviors_LanguageBinding.htm)
+[Tessa.UI.Behaviors.MinWidthSplitterBehavior](T_Tessa_UI_Behaviors_MinWidthSplitterBehavior.htm)
+[Tessa.UI.Behaviors.MouseWheelFontResize](T_Tessa_UI_Behaviors_MouseWheelFontResize.htm)
+[Tessa.UI.Behaviors.PasswordBinding](T_Tessa_UI_Behaviors_PasswordBinding.htm)
+[Tessa.UI.Behaviors.PreviewKeyDown](T_Tessa_UI_Behaviors_PreviewKeyDown.htm)
+[Tessa.UI.Behaviors.ReadOnlyText](T_Tessa_UI_Behaviors_ReadOnlyText.htm)
+[Tessa.UI.Behaviors.SavePlacement](T_Tessa_UI_Behaviors_SavePlacement.htm)
+[Tessa.UI.Behaviors.ScrollIntoViewBehavior](T_Tessa_UI_Behaviors_ScrollIntoViewBehavior.htm)
+[Tessa.UI.Behaviors.ScrollSelectedIntoView](T_Tessa_UI_Behaviors_ScrollSelectedIntoView.htm)
+[Tessa.UI.Behaviors.ScrollViewerBehaviorBase](T_Tessa_UI_Behaviors_ScrollViewerBehaviorBase.htm)
+[Tessa.UI.Behaviors.SelectAll](T_Tessa_UI_Behaviors_SelectAll.htm)
+[Tessa.UI.Behaviors.SelectItemOnPreviewMouseDown](T_Tessa_UI_Behaviors_SelectItemOnPreviewMouseDown.htm)
+[Tessa.UI.Behaviors.SelectRowFromViewModel](T_Tessa_UI_Behaviors_SelectRowFromViewModel.htm)
+[Tessa.UI.Behaviors.ShowInTaskbarWhenDeactivated](T_Tessa_UI_Behaviors_ShowInTaskbarWhenDeactivated.htm)
+[Tessa.UI.Behaviors.StoryboardBehavior](T_Tessa_UI_Behaviors_StoryboardBehavior.htm)
+[Tessa.UI.Behaviors.UpdateSourceBeforeKeyBinding](T_Tessa_UI_Behaviors_UpdateSourceBeforeKeyBinding.htm)
+[Tessa.UI.Behaviors.WindowDragMove](T_Tessa_UI_Behaviors_WindowDragMove.htm)
+[Tessa.UI.Cards.Controls.ViewCardControlDropBehavior](T_Tessa_UI_Cards_Controls_ViewCardControlDropBehavior.htm)
+[Tessa.UI.Views.Charting.Charts.ChartIgnoreMouseWheel](T_Tessa_UI_Views_Charting_Charts_ChartIgnoreMouseWheel.htm)
+[Tessa.UI.Views.Charting.Charts.ChartStructure.ChartStructureItemDropBehavior](T_Tessa_UI_Views_Charting_Charts_ChartStructure_ChartStructureItemDropBehavior.htm)
+[Tessa.UI.Views.Content.Table.TableGridViewSelectionBehavior](T_Tessa_UI_Views_Content_Table_TableGridViewSelectionBehavior.htm)
+[Tessa.UI.Views.GridViewSelectorBehavior](T_Tessa_UI_Views_GridViewSelectorBehavior.htm)
+[Tessa.UI.Views.UpdateColumnsBehaviour](T_Tessa_UI_Views_UpdateColumnsBehaviour.htm)
+[Tessa.UI.Windows.ActiveItemChangesJournalBehavior](T_Tessa_UI_Windows_ActiveItemChangesJournalBehavior.htm)
+[Tessa.UI.Windows.ActiveItemInputBindingsBehavior](T_Tessa_UI_Windows_ActiveItemInputBindingsBehavior.htm)
+[Tessa.UI.Windows.BackgroundBehavior](T_Tessa_UI_Windows_BackgroundBehavior.htm)
+[Tessa.UI.Windows.BackgroundPanelBehavior](T_Tessa_UI_Windows_BackgroundPanelBehavior.htm)
+[Tessa.UI.Windows.WindowInputBindingsBehavior](T_Tessa_UI_Windows_WindowInputBindingsBehavior.htm)
+Подробнее __Less __
+#### Параметры типа
+T
+##  __Конструкторы
+[Behavior<T>](M_Tessa_UI_Behaviors_Behavior_1__ctor.htm)| Инициализирует новый
+экземпляр класса Behavior<T>  
+---|---  
+##  __Свойства
+[AssociatedObject](P_Tessa_UI_Behaviors_Behavior_1_AssociatedObject.htm)|  
+---|---  
+[CanFreeze](https://learn.microsoft.com/dotnet/api/system.windows.freezable.canfreeze#system-
+windows-freezable-canfreeze)| Gets a value that indicates whether the object
+can be made unmodifiable.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[DependencyObjectType](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.dependencyobjecttype#system-
+windows-dependencyobject-dependencyobjecttype)| Gets the
+[DependencyObjectType](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobjecttype)
+that wraps the CLR type of this instance.  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[Dispatcher](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject.dispatcher#system-
+windows-threading-dispatcherobject-dispatcher)| Gets the
+[Dispatcher](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcher)
+this
+[DispatcherObject](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject)
+is associated with.  
+(Унаследован от
+[DispatcherObject](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject))  
+[IsFrozen](https://learn.microsoft.com/dotnet/api/system.windows.freezable.isfrozen#system-
+windows-freezable-isfrozen)| Gets a value that indicates whether the object is
+currently modifiable.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[IsSealed](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.issealed#system-
+windows-dependencyobject-issealed)| Gets a value that indicates whether this
+instance is currently sealed (read-only).  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+##  __Методы
+[CheckAccess](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject.checkaccess#system-
+windows-threading-dispatcherobject-checkaccess)| Determines whether the
+calling thread has access to this
+[DispatcherObject](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject).  
+(Унаследован от
+[DispatcherObject](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject))  
+---|---  
+[ClearValue(DependencyProperty)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue#system-
+windows-dependencyobject-clearvalue\(system-windows-dependencyproperty\))|
+Clears the local value of a property. The property to be cleared is specified
+by a
+[DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+identifier.  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[ClearValue(DependencyPropertyKey)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue#system-
+windows-dependencyobject-clearvalue\(system-windows-dependencypropertykey\))|
+Clears the local value of a read-only property. The property to be cleared is
+specified by a
+[DependencyPropertyKey](https://learn.microsoft.com/dotnet/api/system.windows.dependencypropertykey).  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[Clone](https://learn.microsoft.com/dotnet/api/system.windows.freezable.clone#system-
+windows-freezable-clone)| Creates a modifiable clone of the
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable),
+making deep copies of the object's values. When copying the object's
+dependency properties, this method copies expressions (which might no longer
+resolve) but not animations or their current values.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[CloneCore](https://learn.microsoft.com/dotnet/api/system.windows.freezable.clonecore#system-
+windows-freezable-clonecore\(system-windows-freezable\))| Makes the instance a
+clone (deep copy) of the specified
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+using base (non-animated) property values.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[CloneCurrentValue](https://learn.microsoft.com/dotnet/api/system.windows.freezable.clonecurrentvalue#system-
+windows-freezable-clonecurrentvalue)| Creates a modifiable clone (deep copy)
+of the
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+using its current values.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[CloneCurrentValueCore](https://learn.microsoft.com/dotnet/api/system.windows.freezable.clonecurrentvaluecore#system-
+windows-freezable-clonecurrentvaluecore\(system-windows-freezable\))| Makes
+the instance a modifiable clone (deep copy) of the specified
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+using current property values.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[CoerceValue](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.coercevalue#system-
+windows-dependencyobject-coercevalue\(system-windows-dependencyproperty\))|
+Coerces the value of the specified dependency property. This is accomplished
+by invoking any
+[CoerceValueCallback](https://learn.microsoft.com/dotnet/api/system.windows.coercevaluecallback)
+function specified in property metadata for the dependency property as it
+exists on the calling
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject).  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[CreateInstance](https://learn.microsoft.com/dotnet/api/system.windows.freezable.createinstance#system-
+windows-freezable-createinstance)| Initializes a new instance of the
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+class.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[CreateInstanceCore](https://learn.microsoft.com/dotnet/api/system.windows.freezable.createinstancecore#system-
+windows-freezable-createinstancecore)| When implemented in a derived class,
+creates a new instance of the
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+derived class.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[Equals](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.equals#system-
+windows-dependencyobject-equals\(system-object\))| Determines whether a
+provided
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+is equivalent to the current
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject).  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[Freeze](https://learn.microsoft.com/dotnet/api/system.windows.freezable.freeze#system-
+windows-freezable-freeze)| Makes the current object unmodifiable and sets its
+[IsFrozen](https://learn.microsoft.com/dotnet/api/system.windows.freezable.isfrozen#system-
+windows-freezable-isfrozen) property to true.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[FreezeCore](https://learn.microsoft.com/dotnet/api/system.windows.freezable.freezecore#system-
+windows-freezable-freezecore\(system-boolean\))| Makes the
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+object unmodifiable or tests whether it can be made unmodifiable.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[GetAsFrozen](https://learn.microsoft.com/dotnet/api/system.windows.freezable.getasfrozen#system-
+windows-freezable-getasfrozen)| Creates a frozen copy of the
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable),
+using base (non-animated) property values. Because the copy is frozen, any
+frozen sub-objects are copied by reference.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[GetAsFrozenCore](https://learn.microsoft.com/dotnet/api/system.windows.freezable.getasfrozencore#system-
+windows-freezable-getasfrozencore\(system-windows-freezable\))| Makes the
+instance a frozen clone of the specified
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+using base (non-animated) property values.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[GetCurrentValueAsFrozen](https://learn.microsoft.com/dotnet/api/system.windows.freezable.getcurrentvalueasfrozen#system-
+windows-freezable-getcurrentvalueasfrozen)| Creates a frozen copy of the
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+using current property values. Because the copy is frozen, any frozen sub-
+objects are copied by reference.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[GetCurrentValueAsFrozenCore](https://learn.microsoft.com/dotnet/api/system.windows.freezable.getcurrentvalueasfrozencore#system-
+windows-freezable-getcurrentvalueasfrozencore\(system-windows-freezable\))|
+Makes the current instance a frozen clone of the specified
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable).
+If the object has animated dependency properties, their current animated
+values are copied.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[GetHashCode](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.gethashcode#system-
+windows-dependencyobject-gethashcode)| Gets a hash code for this
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject).  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[GetLocalValueEnumerator](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getlocalvalueenumerator#system-
+windows-dependencyobject-getlocalvalueenumerator)| Creates a specialized
+enumerator for determining which dependency properties have locally set values
+on this
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject).  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[GetRequiredType](M_Tessa_UI_Behaviors_Behavior_1_GetRequiredType.htm)|  
+(Переопределяет
+[Behavior.GetRequiredType(Int32)](M_Tessa_UI_Behaviors_Behavior_GetRequiredType.htm))  
+[GetRequiredTypeCount](M_Tessa_UI_Behaviors_Behavior_1_GetRequiredTypeCount.htm)|  
+(Переопределяет
+[Behavior.GetRequiredTypeCount()](M_Tessa_UI_Behaviors_Behavior_GetRequiredTypeCount.htm))  
+[GetValue](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getvalue#system-
+windows-dependencyobject-getvalue\(system-windows-dependencyproperty\))|
+Returns the current effective value of a dependency property on this instance
+of a
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject).  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[InvalidateProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.invalidateproperty#system-
+windows-dependencyobject-invalidateproperty\(system-windows-
+dependencyproperty\))| Re-evaluates the effective value for the specified
+dependency property.  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[OnAttached](M_Tessa_UI_Behaviors_Behavior_OnAttached.htm)|  
+(Унаследован от [Behavior](T_Tessa_UI_Behaviors_Behavior.htm))  
+[OnChanged](https://learn.microsoft.com/dotnet/api/system.windows.freezable.onchanged#system-
+windows-freezable-onchanged)| Called when the current
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+object is modified.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[OnDetaching](M_Tessa_UI_Behaviors_Behavior_OnDetaching.htm)|  
+(Унаследован от [Behavior](T_Tessa_UI_Behaviors_Behavior.htm))  
+[OnFreezablePropertyChanged(DependencyObject,
+DependencyObject)](https://learn.microsoft.com/dotnet/api/system.windows.freezable.onfreezablepropertychanged#system-
+windows-freezable-onfreezablepropertychanged\(system-windows-dependencyobject-
+system-windows-dependencyobject\))| Ensures that appropriate context pointers
+are established for a
+[DependencyObjectType](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobjecttype)
+data member that has just been set.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[OnFreezablePropertyChanged(DependencyObject, DependencyObject,
+DependencyProperty)](https://learn.microsoft.com/dotnet/api/system.windows.freezable.onfreezablepropertychanged#system-
+windows-freezable-onfreezablepropertychanged\(system-windows-dependencyobject-
+system-windows-dependencyobject-system-windows-dependencyproperty\))| This
+member supports the Windows Presentation Foundation (WPF) infrastructure and
+is not intended to be used directly from your code.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[OnPropertyChanged](https://learn.microsoft.com/dotnet/api/system.windows.freezable.onpropertychanged#system-
+windows-freezable-onpropertychanged\(system-windows-
+dependencypropertychangedeventargs\))| Overrides the
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+implementation of
+[OnPropertyChanged(DependencyPropertyChangedEventArgs)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.onpropertychanged#system-
+windows-dependencyobject-onpropertychanged\(system-windows-
+dependencypropertychangedeventargs\)) to also invoke any
+[Changed](https://learn.microsoft.com/dotnet/api/system.windows.freezable.changed)
+handlers in response to a changing dependency property of type
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable).  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[ReadLocalValue](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.readlocalvalue#system-
+windows-dependencyobject-readlocalvalue\(system-windows-dependencyproperty\))|
+Returns the local value of a dependency property, if it exists.  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[ReadPreamble](https://learn.microsoft.com/dotnet/api/system.windows.freezable.readpreamble#system-
+windows-freezable-readpreamble)| Ensures that the
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+is being accessed from a valid thread. Inheritors of
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+must call this method at the beginning of any API that reads data members that
+are not dependency properties.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[SetCurrentValue](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setcurrentvalue#system-
+windows-dependencyobject-setcurrentvalue\(system-windows-dependencyproperty-
+system-object\))| Sets the value of a dependency property without changing its
+value source.  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[SetValue(DependencyProperty,
+Object)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue#system-
+windows-dependencyobject-setvalue\(system-windows-dependencyproperty-system-
+object\))| Sets the local value of a dependency property, specified by its
+dependency property identifier.  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[SetValue(DependencyPropertyKey,
+Object)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue#system-
+windows-dependencyobject-setvalue\(system-windows-dependencypropertykey-
+system-object\))| Sets the local value of a read-only dependency property,
+specified by the
+[DependencyPropertyKey](https://learn.microsoft.com/dotnet/api/system.windows.dependencypropertykey)
+identifier of the dependency property.  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[ShouldSerializeProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.shouldserializeproperty#system-
+windows-dependencyobject-shouldserializeproperty\(system-windows-
+dependencyproperty\))| Returns a value that indicates whether serialization
+processes should serialize the value for the provided dependency property.  
+(Унаследован от
+[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject))  
+[VerifyAccess](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject.verifyaccess#system-
+windows-threading-dispatcherobject-verifyaccess)| Enforces that the calling
+thread has access to this
+[DispatcherObject](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject).  
+(Унаследован от
+[DispatcherObject](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject))  
+[WritePostscript](https://learn.microsoft.com/dotnet/api/system.windows.freezable.writepostscript#system-
+windows-freezable-writepostscript)| Raises the
+[Changed](https://learn.microsoft.com/dotnet/api/system.windows.freezable.changed)
+event for the
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+and invokes its
+[OnChanged()](https://learn.microsoft.com/dotnet/api/system.windows.freezable.onchanged#system-
+windows-freezable-onchanged) method. Classes that derive from
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+should call this method at the end of any API that modifies class members that
+are not stored as dependency properties.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+[WritePreamble](https://learn.microsoft.com/dotnet/api/system.windows.freezable.writepreamble#system-
+windows-freezable-writepreamble)| Verifies that the
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+is not frozen and that it is being accessed from a valid threading context.
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+inheritors should call this method at the beginning of any API that writes to
+data members that are not dependency properties.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+##  __События
+[Changed](https://learn.microsoft.com/dotnet/api/system.windows.freezable.changed)|
+Occurs when the
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable)
+or an object it contains is modified.  
+(Унаследован от
+[Freezable](https://learn.microsoft.com/dotnet/api/system.windows.freezable))  
+---|---  
+##  __См. также
+#### Ссылки
+[Tessa.UI.Behaviors - пространство имён](N_Tessa_UI_Behaviors.htm)

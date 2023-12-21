@@ -1,0 +1,98 @@
+# ClientSequenceProvider - класс
+Объект, обеспечивающий низкоуровневые операции по управлению номерами и
+последовательностями на клиенте.
+## __Definition
+ **Пространство имён:** [Tessa.Sequences](N_Tessa_Sequences.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public sealed class ClientSequenceProvider : ISequenceProvider
+VB __Копировать
+     Public NotInheritable Class ClientSequenceProvider
+    	Implements ISequenceProvider
+C++ __Копировать
+     public ref class ClientSequenceProvider sealed : ISequenceProvider
+F# __Копировать
+     [<SealedAttribute>]
+    type ClientSequenceProvider = 
+        class
+            interface ISequenceProvider
+        end
+Inheritance
+    [Object](https://learn.microsoft.com/dotnet/api/system.object) __ ClientSequenceProvider
+Implements
+    [ISequenceProvider](T_Tessa_Sequences_ISequenceProvider.htm)
+##  __Конструкторы
+[ClientSequenceProvider](M_Tessa_Sequences_ClientSequenceProvider__ctor.htm)|
+Инициализирует новый экземпляр класса ClientSequenceProvider  
+---|---  
+##  __Методы
+[AcquireNumberAsync](M_Tessa_Sequences_ClientSequenceProvider_AcquireNumberAsync.htm)|
+Выделяет номер без резервирования и возвращает его.  
+---|---  
+[AcquireReservedNumberAsync](M_Tessa_Sequences_ClientSequenceProvider_AcquireReservedNumberAsync.htm)|
+Выделяет ранее зарезервированный номер.  
+[AcquireUnreservedNumberAsync](M_Tessa_Sequences_ClientSequenceProvider_AcquireUnreservedNumberAsync.htm)|
+Выделяет указанный номер без резервирования и возвращает его.  
+[DereserveNumberAsync](M_Tessa_Sequences_ClientSequenceProvider_DereserveNumberAsync.htm)|
+Снимает резервирование с указанного номера.  
+[Equals](https://learn.microsoft.com/dotnet/api/system.object.equals#system-
+object-equals\(system-object\))| Determines whether the specified object is
+equal to the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[Finalize](https://learn.microsoft.com/dotnet/api/system.object.finalize#system-
+object-finalize)| Allows an object to try to free resources and perform other
+cleanup operations before it is reclaimed by garbage collection.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetHashCode](https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-
+object-gethashcode)| Serves as the default hash function.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetType](https://learn.microsoft.com/dotnet/api/system.object.gettype#system-
+object-gettype)| Gets the
+[Type](https://learn.microsoft.com/dotnet/api/system.type) of the current
+instance.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[MemberwiseClone](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-
+object-memberwiseclone)| Creates a shallow copy of the current
+[Object](https://learn.microsoft.com/dotnet/api/system.object).  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[ReleaseNumberAsync](M_Tessa_Sequences_ClientSequenceProvider_ReleaseNumberAsync.htm)|
+Освобождает номер, который был выделен.  
+[ReserveAcquiredNumberAsync](M_Tessa_Sequences_ClientSequenceProvider_ReserveAcquiredNumberAsync.htm)|
+Резервирует номер, который мог быть выделен. Если номер уже зарезервирован, не
+выполняет действий.  
+[ReserveNumberAsync](M_Tessa_Sequences_ClientSequenceProvider_ReserveNumberAsync.htm)|
+Резервирует номер и возвращает его.  
+[ToString](https://learn.microsoft.com/dotnet/api/system.object.tostring#system-
+object-tostring)| Returns a string that represents the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+##  __Поля
+[NumberKey](F_Tessa_Sequences_ClientSequenceProvider_NumberKey.htm)|
+Строковый ключ для числового номера, передающегося в Request.Info.  
+---|---  
+[SuccessKey](F_Tessa_Sequences_ClientSequenceProvider_SuccessKey.htm)|
+Строковый ключ для признака успешного выполнения, передающегося в
+Response.Info.  
+## __Методы расширения
+[Get](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Get.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+---|---  
+[InternalMarkerCanvas](M_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor_InternalMarkerCanvas.htm)|
+Возвращает маркер аннотации  
+(Определяется
+[AnnotationInternalsAccessor](T_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor.htm))  
+[Invoke](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Invoke.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+[Set](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Set.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+##  __См. также
+#### Ссылки
+[Tessa.Sequences - пространство имён](N_Tessa_Sequences.htm)

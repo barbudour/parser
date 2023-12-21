@@ -1,0 +1,348 @@
+# FileSchemeService - класс
+##  __Definition
+ **Пространство имён:** [Tessa.Scheme](N_Tessa_Scheme.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public sealed class FileSchemeService : SystemSchemeService
+VB __Копировать
+     Public NotInheritable Class FileSchemeService
+    	Inherits SystemSchemeService
+C++ __Копировать
+     public ref class FileSchemeService sealed : public SystemSchemeService
+F# __Копировать
+     [<SealedAttribute>]
+    type FileSchemeService = 
+        class
+            inherit SystemSchemeService
+        end
+Inheritance
+    [Object](https://learn.microsoft.com/dotnet/api/system.object) __[SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm) __ FileSchemeService
+##  __Конструкторы
+[FileSchemeService(String)](M_Tessa_Scheme_FileSchemeService__ctor.htm)|
+Инициализирует новый экземпляр класса FileSchemeService  
+---|---  
+[FileSchemeService(SchemeDatabase,
+SchemeServiceOptions)](M_Tessa_Scheme_FileSchemeService__ctor_3.htm)|
+Инициализирует новый экземпляр класса FileSchemeService  
+[FileSchemeService(String,
+IEnumerable<String>)](M_Tessa_Scheme_FileSchemeService__ctor_1.htm)|
+Инициализирует новый экземпляр класса FileSchemeService  
+[FileSchemeService(String, IEnumerable<String>,
+SchemeServiceOptions)](M_Tessa_Scheme_FileSchemeService__ctor_2.htm)|
+Инициализирует новый экземпляр класса FileSchemeService  
+##  __Свойства
+[DatabaseFileName](P_Tessa_Scheme_FileSchemeService_DatabaseFileName.htm)|  
+---|---  
+[Options](P_Tessa_Scheme_SystemSchemeService_Options.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[PartitionFileNames](P_Tessa_Scheme_FileSchemeService_PartitionFileNames.htm)|  
+[ServiceVersion](P_Tessa_Scheme_SystemSchemeService_ServiceVersion.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+##  __Методы
+[CanClosePartition](M_Tessa_Scheme_FileSchemeService_CanClosePartition.htm)|  
+---|---  
+[CheckIsNotNull](M_Tessa_Scheme_SystemSchemeService_CheckIsNotNull.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[CheckIsNotReadOnly](M_Tessa_Scheme_SystemSchemeService_CheckIsNotReadOnly.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[ClosePartitionAsync](M_Tessa_Scheme_FileSchemeService_ClosePartitionAsync.htm)|  
+[CreateException](M_Tessa_Scheme_SystemSchemeService_CreateException.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[CreateOperationScope](M_Tessa_Scheme_SystemSchemeService_CreateOperationScope.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[CreateOperationScopeOverride](M_Tessa_Scheme_FileSchemeService_CreateOperationScopeOverride.htm)|  
+(Переопределяет [SystemSchemeService.CreateOperationScopeOverride(String,
+SchemeObject)](M_Tessa_Scheme_SystemSchemeService_CreateOperationScopeOverride.htm))  
+[CreateStorageAsync](M_Tessa_Scheme_SystemSchemeService_CreateStorageAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[CreateStorageOverrideAsync](M_Tessa_Scheme_FileSchemeService_CreateStorageOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.CreateStorageOverrideAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_CreateStorageOverrideAsync.htm))  
+[EnsureInvalidateCacheSubscribedAsync](M_Tessa_Scheme_FileSchemeService_EnsureInvalidateCacheSubscribedAsync.htm)|
+Производит подписку на событие сброса кэша, если необходимо.  
+(Переопределяет
+[SystemSchemeService.EnsureInvalidateCacheSubscribedAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_EnsureInvalidateCacheSubscribedAsync.htm))  
+[Equals](https://learn.microsoft.com/dotnet/api/system.object.equals#system-
+object-equals\(system-object\))| Determines whether the specified object is
+equal to the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[Finalize](https://learn.microsoft.com/dotnet/api/system.object.finalize#system-
+object-finalize)| Allows an object to try to free resources and perform other
+cleanup operations before it is reclaimed by garbage collection.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetDatabasePropertiesAsync](M_Tessa_Scheme_SystemSchemeService_GetDatabasePropertiesAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetDatabasePropertiesOverrideAsync](M_Tessa_Scheme_FileSchemeService_GetDatabasePropertiesOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.GetDatabasePropertiesOverrideAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetDatabasePropertiesOverrideAsync.htm))  
+[GetFunctionAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetFunctionAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetFunctionAsync(String,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetFunctionAsync_1.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetFunctionFileNameAsync](M_Tessa_Scheme_FileSchemeService_GetFunctionFileNameAsync.htm)|  
+[GetFunctionOverrideAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_GetFunctionOverrideAsync.htm)|  
+(Переопределяет [SystemSchemeService.GetFunctionOverrideAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetFunctionOverrideAsync.htm))  
+[GetFunctionOverrideAsync(String,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_GetFunctionOverrideAsync_1.htm)|  
+(Переопределяет [SystemSchemeService.GetFunctionOverrideAsync(String,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetFunctionOverrideAsync_1.htm))  
+[GetFunctionsAsync](M_Tessa_Scheme_SystemSchemeService_GetFunctionsAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetFunctionsOverrideAsync](M_Tessa_Scheme_FileSchemeService_GetFunctionsOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.GetFunctionsOverrideAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetFunctionsOverrideAsync.htm))  
+[GetHashCode](https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-
+object-gethashcode)| Serves as the default hash function.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetMigrationAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetMigrationAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetMigrationAsync(String,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetMigrationAsync_1.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetMigrationFileNameAsync](M_Tessa_Scheme_FileSchemeService_GetMigrationFileNameAsync.htm)|  
+[GetMigrationOverrideAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_GetMigrationOverrideAsync.htm)|  
+(Переопределяет [SystemSchemeService.GetMigrationOverrideAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetMigrationOverrideAsync.htm))  
+[GetMigrationOverrideAsync(String,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_GetMigrationOverrideAsync_1.htm)|  
+(Переопределяет [SystemSchemeService.GetMigrationOverrideAsync(String,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetMigrationOverrideAsync_1.htm))  
+[GetMigrationsAsync](M_Tessa_Scheme_SystemSchemeService_GetMigrationsAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetMigrationsOverrideAsync](M_Tessa_Scheme_FileSchemeService_GetMigrationsOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.GetMigrationsOverrideAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetMigrationsOverrideAsync.htm))  
+[GetPartitionAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetPartitionAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetPartitionAsync(String,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetPartitionAsync_1.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetPartitionFileNameAsync](M_Tessa_Scheme_FileSchemeService_GetPartitionFileNameAsync.htm)|  
+[GetPartitionOverrideAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_GetPartitionOverrideAsync.htm)|  
+(Переопределяет [SystemSchemeService.GetPartitionOverrideAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetPartitionOverrideAsync.htm))  
+[GetPartitionOverrideAsync(String,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_GetPartitionOverrideAsync_1.htm)|  
+(Переопределяет [SystemSchemeService.GetPartitionOverrideAsync(String,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetPartitionOverrideAsync_1.htm))  
+[GetPartitionPaths](M_Tessa_Scheme_FileSchemeService_GetPartitionPaths.htm)|  
+[GetPartitionsAsync](M_Tessa_Scheme_SystemSchemeService_GetPartitionsAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetPartitionsOverrideAsync](M_Tessa_Scheme_FileSchemeService_GetPartitionsOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.GetPartitionsOverrideAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetPartitionsOverrideAsync.htm))  
+[GetProcedureAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetProcedureAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetProcedureAsync(String,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetProcedureAsync_1.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetProcedureFileNameAsync](M_Tessa_Scheme_FileSchemeService_GetProcedureFileNameAsync.htm)|  
+[GetProcedureOverrideAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_GetProcedureOverrideAsync.htm)|  
+(Переопределяет [SystemSchemeService.GetProcedureOverrideAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetProcedureOverrideAsync.htm))  
+[GetProcedureOverrideAsync(String,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_GetProcedureOverrideAsync_1.htm)|  
+(Переопределяет [SystemSchemeService.GetProcedureOverrideAsync(String,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetProcedureOverrideAsync_1.htm))  
+[GetProceduresAsync](M_Tessa_Scheme_SystemSchemeService_GetProceduresAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetProceduresOverrideAsync](M_Tessa_Scheme_FileSchemeService_GetProceduresOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.GetProceduresOverrideAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetProceduresOverrideAsync.htm))  
+[GetStorageVersionAsync](M_Tessa_Scheme_FileSchemeService_GetStorageVersionAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.GetStorageVersionAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetStorageVersionAsync.htm))  
+[GetTableAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetTableAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetTableAsync(String,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetTableAsync_1.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetTableFileNameAsync](M_Tessa_Scheme_FileSchemeService_GetTableFileNameAsync.htm)|  
+[GetTableOverrideAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_GetTableOverrideAsync.htm)|  
+(Переопределяет [SystemSchemeService.GetTableOverrideAsync(Guid,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetTableOverrideAsync.htm))  
+[GetTableOverrideAsync(String,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_GetTableOverrideAsync_1.htm)|  
+(Переопределяет [SystemSchemeService.GetTableOverrideAsync(String,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetTableOverrideAsync_1.htm))  
+[GetTablesAsync](M_Tessa_Scheme_SystemSchemeService_GetTablesAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[GetTablesOverrideAsync](M_Tessa_Scheme_FileSchemeService_GetTablesOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.GetTablesOverrideAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_GetTablesOverrideAsync.htm))  
+[GetType](https://learn.microsoft.com/dotnet/api/system.object.gettype#system-
+object-gettype)| Gets the
+[Type](https://learn.microsoft.com/dotnet/api/system.type) of the current
+instance.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[InitializeAsync](M_Tessa_Scheme_SystemSchemeService_InitializeAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[InitializeOverrideAsync](M_Tessa_Scheme_FileSchemeService_InitializeOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.InitializeOverrideAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_InitializeOverrideAsync.htm))  
+[InvalidateCacheAsync](M_Tessa_Scheme_FileSchemeService_InvalidateCacheAsync.htm)|
+Инициирует сброс кэша.  
+(Переопределяет
+[SystemSchemeService.InvalidateCacheAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_InvalidateCacheAsync.htm))  
+[InvalidateCacheIfChangedAsync](M_Tessa_Scheme_FileSchemeService_InvalidateCacheIfChangedAsync.htm)|
+Инициирует сброс кэша в случае, если есть изменения.  
+(Переопределяет
+[SystemSchemeService.InvalidateCacheIfChangedAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_InvalidateCacheIfChangedAsync.htm))  
+[IsStorageExistsAsync](M_Tessa_Scheme_FileSchemeService_IsStorageExistsAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.IsStorageExistsAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_IsStorageExistsAsync.htm))  
+[IsStorageUpToDateAsync](M_Tessa_Scheme_SystemSchemeService_IsStorageUpToDateAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[MemberwiseClone](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-
+object-memberwiseclone)| Creates a shallow copy of the current
+[Object](https://learn.microsoft.com/dotnet/api/system.object).  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[MoveFunctionAsync](M_Tessa_Scheme_FileSchemeService_MoveFunctionAsync.htm)|  
+[MoveMigrationAsync](M_Tessa_Scheme_FileSchemeService_MoveMigrationAsync.htm)|  
+[MovePartitionAsync](M_Tessa_Scheme_FileSchemeService_MovePartitionAsync.htm)|  
+[MoveProcedureAsync](M_Tessa_Scheme_FileSchemeService_MoveProcedureAsync.htm)|  
+[MoveTable](M_Tessa_Scheme_FileSchemeService_MoveTable.htm)|  
+[OpenPartitionAsync](M_Tessa_Scheme_FileSchemeService_OpenPartitionAsync.htm)|  
+[RemoveFunctionAsync](M_Tessa_Scheme_SystemSchemeService_RemoveFunctionAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[RemoveFunctionOverrideAsync](M_Tessa_Scheme_FileSchemeService_RemoveFunctionOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.RemoveFunctionOverrideAsync(SchemeFunction,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_RemoveFunctionOverrideAsync.htm))  
+[RemoveMigrationAsync](M_Tessa_Scheme_SystemSchemeService_RemoveMigrationAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[RemoveMigrationOverrideAsync](M_Tessa_Scheme_FileSchemeService_RemoveMigrationOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.RemoveMigrationOverrideAsync(SchemeMigration,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_RemoveMigrationOverrideAsync.htm))  
+[RemovePartitionAsync](M_Tessa_Scheme_SystemSchemeService_RemovePartitionAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[RemovePartitionOverrideAsync](M_Tessa_Scheme_FileSchemeService_RemovePartitionOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.RemovePartitionOverrideAsync(SchemePartition,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_RemovePartitionOverrideAsync.htm))  
+[RemoveProcedureAsync](M_Tessa_Scheme_SystemSchemeService_RemoveProcedureAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[RemoveProcedureOverrideAsync](M_Tessa_Scheme_FileSchemeService_RemoveProcedureOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.RemoveProcedureOverrideAsync(SchemeProcedure,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_RemoveProcedureOverrideAsync.htm))  
+[RemoveTableAsync](M_Tessa_Scheme_SystemSchemeService_RemoveTableAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[RemoveTableOverrideAsync](M_Tessa_Scheme_FileSchemeService_RemoveTableOverrideAsync.htm)|  
+(Переопределяет [SystemSchemeService.RemoveTableOverrideAsync(SchemeTable,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_RemoveTableOverrideAsync.htm))  
+[SaveDatabasePropertiesAsync](M_Tessa_Scheme_SystemSchemeService_SaveDatabasePropertiesAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[SaveDatabasePropertiesOverrideAsync](M_Tessa_Scheme_FileSchemeService_SaveDatabasePropertiesOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.SaveDatabasePropertiesOverrideAsync(SchemeDatabaseProperties,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_SaveDatabasePropertiesOverrideAsync.htm))  
+[SaveFunctionAsync(SchemeFunction,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_SaveFunctionAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[SaveFunctionAsync(SchemeFunction, String,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_SaveFunctionAsync.htm)|  
+[SaveFunctionOverrideAsync](M_Tessa_Scheme_FileSchemeService_SaveFunctionOverrideAsync.htm)|  
+(Переопределяет [SystemSchemeService.SaveFunctionOverrideAsync(SchemeFunction,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_SaveFunctionOverrideAsync.htm))  
+[SaveMigrationAsync(SchemeMigration,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_SaveMigrationAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[SaveMigrationAsync(SchemeMigration, String,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_SaveMigrationAsync.htm)|  
+[SaveMigrationOverrideAsync](M_Tessa_Scheme_FileSchemeService_SaveMigrationOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.SaveMigrationOverrideAsync(SchemeMigration,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_SaveMigrationOverrideAsync.htm))  
+[SavePartitionAsync(SchemePartition,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_SavePartitionAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[SavePartitionAsync(SchemePartition, String,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_SavePartitionAsync.htm)|  
+[SavePartitionOverrideAsync](M_Tessa_Scheme_FileSchemeService_SavePartitionOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.SavePartitionOverrideAsync(SchemePartition,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_SavePartitionOverrideAsync.htm))  
+[SaveProcedureAsync(SchemeProcedure,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_SaveProcedureAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[SaveProcedureAsync(SchemeProcedure, String,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_SaveProcedureAsync.htm)|  
+[SaveProcedureOverrideAsync](M_Tessa_Scheme_FileSchemeService_SaveProcedureOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.SaveProcedureOverrideAsync(SchemeProcedure,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_SaveProcedureOverrideAsync.htm))  
+[SaveTableAsync(SchemeTable,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_SaveTableAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[SaveTableAsync(SchemeTable, String,
+CancellationToken)](M_Tessa_Scheme_FileSchemeService_SaveTableAsync.htm)|  
+[SaveTableOverrideAsync](M_Tessa_Scheme_FileSchemeService_SaveTableOverrideAsync.htm)|  
+(Переопределяет [SystemSchemeService.SaveTableOverrideAsync(SchemeTable,
+CancellationToken)](M_Tessa_Scheme_SystemSchemeService_SaveTableOverrideAsync.htm))  
+[ToString](https://learn.microsoft.com/dotnet/api/system.object.tostring#system-
+object-tostring)| Returns a string that represents the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[UpdateStorageAsync](M_Tessa_Scheme_SystemSchemeService_UpdateStorageAsync.htm)|  
+(Унаследован от [SystemSchemeService](T_Tessa_Scheme_SystemSchemeService.htm))  
+[UpdateStorageOverrideAsync](M_Tessa_Scheme_FileSchemeService_UpdateStorageOverrideAsync.htm)|  
+(Переопределяет
+[SystemSchemeService.UpdateStorageOverrideAsync(CancellationToken)](M_Tessa_Scheme_SystemSchemeService_UpdateStorageOverrideAsync.htm))  
+##  __Поля
+[DatabaseFileExtension](F_Tessa_Scheme_FileSchemeService_DatabaseFileExtension.htm)|  
+---|---  
+[DatabaseTypeName](F_Tessa_Scheme_FileSchemeService_DatabaseTypeName.htm)|  
+[DefinitionFileExtension](F_Tessa_Scheme_FileSchemeService_DefinitionFileExtension.htm)|  
+[Dependencies](F_Tessa_Scheme_FileSchemeService_Dependencies.htm)|  
+[FunctionFileExtension](F_Tessa_Scheme_FileSchemeService_FunctionFileExtension.htm)|  
+[FunctionsDirectoryName](F_Tessa_Scheme_FileSchemeService_FunctionsDirectoryName.htm)|  
+[IsExternal](F_Tessa_Scheme_FileSchemeService_IsExternal.htm)|  
+[MigrationFileExtension](F_Tessa_Scheme_FileSchemeService_MigrationFileExtension.htm)|  
+[MigrationsDirectoryName](F_Tessa_Scheme_FileSchemeService_MigrationsDirectoryName.htm)|  
+[PartitionFileExtension](F_Tessa_Scheme_FileSchemeService_PartitionFileExtension.htm)|  
+[PartitionsDirectoryName](F_Tessa_Scheme_FileSchemeService_PartitionsDirectoryName.htm)|  
+[PartitionTypeName](F_Tessa_Scheme_FileSchemeService_PartitionTypeName.htm)|  
+[ProcedureFileExtension](F_Tessa_Scheme_FileSchemeService_ProcedureFileExtension.htm)|  
+[ProceduresDirectoryName](F_Tessa_Scheme_FileSchemeService_ProceduresDirectoryName.htm)|  
+[TableFileExtension](F_Tessa_Scheme_FileSchemeService_TableFileExtension.htm)|  
+[TablesDirectoryName](F_Tessa_Scheme_FileSchemeService_TablesDirectoryName.htm)|  
+[XmlReaderSettings](F_Tessa_Scheme_FileSchemeService_XmlReaderSettings.htm)|  
+[XmlReaderSettingsNoClose](F_Tessa_Scheme_FileSchemeService_XmlReaderSettingsNoClose.htm)|  
+[XmlWriterSettings](F_Tessa_Scheme_FileSchemeService_XmlWriterSettings.htm)|  
+## __Методы расширения
+[Get](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Get.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+---|---  
+[InternalMarkerCanvas](M_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor_InternalMarkerCanvas.htm)|
+Возвращает маркер аннотации  
+(Определяется
+[AnnotationInternalsAccessor](T_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor.htm))  
+[Invoke](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Invoke.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+[Set](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Set.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+##  __См. также
+#### Ссылки
+[Tessa.Scheme - пространство имён](N_Tessa_Scheme.htm)
