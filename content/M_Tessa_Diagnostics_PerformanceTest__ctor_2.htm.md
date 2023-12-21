@@ -1,0 +1,57 @@
+# PerformanceTest(String, TimeSpan, Int32, Action, Action, Action) -
+конструктор
+Инициализирует новый экземпляр класса
+[PerformanceTest](T_Tessa_Diagnostics_PerformanceTest.htm)
+##  __Definition
+ **Пространство имён:** [Tessa.Diagnostics](N_Tessa_Diagnostics.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public PerformanceTest(
+    	string name,
+    	TimeSpan interval,
+    	int maxDegreeOfParallelism,
+    	Action action,
+    	Action setUp,
+    	Action tearDown
+    )
+VB __Копировать
+     Public Sub New ( 
+    	name As String,
+    	interval As TimeSpan,
+    	maxDegreeOfParallelism As Integer,
+    	action As Action,
+    	setUp As Action,
+    	tearDown As Action
+    )
+C++ __Копировать
+     public:
+    PerformanceTest(
+    	String^ name, 
+    	TimeSpan interval, 
+    	int maxDegreeOfParallelism, 
+    	Action^ action, 
+    	Action^ setUp, 
+    	Action^ tearDown
+    )
+F# __Копировать
+     new : 
+            name : string * 
+            interval : TimeSpan * 
+            maxDegreeOfParallelism : int * 
+            action : Action * 
+            setUp : Action * 
+            tearDown : Action -> PerformanceTest
+#### Параметры
+name [String](https://learn.microsoft.com/dotnet/api/system.string)
+interval [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
+maxDegreeOfParallelism
+[Int32](https://learn.microsoft.com/dotnet/api/system.int32)
+action [Action](https://learn.microsoft.com/dotnet/api/system.action)
+setUp [Action](https://learn.microsoft.com/dotnet/api/system.action)
+tearDown [Action](https://learn.microsoft.com/dotnet/api/system.action)
+## __См. также
+#### Ссылки
+[PerformanceTest - ](T_Tessa_Diagnostics_PerformanceTest.htm)
+[PerformanceTest -
+перегрузка](Overload_Tessa_Diagnostics_PerformanceTest__ctor.htm)
+[Tessa.Diagnostics - пространство имён](N_Tessa_Diagnostics.htm)

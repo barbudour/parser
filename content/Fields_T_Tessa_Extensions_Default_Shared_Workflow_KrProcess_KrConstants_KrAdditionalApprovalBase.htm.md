@@ -1,0 +1,25 @@
+# KrAdditionalApprovalBase - поля
+##  __Поля
+[Answer](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_Answer.htm)|  
+---|---  
+[ColumnComment](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_ColumnComment.htm)|  
+[ColumnState](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_ColumnState.htm)|  
+[Comment](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_Comment.htm)|  
+[Completed](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_Completed.htm)|  
+[Created](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_Created.htm)|  
+[ID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_ID.htm)|  
+[InProgress](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_InProgress.htm)|  
+[OptionCaption](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_OptionCaption.htm)|  
+[OptionID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_OptionID.htm)|  
+[PerformerID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_PerformerID.htm)|  
+[PerformerName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_PerformerName.htm)|  
+[Planned](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_Planned.htm)|  
+[RowID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_RowID.htm)|  
+[UserID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_UserID.htm)|  
+[UserName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase_UserName.htm)|  
+## __См. также
+#### Ссылки
+[KrConstants.KrAdditionalApprovalBase -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalBase.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

@@ -1,0 +1,17 @@
+# KrUniversalTaskSettingsVirtual - поля
+##  __Поля
+[AuthorID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrUniversalTaskSettingsVirtual_AuthorID.htm)|  
+---|---  
+[AuthorName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrUniversalTaskSettingsVirtual_AuthorName.htm)|  
+[CanEditCard](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrUniversalTaskSettingsVirtual_CanEditCard.htm)|  
+[CanEditFiles](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrUniversalTaskSettingsVirtual_CanEditFiles.htm)|  
+[Digest](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrUniversalTaskSettingsVirtual_Digest.htm)|  
+[KindCaption](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrUniversalTaskSettingsVirtual_KindCaption.htm)|  
+[KindID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrUniversalTaskSettingsVirtual_KindID.htm)|  
+[Name](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrUniversalTaskSettingsVirtual_Name.htm)|  
+## __См. также
+#### Ссылки
+[KrConstants.KrUniversalTaskSettingsVirtual -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrUniversalTaskSettingsVirtual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

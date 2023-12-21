@@ -1,0 +1,20 @@
+# CardPermissionFlagValues.ProhibitAllEntry - поле
+Все запреты, допустимые для строковой секции.
+## __Definition
+ **Пространство имён:** [Tessa.Cards](N_Tessa_Cards.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public const CardPermissionFlags ProhibitAllEntry = CardPermissionFlags.ProhibitModify
+VB __Копировать
+     Public Const ProhibitAllEntry As CardPermissionFlags = CardPermissionFlags.ProhibitModify
+C++ __Копировать
+     public:
+    literal CardPermissionFlags ProhibitAllEntry = CardPermissionFlags.ProhibitModify
+F# __Копировать
+     static val mutable ProhibitAllEntry: CardPermissionFlags
+#### Значение поля
+[CardPermissionFlags](T_Tessa_Cards_CardPermissionFlags.htm)
+##  __См. также
+#### Ссылки
+[CardPermissionFlagValues - ](T_Tessa_Cards_CardPermissionFlagValues.htm)
+[Tessa.Cards - пространство имён](N_Tessa_Cards.htm)

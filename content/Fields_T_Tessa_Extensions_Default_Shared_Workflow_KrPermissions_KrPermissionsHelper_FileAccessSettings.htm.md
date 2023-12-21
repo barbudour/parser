@@ -1,0 +1,14 @@
+# FileAccessSettings - поля
+##  __Поля
+[ContentNotAvailable](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_FileAccessSettings_ContentNotAvailable.htm)|  
+---|---  
+[FileNotAvailable](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_FileAccessSettings_FileNotAvailable.htm)|  
+[InfoKey](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_FileAccessSettings_InfoKey.htm)|  
+[OnlyLastAndOwnVersions](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_FileAccessSettings_OnlyLastAndOwnVersions.htm)|  
+[OnlyLastVersion](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_FileAccessSettings_OnlyLastVersion.htm)|  
+## __См. также
+#### Ссылки
+[KrPermissionsHelper.FileAccessSettings -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_FileAccessSettings.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrPermissions - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrPermissions.htm)

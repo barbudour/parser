@@ -1,0 +1,19 @@
+# CardTask.SystemStoredStateKey - поле
+##  __Definition
+ **Пространство имён:** [Tessa.Cards](N_Tessa_Cards.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public const string SystemStoredStateKey = ".storedState"
+VB __Копировать
+     Public Const SystemStoredStateKey As String = ".storedState"
+C++ __Копировать
+     public:
+    literal String^ SystemStoredStateKey = ".storedState"
+F# __Копировать
+     static val mutable SystemStoredStateKey: string
+#### Значение поля
+[String](https://learn.microsoft.com/dotnet/api/system.string)
+##  __См. также
+#### Ссылки
+[CardTask - ](T_Tessa_Cards_CardTask.htm)
+[Tessa.Cards - пространство имён](N_Tessa_Cards.htm)

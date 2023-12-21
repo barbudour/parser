@@ -1,0 +1,15 @@
+# KrTypedTaskSettingsVirtual - поля
+##  __Поля
+[AfterTaskCompletion](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrTypedTaskSettingsVirtual_AfterTaskCompletion.htm)|  
+---|---  
+[Name](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrTypedTaskSettingsVirtual_Name.htm)|  
+[TaskDigest](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrTypedTaskSettingsVirtual_TaskDigest.htm)|  
+[TaskTypeCaption](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrTypedTaskSettingsVirtual_TaskTypeCaption.htm)|  
+[TaskTypeID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrTypedTaskSettingsVirtual_TaskTypeID.htm)|  
+[TaskTypeName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrTypedTaskSettingsVirtual_TaskTypeName.htm)|  
+## __См. также
+#### Ссылки
+[KrConstants.KrTypedTaskSettingsVirtual -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrTypedTaskSettingsVirtual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

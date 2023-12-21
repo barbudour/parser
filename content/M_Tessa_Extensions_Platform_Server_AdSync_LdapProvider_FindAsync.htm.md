@@ -1,0 +1,122 @@
+# LdapProvider.FindAsync - метод
+Выполняет поиск по Distinguished Name (DN).
+## __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Platform.Server.AdSync](N_Tessa_Extensions_Platform_Server_AdSync.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public virtual ValueTask<List<AdEntry>> FindAsync(
+    	ILdapContext context,
+    	AdConnection conn,
+    	string distinguishedName,
+    	string ldapSearchFilter = null,
+    	int searchScope = 0,
+    	bool skipReferral = false,
+    	List<string> connList = null,
+    	string[] attributeList = null,
+    	CancellationToken cancellationToken = default
+    )
+VB __Копировать
+     Public Overridable Function FindAsync ( 
+    	context As ILdapContext,
+    	conn As AdConnection,
+    	distinguishedName As String,
+    	Optional ldapSearchFilter As String = Nothing,
+    	Optional searchScope As Integer = 0,
+    	Optional skipReferral As Boolean = false,
+    	Optional connList As List(Of String) = Nothing,
+    	Optional attributeList As String() = Nothing,
+    	Optional cancellationToken As CancellationToken = Nothing
+    ) As ValueTask(Of List(Of AdEntry))
+C++ __Копировать
+     public:
+    virtual ValueTask<List<AdEntry^>^> FindAsync(
+    	ILdapContext^ context, 
+    	AdConnection^ conn, 
+    	String^ distinguishedName, 
+    	String^ ldapSearchFilter = nullptr, 
+    	int searchScope = 0, 
+    	bool skipReferral = false, 
+    	List<String^>^ connList = nullptr, 
+    	array<String^>^ attributeList = nullptr, 
+    	CancellationToken cancellationToken = CancellationToken()
+    )
+F# __Копировать
+     abstract FindAsync : 
+            context : ILdapContext * 
+            conn : AdConnection * 
+            distinguishedName : string * 
+            ?ldapSearchFilter : string * 
+            ?searchScope : int * 
+            ?skipReferral : bool * 
+            ?connList : List<string> * 
+            ?attributeList : string[] * 
+            ?cancellationToken : CancellationToken 
+    (* Defaults:
+            let _ldapSearchFilter = defaultArg ldapSearchFilter null
+            let _searchScope = defaultArg searchScope 0
+            let _skipReferral = defaultArg skipReferral false
+            let _connList = defaultArg connList null
+            let _attributeList = defaultArg attributeList null
+            let _cancellationToken = defaultArg cancellationToken new CancellationToken()
+    *)
+    -> ValueTask<List<AdEntry>> 
+    override FindAsync : 
+            context : ILdapContext * 
+            conn : AdConnection * 
+            distinguishedName : string * 
+            ?ldapSearchFilter : string * 
+            ?searchScope : int * 
+            ?skipReferral : bool * 
+            ?connList : List<string> * 
+            ?attributeList : string[] * 
+            ?cancellationToken : CancellationToken 
+    (* Defaults:
+            let _ldapSearchFilter = defaultArg ldapSearchFilter null
+            let _searchScope = defaultArg searchScope 0
+            let _skipReferral = defaultArg skipReferral false
+            let _connList = defaultArg connList null
+            let _attributeList = defaultArg attributeList null
+            let _cancellationToken = defaultArg cancellationToken new CancellationToken()
+    *)
+    -> ValueTask<List<AdEntry>> 
+#### Параметры
+context
+[ILdapContext](T_Tessa_Extensions_Platform_Server_AdSync_ILdapContext.htm)
+    Контекст работы с сервером LDAP
+conn
+[AdConnection](T_Tessa_Extensions_Platform_Server_AdSync_AdConnection.htm)
+    Соединение с сервером
+distinguishedName
+[String](https://learn.microsoft.com/dotnet/api/system.string)
+    Distinguished Name.
+ldapSearchFilter
+[String](https://learn.microsoft.com/dotnet/api/system.string) (Optional)
+    Фильтр.
+searchScope [Int32](https://learn.microsoft.com/dotnet/api/system.int32)
+(Optional)
+    Область поиска.
+skipReferral [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
+(Optional)
+    Не искать в дружественных серверах
+connList
+[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)<[String](https://learn.microsoft.com/dotnet/api/system.string)>
+(Optional)
+    Список пройденых соединений
+attributeList [String](https://learn.microsoft.com/dotnet/api/system.string)[]
+(Optional)
+    Список атрибутов для выдачи
+cancellationToken
+[CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+(Optional)
+#### Возвращаемое значение
+[ValueTask](https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1)<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)<[AdEntry](T_Tessa_Extensions_Platform_Server_AdSync_AdEntry.htm)>>  
+#### Реализации
+[ILdapProvider.FindAsync(ILdapContext, AdConnection, String, String, Int32,
+Boolean, List<String>, String[],
+CancellationToken)](M_Tessa_Extensions_Platform_Server_AdSync_ILdapProvider_FindAsync.htm)  
+##  __См. также
+#### Ссылки
+[LdapProvider - ](T_Tessa_Extensions_Platform_Server_AdSync_LdapProvider.htm)
+[Tessa.Extensions.Platform.Server.AdSync - пространство
+имён](N_Tessa_Extensions_Platform_Server_AdSync.htm)

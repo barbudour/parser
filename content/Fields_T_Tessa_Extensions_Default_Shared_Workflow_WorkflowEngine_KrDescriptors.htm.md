@@ -1,0 +1,28 @@
+# KrDescriptors - поля
+##  __Поля
+[AcquaintanceDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrDescriptors_AcquaintanceDescriptor.htm)|  
+---|---  
+[CreateCardDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrDescriptors_CreateCardDescriptor.htm)|  
+[DeregistrationDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrDescriptors_DeregistrationDescriptor.htm)|  
+[KrAmendingDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrDescriptors_KrAmendingDescriptor.htm)|
+Доработка.  
+[KrApprovalDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrDescriptors_KrApprovalDescriptor.htm)|
+Согласование.  
+[KrChangeStateDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrDescriptors_KrChangeStateDescriptor.htm)|  
+[KrResolutionDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrDescriptors_KrResolutionDescriptor.htm)|
+Выполнение задачи.  
+[KrRouteInitializationDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrDescriptors_KrRouteInitializationDescriptor.htm)|
+Инициализация маршрута.  
+[KrSigningDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrDescriptors_KrSigningDescriptor.htm)|
+Подписание.  
+[KrTaskRegistrationDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrDescriptors_KrTaskRegistrationDescriptor.htm)|
+Задание регистрации.  
+[KrUniversalTaskDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrDescriptors_KrUniversalTaskDescriptor.htm)|
+Настраиваемое задание.  
+[RegistrationDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrDescriptors_RegistrationDescriptor.htm)|  
+## __См. также
+#### Ссылки
+[KrDescriptors -
+](T_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrDescriptors.htm)
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)

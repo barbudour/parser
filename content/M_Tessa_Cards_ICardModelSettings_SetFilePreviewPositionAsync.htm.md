@@ -1,0 +1,53 @@
+# ICardModelSettings.SetFilePreviewPositionAsync - метод
+Местоположение для области предпросмотра файлов на форме карточки.
+##  __Definition
+ **Пространство имён:** [Tessa.Cards](N_Tessa_Cards.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     Task SetFilePreviewPositionAsync(
+    	CardFilePreviewPosition value,
+    	Func<Action, CancellationToken, Task> executePropertyChangedAsync = null,
+    	CancellationToken cancellationToken = default
+    )
+VB __Копировать
+     Function SetFilePreviewPositionAsync ( 
+    	value As CardFilePreviewPosition,
+    	Optional executePropertyChangedAsync As Func(Of Action, CancellationToken, Task) = Nothing,
+    	Optional cancellationToken As CancellationToken = Nothing
+    ) As Task
+C++ __Копировать
+    Task^ SetFilePreviewPositionAsync(
+    	CardFilePreviewPosition value, 
+    	Func<Action^, CancellationToken, Task^>^ executePropertyChangedAsync = nullptr, 
+    	CancellationToken cancellationToken = CancellationToken()
+    )
+F# __Копировать
+     abstract SetFilePreviewPositionAsync : 
+            value : CardFilePreviewPosition * 
+            ?executePropertyChangedAsync : Func<Action, CancellationToken, Task> * 
+            ?cancellationToken : CancellationToken 
+    (* Defaults:
+            let _executePropertyChangedAsync = defaultArg executePropertyChangedAsync null
+            let _cancellationToken = defaultArg cancellationToken new CancellationToken()
+    *)
+    -> Task 
+#### Параметры
+value [CardFilePreviewPosition](T_Tessa_Cards_CardFilePreviewPosition.htm)
+    Устанавливаемое значение.
+executePropertyChangedAsync
+[Func](https://learn.microsoft.com/dotnet/api/system.func-3)<[Action](https://learn.microsoft.com/dotnet/api/system.action),
+[CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken),
+[Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)>
+(Optional)
+     Метод, выполняющий изменение свойства (текущий метод может быть вызван из другого потока, тогда этот метод "пробросит" выполнение в поток UI). Если параметр равен null, то изменение свойства выполняется в текущем потоке. 
+cancellationToken
+[CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+(Optional)
+    Объект, посредством которого можно отменить асинхронную задачу.
+#### Возвращаемое значение
+[Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)  
+Асинхронная задача.
+##  __См. также
+#### Ссылки
+[ICardModelSettings - ](T_Tessa_Cards_ICardModelSettings.htm)
+[Tessa.Cards - пространство имён](N_Tessa_Cards.htm)

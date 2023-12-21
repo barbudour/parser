@@ -1,0 +1,15 @@
+# KrForkSecondaryProcessesSettingsVirtual - поля
+##  __Поля
+[ID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrForkSecondaryProcessesSettingsVirtual_ID.htm)|  
+---|---  
+[Name](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrForkSecondaryProcessesSettingsVirtual_Name.htm)|  
+[RowID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrForkSecondaryProcessesSettingsVirtual_RowID.htm)|  
+[SecondaryProcessID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrForkSecondaryProcessesSettingsVirtual_SecondaryProcessID.htm)|  
+[SecondaryProcessName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrForkSecondaryProcessesSettingsVirtual_SecondaryProcessName.htm)|  
+[Synthetic](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrForkSecondaryProcessesSettingsVirtual_Synthetic.htm)|  
+## __См. также
+#### Ссылки
+[KrConstants.KrForkSecondaryProcessesSettingsVirtual -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrForkSecondaryProcessesSettingsVirtual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

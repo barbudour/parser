@@ -1,0 +1,22 @@
+# OpenFromFunctionRolesOnDoubleClickExtensionConfigurator - конструктор
+Инициализирует новый экземпляр класса
+[OpenFromFunctionRolesOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Platform_Client_Cards_OpenFromFunctionRolesOnDoubleClickExtensionConfigurator.htm)
+##  __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Platform.Client.Cards](N_Tessa_Extensions_Platform_Client_Cards.htm)  
+ **Сборка:** Tessa.UI (в Tessa.UI.dll) Версия: 3.6.0.17
+C# __Копировать
+     public OpenFromFunctionRolesOnDoubleClickExtensionConfigurator()
+VB __Копировать
+     Public Sub New
+C++ __Копировать
+     public:
+    OpenFromFunctionRolesOnDoubleClickExtensionConfigurator()
+F# __Копировать
+     new : unit -> OpenFromFunctionRolesOnDoubleClickExtensionConfigurator
+##  __См. также
+#### Ссылки
+[OpenFromFunctionRolesOnDoubleClickExtensionConfigurator -
+](T_Tessa_Extensions_Platform_Client_Cards_OpenFromFunctionRolesOnDoubleClickExtensionConfigurator.htm)
+[Tessa.Extensions.Platform.Client.Cards - пространство
+имён](N_Tessa_Extensions_Platform_Client_Cards.htm)

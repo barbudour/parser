@@ -1,0 +1,31 @@
+# CardSerializableObject.SerializeAttributesToXml - метод
+Выполняет сериализацию текущего объекта в атрибуты XML.
+##  __Definition
+ **Пространство имён:** [Tessa.Cards](N_Tessa_Cards.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     protected virtual void SerializeAttributesToXml(
+    	XmlWriter writer
+    )
+VB __Копировать
+     Protected Overridable Sub SerializeAttributesToXml ( 
+    	writer As XmlWriter
+    )
+C++ __Копировать
+     protected:
+    virtual void SerializeAttributesToXml(
+    	XmlWriter^ writer
+    )
+F# __Копировать
+     abstract SerializeAttributesToXml : 
+            writer : XmlWriter -> unit 
+    override SerializeAttributesToXml : 
+            writer : XmlWriter -> unit 
+#### Параметры
+writer
+[XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+    Объект, выполняющий запись сериализованных данных в XML.
+##  __См. также
+#### Ссылки
+[CardSerializableObject - ](T_Tessa_Cards_CardSerializableObject.htm)
+[Tessa.Cards - пространство имён](N_Tessa_Cards.htm)

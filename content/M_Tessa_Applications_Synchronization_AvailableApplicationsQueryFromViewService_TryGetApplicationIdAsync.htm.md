@@ -1,0 +1,64 @@
+# AvailableApplicationsQueryFromViewService.TryGetApplicationIdAsync - метод
+Осуществляет попытку получения идентификатора приложения по его алиасу.
+## __Definition
+ **Пространство имён:**
+[Tessa.Applications.Synchronization](N_Tessa_Applications_Synchronization.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public Task<Guid?> TryGetApplicationIdAsync(
+    	[NotNullAttribute] string applicationAlias,
+    	bool client64Bit,
+    	CancellationToken cancellationToken = default
+    )
+VB __Копировать
+     Public Function TryGetApplicationIdAsync ( 
+    	<NotNullAttribute> applicationAlias As String,
+    	client64Bit As Boolean,
+    	Optional cancellationToken As CancellationToken = Nothing
+    ) As Task(Of Guid?)
+C++ __Копировать
+     public:
+    virtual Task<Nullable<Guid>>^ TryGetApplicationIdAsync(
+    	[NotNullAttribute] String^ applicationAlias, 
+    	bool client64Bit, 
+    	CancellationToken cancellationToken = CancellationToken()
+    ) sealed
+F# __Копировать
+     abstract TryGetApplicationIdAsync : 
+            [<NotNullAttribute>] applicationAlias : string * 
+            client64Bit : bool * 
+            ?cancellationToken : CancellationToken 
+    (* Defaults:
+            let _cancellationToken = defaultArg cancellationToken new CancellationToken()
+    *)
+    -> Task<Nullable<Guid>> 
+    override TryGetApplicationIdAsync : 
+            [<NotNullAttribute>] applicationAlias : string * 
+            client64Bit : bool * 
+            ?cancellationToken : CancellationToken 
+    (* Defaults:
+            let _cancellationToken = defaultArg cancellationToken new CancellationToken()
+    *)
+    -> Task<Nullable<Guid>> 
+#### Параметры
+applicationAlias
+[String](https://learn.microsoft.com/dotnet/api/system.string)
+    Алиас приложения.
+client64Bit [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
+    Признак того, что приложение использует 64-битную архитектуру.
+cancellationToken
+[CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+(Optional)
+    Объект, посредством которого можно отменить асинхронную задачу.
+#### Возвращаемое значение
+[Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1)<[Nullable](https://learn.microsoft.com/dotnet/api/system.nullable-1)<[Guid](https://learn.microsoft.com/dotnet/api/system.guid)>>  
+Идентификатор приложения или null, если карточка отсутствует.
+#### Реализации
+[IAvailableApplicationsQuery.TryGetApplicationIdAsync(String, Boolean,
+CancellationToken)](M_Tessa_Applications_Synchronization_IAvailableApplicationsQuery_TryGetApplicationIdAsync.htm)  
+##  __См. также
+#### Ссылки
+[AvailableApplicationsQueryFromViewService -
+](T_Tessa_Applications_Synchronization_AvailableApplicationsQueryFromViewService.htm)
+[Tessa.Applications.Synchronization - пространство
+имён](N_Tessa_Applications_Synchronization.htm)

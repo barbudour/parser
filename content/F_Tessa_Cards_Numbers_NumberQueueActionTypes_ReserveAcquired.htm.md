@@ -1,0 +1,21 @@
+# NumberQueueActionTypes.ReserveAcquired - поле
+Резервирует указанный номер, который ранее мог быть выделен. Не выполняет
+действий, если номер уже был зарезервирован.
+## __Definition
+ **Пространство имён:** [Tessa.Cards.Numbers](N_Tessa_Cards_Numbers.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public static readonly NumberQueueActionType ReserveAcquired
+VB __Копировать
+     Public Shared ReadOnly ReserveAcquired As NumberQueueActionType
+C++ __Копировать
+     public:
+    static initonly NumberQueueActionType^ ReserveAcquired
+F# __Копировать
+     static val ReserveAcquired: NumberQueueActionType
+#### Значение поля
+[NumberQueueActionType](T_Tessa_Cards_Numbers_NumberQueueActionType.htm)
+##  __См. также
+#### Ссылки
+[NumberQueueActionTypes - ](T_Tessa_Cards_Numbers_NumberQueueActionTypes.htm)
+[Tessa.Cards.Numbers - пространство имён](N_Tessa_Cards_Numbers.htm)

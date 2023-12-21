@@ -1,0 +1,34 @@
+# KrPermissionsHelper - поля
+##  __Поля
+[AddRefreshTokenKey](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_AddRefreshTokenKey.htm)|
+Ключ, по которому хранится признак того, что в ответе на сохранение карточки
+нужно приложить токен для рефреша карточки.  
+---|---  
+[AddTopicPermissionsCalculated](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_AddTopicPermissionsCalculated.htm)|  
+[CalculateAddTopicPermissions](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_CalculateAddTopicPermissions.htm)|  
+[CalculateEditMyMessagesPermissions](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_CalculateEditMyMessagesPermissions.htm)|  
+[CalculatePermissionsMark](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_CalculatePermissionsMark.htm)|  
+[CalculateResolutionPermissionsMark](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_CalculateResolutionPermissionsMark.htm)|  
+[CalculateSuperModeratorPermissions](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_CalculateSuperModeratorPermissions.htm)|  
+[DocTypeIDKey](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_DocTypeIDKey.htm)|
+Ключ, по которому в
+[Info](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrToken_Info.htm)
+содержится идентификатор типа документа. Тип значения:
+[Nullable<T>](https://learn.microsoft.com/dotnet/api/system.nullable-1), где T
+- [Guid](https://learn.microsoft.com/dotnet/api/system.guid).  
+[DropPermissionsCacheMark](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_DropPermissionsCacheMark.htm)|  
+[EditMyMessagesPermissionsCalculated](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_EditMyMessagesPermissionsCalculated.htm)|  
+[FailedMandatoryRulesKey](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_FailedMandatoryRulesKey.htm)|  
+[NewCardSourceKey](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_NewCardSourceKey.htm)|  
+[PermissionsCalculatedMark](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_PermissionsCalculatedMark.htm)|  
+[SaveWithPermissionsCalcFlag](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_SaveWithPermissionsCalcFlag.htm)|  
+[ServerTokenKey](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_ServerTokenKey.htm)|  
+[SuperModeratorPermissionsCalculated](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_SuperModeratorPermissionsCalculated.htm)|  
+[SystemTable](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_SystemTable.htm)|  
+[UnavaliableTypesKey](F_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_UnavaliableTypesKey.htm)|  
+## __См. также
+#### Ссылки
+[KrPermissionsHelper -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrPermissions - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrPermissions.htm)

@@ -1,0 +1,19 @@
+# KrCommentsInfoVirtual - поля
+##  __Поля
+[AnswerFull](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrCommentsInfoVirtual_AnswerFull.htm)|  
+---|---  
+[AnswerShort](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrCommentsInfoVirtual_AnswerShort.htm)|  
+[CommentatorNameFull](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrCommentsInfoVirtual_CommentatorNameFull.htm)|  
+[CommentatorNameShort](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrCommentsInfoVirtual_CommentatorNameShort.htm)|  
+[Completed](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrCommentsInfoVirtual_Completed.htm)|  
+[ID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrCommentsInfoVirtual_ID.htm)|  
+[Name](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrCommentsInfoVirtual_Name.htm)|  
+[QuestionFull](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrCommentsInfoVirtual_QuestionFull.htm)|  
+[QuestionShort](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrCommentsInfoVirtual_QuestionShort.htm)|  
+[RowID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrCommentsInfoVirtual_RowID.htm)|  
+## __См. также
+#### Ссылки
+[KrConstants.KrCommentsInfoVirtual -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrCommentsInfoVirtual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

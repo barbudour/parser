@@ -1,0 +1,12 @@
+# KrSigningActionNotificationActionRolesVirtual - поля
+##  __Поля
+[Option](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionNotificationActionRolesVirtual_Option.htm)|  
+---|---  
+[Role](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionNotificationActionRolesVirtual_Role.htm)|  
+[SectionName](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionNotificationActionRolesVirtual_SectionName.htm)|  
+## __См. также
+#### Ссылки
+[WorkflowConstants.KrSigningActionNotificationActionRolesVirtual -
+](T_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionNotificationActionRolesVirtual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)

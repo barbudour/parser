@@ -1,0 +1,15 @@
+# KrWeAdditionalApprovalOptionsVirtual - поля
+##  __Поля
+[ExcludeDeputies](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrWeAdditionalApprovalOptionsVirtual_ExcludeDeputies.htm)|  
+---|---  
+[ExcludeSubscribers](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrWeAdditionalApprovalOptionsVirtual_ExcludeSubscribers.htm)|  
+[InitTaskScript](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrWeAdditionalApprovalOptionsVirtual_InitTaskScript.htm)|  
+[Notification](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrWeAdditionalApprovalOptionsVirtual_Notification.htm)|  
+[NotificationScript](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrWeAdditionalApprovalOptionsVirtual_NotificationScript.htm)|  
+[SectionName](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrWeAdditionalApprovalOptionsVirtual_SectionName.htm)|  
+## __См. также
+#### Ссылки
+[WorkflowConstants.KrWeAdditionalApprovalOptionsVirtual -
+](T_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrWeAdditionalApprovalOptionsVirtual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)

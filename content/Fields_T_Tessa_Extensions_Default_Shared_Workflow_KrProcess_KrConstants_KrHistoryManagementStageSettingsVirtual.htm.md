@@ -1,0 +1,15 @@
+# KrHistoryManagementStageSettingsVirtual - поля
+##  __Поля
+[Name](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrHistoryManagementStageSettingsVirtual_Name.htm)|  
+---|---  
+[NewIteration](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrHistoryManagementStageSettingsVirtual_NewIteration.htm)|  
+[ParentTaskHistoryGroupTypeCaption](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrHistoryManagementStageSettingsVirtual_ParentTaskHistoryGroupTypeCaption.htm)|  
+[ParentTaskHistoryGroupTypeID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrHistoryManagementStageSettingsVirtual_ParentTaskHistoryGroupTypeID.htm)|  
+[TaskHistoryGroupTypeCaption](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrHistoryManagementStageSettingsVirtual_TaskHistoryGroupTypeCaption.htm)|  
+[TaskHistoryGroupTypeID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrHistoryManagementStageSettingsVirtual_TaskHistoryGroupTypeID.htm)|  
+## __См. также
+#### Ссылки
+[KrConstants.KrHistoryManagementStageSettingsVirtual -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrHistoryManagementStageSettingsVirtual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

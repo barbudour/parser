@@ -1,0 +1,23 @@
+# WorkflowConstants.ActionNotificationRolesBase.Option - поле
+##  __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)  
+ **Сборка:** Tessa.Extensions.Default.Shared (в
+Tessa.Extensions.Default.Shared.dll) Версия: 3.6.0.17
+C# __Копировать
+     public const string Option = "Option"
+VB __Копировать
+     Public Const Option As String = "Option"
+C++ __Копировать
+     public:
+    literal String^ Option = "Option"
+F# __Копировать
+     static val mutable Option: string
+#### Значение поля
+[String](https://learn.microsoft.com/dotnet/api/system.string)
+##  __См. также
+#### Ссылки
+[WorkflowConstants.ActionNotificationRolesBase -
+](T_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_ActionNotificationRolesBase.htm)
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)

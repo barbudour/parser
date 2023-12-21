@@ -1,0 +1,18 @@
+# KrProcessCommonInfo - поля
+##  __Поля
+[AuthorID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrProcessCommonInfo_AuthorID.htm)|  
+---|---  
+[AuthorName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrProcessCommonInfo_AuthorName.htm)|  
+[CurrentApprovalStageRowID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrProcessCommonInfo_CurrentApprovalStageRowID.htm)|  
+[ID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrProcessCommonInfo_ID.htm)|  
+[Info](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrProcessCommonInfo_Info.htm)|  
+[MainCardID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrProcessCommonInfo_MainCardID.htm)|  
+[NestedWorkflowProcesses](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrProcessCommonInfo_NestedWorkflowProcesses.htm)|  
+[ProcessOwnerID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrProcessCommonInfo_ProcessOwnerID.htm)|  
+[ProcessOwnerName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrProcessCommonInfo_ProcessOwnerName.htm)|  
+## __См. также
+#### Ссылки
+[KrConstants.KrProcessCommonInfo -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrProcessCommonInfo.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

@@ -1,0 +1,17 @@
+# KrAcquaintanceSettingsVirtual - поля
+##  __Поля
+[AliasMetadata](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAcquaintanceSettingsVirtual_AliasMetadata.htm)|  
+---|---  
+[Comment](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAcquaintanceSettingsVirtual_Comment.htm)|  
+[ExcludeDeputies](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAcquaintanceSettingsVirtual_ExcludeDeputies.htm)|  
+[Name](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAcquaintanceSettingsVirtual_Name.htm)|  
+[NotificationID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAcquaintanceSettingsVirtual_NotificationID.htm)|  
+[NotificationName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAcquaintanceSettingsVirtual_NotificationName.htm)|  
+[SenderID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAcquaintanceSettingsVirtual_SenderID.htm)|  
+[SenderName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAcquaintanceSettingsVirtual_SenderName.htm)|  
+## __См. также
+#### Ссылки
+[KrConstants.KrAcquaintanceSettingsVirtual -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAcquaintanceSettingsVirtual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

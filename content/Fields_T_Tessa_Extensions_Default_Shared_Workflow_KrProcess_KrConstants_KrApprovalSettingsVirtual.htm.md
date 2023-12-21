@@ -1,0 +1,22 @@
+# KrApprovalSettingsVirtual - поля
+##  __Поля
+[Advisory](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual_Advisory.htm)|  
+---|---  
+[CanEditCard](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual_CanEditCard.htm)|  
+[CanEditFiles](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual_CanEditFiles.htm)|  
+[ChangeStateOnEnd](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual_ChangeStateOnEnd.htm)|  
+[ChangeStateOnStart](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual_ChangeStateOnStart.htm)|  
+[Comment](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual_Comment.htm)|  
+[DisableAutoApproval](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual_DisableAutoApproval.htm)|  
+[FirstIsResponsible](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual_FirstIsResponsible.htm)|  
+[IsParallel](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual_IsParallel.htm)|  
+[Name](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual_Name.htm)|  
+[NotReturnEdit](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual_NotReturnEdit.htm)|  
+[ReturnToAuthor](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual_ReturnToAuthor.htm)|  
+[ReturnWhenDisapproved](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual_ReturnWhenDisapproved.htm)|  
+## __См. также
+#### Ссылки
+[KrConstants.KrApprovalSettingsVirtual -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalSettingsVirtual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

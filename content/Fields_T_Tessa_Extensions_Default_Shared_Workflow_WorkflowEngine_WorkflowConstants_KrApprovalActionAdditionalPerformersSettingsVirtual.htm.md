@@ -1,0 +1,11 @@
+# KrApprovalActionAdditionalPerformersSettingsVirtual - поля
+##  __Поля
+[IsAdditionalApprovalFirstResponsible](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionAdditionalPerformersSettingsVirtual_IsAdditionalApprovalFirstResponsible.htm)|  
+---|---  
+[SectionName](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionAdditionalPerformersSettingsVirtual_SectionName.htm)|  
+## __См. также
+#### Ссылки
+[WorkflowConstants.KrApprovalActionAdditionalPerformersSettingsVirtual -
+](T_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionAdditionalPerformersSettingsVirtual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)

@@ -1,0 +1,14 @@
+# KrForkManagementSettingsVirtual - поля
+##  __Поля
+[DirectionAfterInterrupt](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrForkManagementSettingsVirtual_DirectionAfterInterrupt.htm)|  
+---|---  
+[ManagePrimaryProcess](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrForkManagementSettingsVirtual_ManagePrimaryProcess.htm)|  
+[ModeID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrForkManagementSettingsVirtual_ModeID.htm)|  
+[ModeName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrForkManagementSettingsVirtual_ModeName.htm)|  
+[Name](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrForkManagementSettingsVirtual_Name.htm)|  
+## __См. также
+#### Ссылки
+[KrConstants.KrForkManagementSettingsVirtual -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrForkManagementSettingsVirtual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

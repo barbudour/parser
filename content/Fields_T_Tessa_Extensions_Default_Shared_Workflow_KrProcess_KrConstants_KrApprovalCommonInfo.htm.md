@@ -1,0 +1,18 @@
+# KrApprovalCommonInfo - поля
+##  __Поля
+[ApprovedBy](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalCommonInfo_ApprovedBy.htm)|  
+---|---  
+[AuthorComment](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalCommonInfo_AuthorComment.htm)|  
+[CurrentHistoryGroup](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalCommonInfo_CurrentHistoryGroup.htm)|  
+[DisapprovedBy](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalCommonInfo_DisapprovedBy.htm)|  
+[Name](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalCommonInfo_Name.htm)|  
+[StateChangedDateTimeUTC](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalCommonInfo_StateChangedDateTimeUTC.htm)|  
+[StateID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalCommonInfo_StateID.htm)|  
+[StateName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalCommonInfo_StateName.htm)|  
+[Virtual](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalCommonInfo_Virtual.htm)|  
+## __См. также
+#### Ссылки
+[KrConstants.KrApprovalCommonInfo -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrApprovalCommonInfo.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

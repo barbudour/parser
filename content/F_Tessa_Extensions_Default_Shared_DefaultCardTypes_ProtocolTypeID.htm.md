@@ -1,0 +1,23 @@
+# DefaultCardTypes.ProtocolTypeID - поле
+Card type identifier for "Protocol": {4D9F9590-0131-4D32-9710-5E07C282B5D3}.
+## __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Default.Shared](N_Tessa_Extensions_Default_Shared.htm)  
+ **Сборка:** Tessa.Extensions.Default.Shared (в
+Tessa.Extensions.Default.Shared.dll) Версия: 3.6.0.17
+C# __Копировать
+     public static readonly Guid ProtocolTypeID
+VB __Копировать
+     Public Shared ReadOnly ProtocolTypeID As Guid
+C++ __Копировать
+     public:
+    static initonly Guid ProtocolTypeID
+F# __Копировать
+     static val ProtocolTypeID: Guid
+#### Значение поля
+[Guid](https://learn.microsoft.com/dotnet/api/system.guid)
+##  __См. также
+#### Ссылки
+[DefaultCardTypes - ](T_Tessa_Extensions_Default_Shared_DefaultCardTypes.htm)
+[Tessa.Extensions.Default.Shared - пространство
+имён](N_Tessa_Extensions_Default_Shared.htm)

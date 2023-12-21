@@ -1,0 +1,12 @@
+# KrTaskRegistrationActionNotificationRolesVitrual - поля
+##  __Поля
+[Option](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrTaskRegistrationActionNotificationRolesVitrual_Option.htm)|  
+---|---  
+[Role](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrTaskRegistrationActionNotificationRolesVitrual_Role.htm)|  
+[SectionName](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrTaskRegistrationActionNotificationRolesVitrual_SectionName.htm)|  
+## __См. также
+#### Ссылки
+[WorkflowConstants.KrTaskRegistrationActionNotificationRolesVitrual -
+](T_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrTaskRegistrationActionNotificationRolesVitrual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)

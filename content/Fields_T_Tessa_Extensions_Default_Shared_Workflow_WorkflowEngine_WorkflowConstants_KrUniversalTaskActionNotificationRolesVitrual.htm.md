@@ -1,0 +1,12 @@
+# KrUniversalTaskActionNotificationRolesVitrual - поля
+##  __Поля
+[Button](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrUniversalTaskActionNotificationRolesVitrual_Button.htm)|  
+---|---  
+[Role](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrUniversalTaskActionNotificationRolesVitrual_Role.htm)|  
+[SectionName](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrUniversalTaskActionNotificationRolesVitrual_SectionName.htm)|  
+## __См. также
+#### Ссылки
+[WorkflowConstants.KrUniversalTaskActionNotificationRolesVitrual -
+](T_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrUniversalTaskActionNotificationRolesVitrual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)

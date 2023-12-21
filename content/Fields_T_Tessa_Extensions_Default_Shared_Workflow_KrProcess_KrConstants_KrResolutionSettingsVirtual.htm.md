@@ -1,0 +1,20 @@
+# KrResolutionSettingsVirtual - поля
+##  __Поля
+[Comment](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrResolutionSettingsVirtual_Comment.htm)|  
+---|---  
+[ControllerID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrResolutionSettingsVirtual_ControllerID.htm)|  
+[ControllerName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrResolutionSettingsVirtual_ControllerName.htm)|  
+[DurationInDays](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrResolutionSettingsVirtual_DurationInDays.htm)|  
+[KindCaption](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrResolutionSettingsVirtual_KindCaption.htm)|  
+[KindID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrResolutionSettingsVirtual_KindID.htm)|  
+[MajorPerformer](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrResolutionSettingsVirtual_MajorPerformer.htm)|  
+[MassCreation](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrResolutionSettingsVirtual_MassCreation.htm)|  
+[Name](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrResolutionSettingsVirtual_Name.htm)|  
+[Planned](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrResolutionSettingsVirtual_Planned.htm)|  
+[WithControl](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrResolutionSettingsVirtual_WithControl.htm)|  
+## __См. также
+#### Ссылки
+[KrConstants.KrResolutionSettingsVirtual -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrResolutionSettingsVirtual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

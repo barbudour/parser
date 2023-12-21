@@ -1,0 +1,19 @@
+# KrAdditionalApprovalUsersCardVirtual - поля
+##  __Поля
+[BasedOnTemplateAdditionalApprovalRowID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalUsersCardVirtual_BasedOnTemplateAdditionalApprovalRowID.htm)|  
+---|---  
+[ID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalUsersCardVirtual_ID.htm)|  
+[IsResponsible](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalUsersCardVirtual_IsResponsible.htm)|  
+[MainApproverRowID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalUsersCardVirtual_MainApproverRowID.htm)|  
+[Name](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalUsersCardVirtual_Name.htm)|  
+[Order](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalUsersCardVirtual_Order.htm)|  
+[RoleID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalUsersCardVirtual_RoleID.htm)|  
+[RoleName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalUsersCardVirtual_RoleName.htm)|  
+[RowID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalUsersCardVirtual_RowID.htm)|  
+[Synthetic](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalUsersCardVirtual_Synthetic.htm)|  
+## __См. также
+#### Ссылки
+[KrConstants.KrAdditionalApprovalUsersCardVirtual -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrAdditionalApprovalUsersCardVirtual.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

@@ -1,0 +1,42 @@
+# ICardTypeClientRepository.DeleteAsync - метод
+Удаляет тип карточки с заданным идентификатором.
+##  __Definition
+ **Пространство имён:** [Tessa.Cards](N_Tessa_Cards.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     Task DeleteAsync(
+    	Guid cardTypeID,
+    	CancellationToken cancellationToken = default
+    )
+VB __Копировать
+     Function DeleteAsync ( 
+    	cardTypeID As Guid,
+    	Optional cancellationToken As CancellationToken = Nothing
+    ) As Task
+C++ __Копировать
+    Task^ DeleteAsync(
+    	Guid cardTypeID, 
+    	CancellationToken cancellationToken = CancellationToken()
+    )
+F# __Копировать
+     abstract DeleteAsync : 
+            cardTypeID : Guid * 
+            ?cancellationToken : CancellationToken 
+    (* Defaults:
+            let _cancellationToken = defaultArg cancellationToken new CancellationToken()
+    *)
+    -> Task 
+#### Параметры
+cardTypeID [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
+    Идентификатор типа карточки.
+cancellationToken
+[CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+(Optional)
+    Объект, посредством которого можно отменить асинхронную задачу.
+#### Возвращаемое значение
+[Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)  
+Асинхронная задача.
+##  __См. также
+#### Ссылки
+[ICardTypeClientRepository - ](T_Tessa_Cards_ICardTypeClientRepository.htm)
+[Tessa.Cards - пространство имён](N_Tessa_Cards.htm)

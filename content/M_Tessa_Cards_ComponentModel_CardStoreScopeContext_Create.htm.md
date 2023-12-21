@@ -1,0 +1,35 @@
+# CardStoreScopeContext.Create - метод
+Создаёт область операции, в которой заданный контекст будет являться текущим.
+## __Definition
+ **Пространство имён:**
+[Tessa.Cards.ComponentModel](N_Tessa_Cards_ComponentModel.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public static IScopeContextInstance<ICardStoreScopeContext> Create(
+    	ICardStoreScopeContext context
+    )
+VB __Копировать
+     Public Shared Function Create ( 
+    	context As ICardStoreScopeContext
+    ) As IScopeContextInstance(Of ICardStoreScopeContext)
+C++ __Копировать
+     public:
+    static IScopeContextInstance<ICardStoreScopeContext^>^ Create(
+    	ICardStoreScopeContext^ context
+    )
+F# __Копировать
+     static member Create : 
+            context : ICardStoreScopeContext -> IScopeContextInstance<ICardStoreScopeContext> 
+#### Параметры
+context
+[ICardStoreScopeContext](T_Tessa_Cards_ComponentModel_ICardStoreScopeContext.htm)
+    Контекст, для которого создаётся область операции.
+#### Возвращаемое значение
+[IScopeContextInstance](T_Tessa_Platform_Scopes_IScopeContextInstance_1.htm)<[ICardStoreScopeContext](T_Tessa_Cards_ComponentModel_ICardStoreScopeContext.htm)>  
+Область операции, в которой заданный контекст будет являться текущим.
+##  __См. также
+#### Ссылки
+[CardStoreScopeContext -
+](T_Tessa_Cards_ComponentModel_CardStoreScopeContext.htm)
+[Tessa.Cards.ComponentModel - пространство
+имён](N_Tessa_Cards_ComponentModel.htm)

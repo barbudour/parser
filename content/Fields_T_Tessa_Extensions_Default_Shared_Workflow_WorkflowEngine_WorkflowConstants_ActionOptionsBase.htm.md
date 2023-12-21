@@ -1,0 +1,18 @@
+# ActionOptionsBase - поля
+##  __Поля
+[ExcludeDeputies](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_ActionOptionsBase_ExcludeDeputies.htm)|  
+---|---  
+[ExcludeSubscribers](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_ActionOptionsBase_ExcludeSubscribers.htm)|  
+[Notification](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_ActionOptionsBase_Notification.htm)|  
+[NotificationScript](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_ActionOptionsBase_NotificationScript.htm)|  
+[Option](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_ActionOptionsBase_Option.htm)|  
+[Order](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_ActionOptionsBase_Order.htm)|  
+[Script](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_ActionOptionsBase_Script.htm)|  
+[SendToAuthor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_ActionOptionsBase_SendToAuthor.htm)|  
+[SendToPerformer](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_ActionOptionsBase_SendToPerformer.htm)|  
+## __См. также
+#### Ссылки
+[WorkflowConstants.ActionOptionsBase -
+](T_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_ActionOptionsBase.htm)
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)

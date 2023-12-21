@@ -1,0 +1,47 @@
+# CardCachedMetadata.InvalidateAsync - метод
+Сбрасывает кэш метаинформации. При следующем обращении к содержимому
+метаинформации будет выполнен запрос на получение её из сервиса типов
+карточек.
+## __Definition
+ **Пространство имён:** [Tessa.Cards.Metadata](N_Tessa_Cards_Metadata.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public Task InvalidateAsync(
+    	CancellationToken cancellationToken = default
+    )
+VB __Копировать
+     Public Function InvalidateAsync ( 
+    	Optional cancellationToken As CancellationToken = Nothing
+    ) As Task
+C++ __Копировать
+     public:
+    virtual Task^ InvalidateAsync(
+    	CancellationToken cancellationToken = CancellationToken()
+    ) sealed
+F# __Копировать
+     abstract InvalidateAsync : 
+            ?cancellationToken : CancellationToken 
+    (* Defaults:
+            let _cancellationToken = defaultArg cancellationToken new CancellationToken()
+    *)
+    -> Task 
+    override InvalidateAsync : 
+            ?cancellationToken : CancellationToken 
+    (* Defaults:
+            let _cancellationToken = defaultArg cancellationToken new CancellationToken()
+    *)
+    -> Task 
+#### Параметры
+cancellationToken
+[CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+(Optional)
+    Объект, посредством которого можно отменить асинхронную задачу.
+#### Возвращаемое значение
+[Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)  
+Асинхронная задача.
+#### Реализации
+[ICardCachedMetadata.InvalidateAsync(CancellationToken)](M_Tessa_Cards_ICardCachedMetadata_InvalidateAsync.htm)  
+##  __См. также
+#### Ссылки
+[CardCachedMetadata - ](T_Tessa_Cards_Metadata_CardCachedMetadata.htm)
+[Tessa.Cards.Metadata - пространство имён](N_Tessa_Cards_Metadata.htm)

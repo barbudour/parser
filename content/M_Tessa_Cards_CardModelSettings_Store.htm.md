@@ -1,0 +1,35 @@
+# CardModelSettings.Store - метод
+Сохраняет настройки в заданной хеш-таблице.
+##  __Definition
+ **Пространство имён:** [Tessa.Cards](N_Tessa_Cards.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public void Store(
+    	Dictionary<string, Object> storage
+    )
+VB __Копировать
+     Public Sub Store ( 
+    	storage As Dictionary(Of String, Object)
+    )
+C++ __Копировать
+     public:
+    virtual void Store(
+    	Dictionary<String^, Object^>^ storage
+    ) sealed
+F# __Копировать
+     abstract Store : 
+            storage : Dictionary<string, Object> -> unit 
+    override Store : 
+            storage : Dictionary<string, Object> -> unit 
+#### Параметры
+storage
+[Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2)<[String](https://learn.microsoft.com/dotnet/api/system.string),
+[Object](https://learn.microsoft.com/dotnet/api/system.object)>
+    Хеш-таблица, в которой сохраняются настройки.
+#### Реализации
+[ICardModelSettings.Store(Dictionary<String,
+Object>)](M_Tessa_Cards_ICardModelSettings_Store.htm)  
+##  __См. также
+#### Ссылки
+[CardModelSettings - ](T_Tessa_Cards_CardModelSettings.htm)
+[Tessa.Cards - пространство имён](N_Tessa_Cards.htm)

@@ -1,0 +1,19 @@
+# BusinessProcessCardHelper - поля
+##  __Поля
+[ActionNameFieldName](F_Tessa_Extensions_Platform_Server_Cards_BusinessProcessCardHelper_ActionNameFieldName.htm)|  
+---|---  
+[ActionStorageFieldName](F_Tessa_Extensions_Platform_Server_Cards_BusinessProcessCardHelper_ActionStorageFieldName.htm)|  
+[BusinessProcessCardIDFieldName](F_Tessa_Extensions_Platform_Server_Cards_BusinessProcessCardHelper_BusinessProcessCardIDFieldName.htm)|  
+[BusinessProcessRowIDFieldName](F_Tessa_Extensions_Platform_Server_Cards_BusinessProcessCardHelper_BusinessProcessRowIDFieldName.htm)|  
+[MethodFieldName](F_Tessa_Extensions_Platform_Server_Cards_BusinessProcessCardHelper_MethodFieldName.htm)|  
+[NewBlockStateFieldName](F_Tessa_Extensions_Platform_Server_Cards_BusinessProcessCardHelper_NewBlockStateFieldName.htm)|  
+[ParametersFieldName](F_Tessa_Extensions_Platform_Server_Cards_BusinessProcessCardHelper_ParametersFieldName.htm)|  
+[ProcessInstanceIDFieldName](F_Tessa_Extensions_Platform_Server_Cards_BusinessProcessCardHelper_ProcessInstanceIDFieldName.htm)|  
+[ProcessVersionDataFieldName](F_Tessa_Extensions_Platform_Server_Cards_BusinessProcessCardHelper_ProcessVersionDataFieldName.htm)|  
+[ResultFieldName](F_Tessa_Extensions_Platform_Server_Cards_BusinessProcessCardHelper_ResultFieldName.htm)|  
+## __См. также
+#### Ссылки
+[BusinessProcessCardHelper -
+](T_Tessa_Extensions_Platform_Server_Cards_BusinessProcessCardHelper.htm)
+[Tessa.Extensions.Platform.Server.Cards - пространство
+имён](N_Tessa_Extensions_Platform_Server_Cards.htm)
