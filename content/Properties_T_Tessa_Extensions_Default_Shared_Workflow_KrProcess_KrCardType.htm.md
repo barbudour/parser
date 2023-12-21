@@ -1,0 +1,34 @@
+# KrCardType - свойства
+##  __Свойства
+[AllowManualRegistrationDocNumberAssignment](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_AllowManualRegistrationDocNumberAssignment.htm)|  
+---|---  
+[AllowManualRegularDocNumberAssignment](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_AllowManualRegularDocNumberAssignment.htm)|  
+[Caption](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_Caption.htm)|  
+[DisableChildResolutionDateCheck](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_DisableChildResolutionDateCheck.htm)|  
+[DocNumberRegistrationAutoAssignmentID](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_DocNumberRegistrationAutoAssignmentID.htm)|  
+[DocNumberRegistrationFormat](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_DocNumberRegistrationFormat.htm)|  
+[DocNumberRegistrationSequence](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_DocNumberRegistrationSequence.htm)|  
+[DocNumberRegularAutoAssignmentID](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_DocNumberRegularAutoAssignmentID.htm)|  
+[DocNumberRegularFormat](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_DocNumberRegularFormat.htm)|  
+[DocNumberRegularSequence](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_DocNumberRegularSequence.htm)|  
+[HideCreationButton](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_HideCreationButton.htm)|  
+[HideRouteTab](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_HideRouteTab.htm)|  
+[ID](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_ID.htm)|  
+[Name](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_Name.htm)|  
+[ReleaseRegistrationNumberOnFinalDeletion](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_ReleaseRegistrationNumberOnFinalDeletion.htm)|  
+[ReleaseRegularNumberOnFinalDeletion](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_ReleaseRegularNumberOnFinalDeletion.htm)|  
+[UseApproving](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_UseApproving.htm)|  
+[UseDefaultDiscussionTab](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_UseDefaultDiscussionTab.htm)|  
+[UseDocTypes](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_UseDocTypes.htm)|  
+[UseForum](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_UseForum.htm)|  
+[UseRegistration](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_UseRegistration.htm)|  
+[UseResolutions](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_UseResolutions.htm)|  
+[UseRoutesInWorkflowEngine](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType_UseRoutesInWorkflowEngine.htm)|
+Возвращает или задаёт значение, показывающее, используются ли маршруты в
+бизнес процессах или нет.  
+## __См. также
+#### Ссылки
+[KrCardType -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrCardType.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

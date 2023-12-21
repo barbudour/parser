@@ -1,0 +1,24 @@
+# Tessa.Extensions.Default.Shared.StorageMapping.StorageMappingHandlers -
+пространство имён
+## __Классы
+[KrProcessStorageMappingHandlerBase](T_Tessa_Extensions_Default_Shared_StorageMapping_StorageMappingHandlers_KrProcessStorageMappingHandlerBase.htm)|
+Базовый абстрактный класс с параметрами сериализации для выгрузки контента
+карточек во внешние файлы для некоторых типов workflow.  
+---|---  
+[KrSecondaryProcessStorageMappingHandler](T_Tessa_Extensions_Default_Shared_StorageMapping_StorageMappingHandlers_KrSecondaryProcessStorageMappingHandler.htm)|
+Параметры сериализации для выгрузки контента карточек во внешние файлы для
+типа
+[KrSecondaryProcessTypeID](F_Tessa_Extensions_Default_Shared_DefaultCardTypes_KrSecondaryProcessTypeID.htm).  
+[KrStageCommonMethodStorageMappingHandler](T_Tessa_Extensions_Default_Shared_StorageMapping_StorageMappingHandlers_KrStageCommonMethodStorageMappingHandler.htm)|
+Параметры сериализации для выгрузки контента карточек во внешние файлы для
+типа
+[KrStageCommonMethodTypeID](F_Tessa_Extensions_Default_Shared_DefaultCardTypes_KrStageCommonMethodTypeID.htm).  
+[KrStageGroupStorageMappingHandler](T_Tessa_Extensions_Default_Shared_StorageMapping_StorageMappingHandlers_KrStageGroupStorageMappingHandler.htm)|
+Параметры сериализации для выгрузки контента карточек во внешние файлы для
+типа
+[KrStageGroupTypeID](F_Tessa_Extensions_Default_Shared_DefaultCardTypes_KrStageGroupTypeID.htm).  
+[KrStageTemplateStorageMappingHandler](T_Tessa_Extensions_Default_Shared_StorageMapping_StorageMappingHandlers_KrStageTemplateStorageMappingHandler.htm)|
+Параметры сериализации для выгрузки контента карточек во внешние файлы для
+типа
+[KrStageTemplateTypeID](F_Tessa_Extensions_Default_Shared_DefaultCardTypes_KrStageTemplateTypeID.htm).  
+[StorageMappingResolverExtensions](T_Tessa_Extensions_Default_Shared_StorageMapping_StorageMappingHandlers_StorageMappingResolverExtensions.htm)|

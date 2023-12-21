@@ -1,0 +1,192 @@
+# AnchorCellGroup - класс
+Якорь, используемый для привязки надписи или картинки к Worksheet
+## __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Default.Server.Cards](N_Tessa_Extensions_Default_Server_Cards.htm)  
+ **Сборка:** Tessa.Extensions.Default.Server (в
+Tessa.Extensions.Default.Server.dll) Версия: 3.6.0.17
+C# __Копировать
+     public sealed class AnchorCellGroup : CellsGroup<TwoCellAnchor>
+VB __Копировать
+     Public NotInheritable Class AnchorCellGroup
+    	Inherits CellsGroup(Of TwoCellAnchor)
+C++ __Копировать
+     public ref class AnchorCellGroup sealed : public CellsGroup<TwoCellAnchor^>
+F# __Копировать
+     [<SealedAttribute>]
+    type AnchorCellGroup = 
+        class
+            inherit CellsGroup<TwoCellAnchor>
+        end
+Inheritance
+    [Object](https://learn.microsoft.com/dotnet/api/system.object) __[ElementBase](T_Tessa_Extensions_Default_Server_Cards_ElementBase_1.htm)<TwoCellAnchor> __[WorksheetBase](T_Tessa_Extensions_Default_Server_Cards_WorksheetBase_1.htm)<TwoCellAnchor> __[CellsGroup](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm)<TwoCellAnchor> __ AnchorCellGroup
+##  __Конструкторы
+[AnchorCellGroup](M_Tessa_Extensions_Default_Server_Cards_AnchorCellGroup__ctor.htm)|
+Инициализирует новый экземпляр класса AnchorCellGroup  
+---|---  
+##  __Свойства
+[Bottom](P_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_Bottom.htm)|
+Определяет нижнюю границу диапозона  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+---|---  
+[Element](P_Tessa_Extensions_Default_Server_Cards_ElementBase_1_Element.htm)|
+Хранимый элемент Excel  
+(Унаследован от
+[ElementBase<TElement>](T_Tessa_Extensions_Default_Server_Cards_ElementBase_1.htm))  
+[Height](P_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_Height.htm)|
+Определяет высоту (количество строк) диапозона  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[IsSingleCell](P_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_IsSingleCell.htm)|
+Свойство, определяющее, состоит ли объект из одной ячейки  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[Left](P_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_Left.htm)|
+Определяет левую границу диапозона  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[MoveBy](P_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_MoveBy.htm)|
+Параметр, определяющий на какое число нужно переместить элемент при обновлении  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[Reference](P_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_Reference.htm)|
+Возвращает строковый вариант диапозона (например 'B2' для одной ячейки или
+'B2:D4' для группы ячеек)  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[Right](P_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_Right.htm)|
+Определяет правую границу диапозона  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[Top](P_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_Top.htm)|
+Определяет верхнюю границу диапозона  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[Worksheet](P_Tessa_Extensions_Default_Server_Cards_WorksheetBase_1_Worksheet.htm)|
+Объект Worksheet, на базе которого хранится текущий объект  
+(Унаследован от
+[WorksheetBase<TElement>](T_Tessa_Extensions_Default_Server_Cards_WorksheetBase_1.htm))  
+##  __Методы
+[Clone](M_Tessa_Extensions_Default_Server_Cards_AnchorCellGroup_Clone.htm)|
+Метод для клонирования хранимого элемента и вставки его перед клонируемым
+элементом. Игнорирует передаваемый элемент  
+(Переопределяет
+[ElementBase<TElement>.Clone()](M_Tessa_Extensions_Default_Server_Cards_ElementBase_1_Clone.htm))  
+---|---  
+[CloneElement](M_Tessa_Extensions_Default_Server_Cards_ElementBase_1_CloneElement.htm)|
+Метод для клонирования хранимого элемента  
+(Унаследован от
+[ElementBase<TElement>](T_Tessa_Extensions_Default_Server_Cards_ElementBase_1.htm))  
+[Equals](https://learn.microsoft.com/dotnet/api/system.object.equals#system-
+object-equals\(system-object\))| Determines whether the specified object is
+equal to the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[Finalize](https://learn.microsoft.com/dotnet/api/system.object.finalize#system-
+object-finalize)| Allows an object to try to free resources and perform other
+cleanup operations before it is reclaimed by garbage collection.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetDisplayString](M_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_GetDisplayString.htm)|
+Метод для получения отображаемого значения элемента. Обычно это
+[Reference](P_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_Reference.htm)  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[GetHashCode](https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-
+object-gethashcode)| Serves as the default hash function.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetPlaceholderBaseElement](M_Tessa_Extensions_Default_Server_Cards_AnchorCellGroup_GetPlaceholderBaseElement.htm)|
+Возвращает элемент, который является базовым для замены плейсхолдеров. Обычно
+это параграф.  
+[GetType](https://learn.microsoft.com/dotnet/api/system.object.gettype#system-
+object-gettype)| Gets the
+[Type](https://learn.microsoft.com/dotnet/api/system.type) of the current
+instance.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[HasChildElement<T>](M_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_HasChildElement__1.htm)|
+Возвращает признак того, что среди наследников текущего элемента присутствует
+указанный элемент.  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[Insert](M_Tessa_Extensions_Default_Server_Cards_AnchorCellGroup_Insert.htm)|
+Метод для вставки элемента.  
+(Переопределяет
+[ElementBase<TElement>.Insert()](M_Tessa_Extensions_Default_Server_Cards_ElementBase_1_Insert.htm))  
+[IsCrossed(ICellsGroup)](M_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_IsCrossed_1.htm)|
+Метод проверяет, есть ли пересечения между текущей и передаваемой группами  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[IsCrossed(String, String, Int32,
+Int32)](M_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_IsCrossed.htm)|
+Метод проверяет, есть ли пересечения между текущей и передаваемой группами  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[IsInclude(ICellsGroup)](M_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_IsInclude_1.htm)|
+Проверяет, включает ли данная группа в себя передаваемую группу  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[IsInclude(String)](M_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_IsInclude.htm)|
+Проверяет, включает ли данная группа в себя передаваемую ссылку.  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[IsIncludeCell](M_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_IsIncludeCell.htm)|
+Метод проверяет, входит ли передаваеммая ячейка в текущую группу  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[IsIncludeGroup(String)](M_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_IsIncludeGroup.htm)|
+Метод проверяет, входит ли передаваеммая группа ячеек в текущую группу  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[IsIncludeGroup(String, String, Int32,
+Int32)](M_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_IsIncludeGroup_1.htm)|
+Метод проверяет, входит ли передаваеммая группа ячеек в текущую группу  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[MemberwiseClone](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-
+object-memberwiseclone)| Creates a shallow copy of the current
+[Object](https://learn.microsoft.com/dotnet/api/system.object).  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[Move](M_Tessa_Extensions_Default_Server_Cards_CellsGroup_1_Move.htm)|  Метод
+для перемещения элемента внутри документа Excel на заданное число. Фактическое
+обновление позиции элемента в документе производится методом Update  
+(Унаследован от
+[CellsGroup<TElement>](T_Tessa_Extensions_Default_Server_Cards_CellsGroup_1.htm))  
+[ParseElement](M_Tessa_Extensions_Default_Server_Cards_AnchorCellGroup_ParseElement.htm)|
+Метод для получения основных данных элемента "якорь"  
+(Переопределяет
+[ElementBase<TElement>.ParseElement()](M_Tessa_Extensions_Default_Server_Cards_ElementBase_1_ParseElement.htm))  
+[Remove](M_Tessa_Extensions_Default_Server_Cards_AnchorCellGroup_Remove.htm)|
+Метод для удаления объекта и его элемента  
+(Переопределяет
+[ElementBase<TElement>.Remove()](M_Tessa_Extensions_Default_Server_Cards_ElementBase_1_Remove.htm))  
+[ToString](https://learn.microsoft.com/dotnet/api/system.object.tostring#system-
+object-tostring)| Returns a string that represents the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[Update](M_Tessa_Extensions_Default_Server_Cards_AnchorCellGroup_Update.htm)|
+Метод для обновления позиции элемента в документе Excel  
+(Переопределяет
+[ElementBase<TElement>.Update()](M_Tessa_Extensions_Default_Server_Cards_ElementBase_1_Update.htm))  
+##  __Методы расширения
+[Get](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Get.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+---|---  
+[InternalMarkerCanvas](M_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor_InternalMarkerCanvas.htm)|
+Возвращает маркер аннотации  
+(Определяется
+[AnnotationInternalsAccessor](T_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor.htm))  
+[Invoke](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Invoke.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+[Set](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Set.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+##  __См. также
+#### Ссылки
+[Tessa.Extensions.Default.Server.Cards - пространство
+имён](N_Tessa_Extensions_Default_Server_Cards.htm)

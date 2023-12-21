@@ -1,0 +1,54 @@
+# Tessa.Extensions.Default.Client.UI.KrProcess.StageHandlers - пространство
+имён
+Расширения типового решения на desktop-клиенте для действий, связанных с
+расширениями на UI карточек для обработчиков процессов в типовой системе
+маршрутов.
+##  __Классы
+[AddFromTemplateUIHandler](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_AddFromTemplateUIHandler.htm)|
+UI обработчик типа этапа
+[AddFromTemplateDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptors_AddFromTemplateDescriptor.htm).  
+---|---  
+[ApprovalUIHandler](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_ApprovalUIHandler.htm)|
+UI обработчик типа этапа
+[ApprovalDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptors_ApprovalDescriptor.htm).  
+[CreateCardUIHandler](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_CreateCardUIHandler.htm)|
+UI обработчик типа этапа
+[CreateCardDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptors_CreateCardDescriptor.htm).  
+[DialogUIHandler](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_DialogUIHandler.htm)|
+UI обработчик типа этапа
+[DialogDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptors_DialogDescriptor.htm).  
+[KrProcessUIContainer](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_KrProcessUIContainer.htm)|
+Объект, содержащий информацию о UI обработчиках этапов подсистемы маршрутов.  
+[KrStageTypeUIHandlerContext](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_KrStageTypeUIHandlerContext.htm)|
+Контекст расширений
+[IStageTypeUIHandler](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_IStageTypeUIHandler.htm).  
+[ProcessManagementUIHandler](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_ProcessManagementUIHandler.htm)|
+UI обработчик типа этапа
+[ProcessManagementDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptors_ProcessManagementDescriptor.htm).  
+[Registrator](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_Registrator.htm)|  
+[ResolutionStageUIHandler](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_ResolutionStageUIHandler.htm)|
+UI обработчик типа этапа
+[ResolutionDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptors_ResolutionDescriptor.htm).  
+[SigningUIHandler](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_SigningUIHandler.htm)|
+UI обработчик типа этапа
+[SigningDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptors_SigningDescriptor.htm).  
+[StageTypeUIHandlerBase](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_StageTypeUIHandlerBase.htm)|
+UI обработчик типа этапа.  
+[TabCaptionUIHandler](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_TabCaptionUIHandler.htm)|
+UI обработчик этапов, настраивающий заголовки стандартных вкладок на форме с
+настройками этапа: Условие, Инициализация, Постобработка.  
+[TypedTaskUIHandler](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_TypedTaskUIHandler.htm)|
+UI обработчик типа этапа
+[TypedTaskDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptors_TypedTaskDescriptor.htm).  
+[UniversalTaskStageTypeUIHandler](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_UniversalTaskStageTypeUIHandler.htm)|
+UI обработчик типа этапа
+[UniversalTaskDescriptor](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptors_UniversalTaskDescriptor.htm).  
+## __Интерфейсы
+[IKrProcessUIContainer](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_IKrProcessUIContainer.htm)|
+Объект, содержащий информацию о UI обработчиках этапов подсистемы маршрутов.  
+---|---  
+[IKrStageTypeUIHandlerContext](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_IKrStageTypeUIHandlerContext.htm)|
+Контекст расширений
+[IStageTypeUIHandler](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_IStageTypeUIHandler.htm).  
+[IStageTypeUIHandler](T_Tessa_Extensions_Default_Client_UI_KrProcess_StageHandlers_IStageTypeUIHandler.htm)|
+UI обработчик типа этапа.

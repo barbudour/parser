@@ -1,0 +1,110 @@
+# Tessa.Extensions.Default.Server.Workflow.KrProcess.Workflow - пространство
+имён
+Расширения типового решения на сервере, связанные с выполнением процессов
+маршрутов по части среды выполнения.
+##  __Классы
+[BackwardPreparingGroupRecalcStrategy](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_BackwardPreparingGroupRecalcStrategy.htm)|
+Стратегия подготавливающая данные для пересчёта маршрута. Реализует
+продвижение назад по маршруту.  
+---|---  
+[CurrentPreparingGroupRecalcStrategy](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_CurrentPreparingGroupRecalcStrategy.htm)|
+Стратегия подготавливающая данные для пересчёта маршрута. Реализует
+продвижение по маршруту в начало текущей группы текущего этапа.  
+[DisableRecalcPreparingGroupRecalcStrategy](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_DisableRecalcPreparingGroupRecalcStrategy.htm)|
+Стратегия подготавливающая данные для пересчёта маршрута. Возвращает этап
+соответствующий текущему этапу, на момент применения стратегии, иначе значение
+по умолчанию для типа.  
+[ExplicitlySelectedPreparingGroupRecalcStrategy](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_ExplicitlySelectedPreparingGroupRecalcStrategy.htm)|
+Стратегия подготавливающая данные для пересчёта маршрута. Возвращает первый
+этап у которого порядковый номер группы этапов не превышает порядковый номер
+группы текущего этапа.  
+[ForwardPreparingGroupRecalcStrategy](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_ForwardPreparingGroupRecalcStrategy.htm)|
+Стратегия подготавливающая данные для пересчёта маршрута. Реализует
+продвижение вперёд по маршруту.  
+[KrAsyncProcessRunner](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrAsyncProcessRunner.htm)|
+Раннер используемый для выполнения асинхронных процессов маршрутов документов.  
+[KrProcessButtonVisibilityEvaluator](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessButtonVisibilityEvaluator.htm)|
+Объект, определяющий возможность отображения вторичных процессов, работающих в
+режиме "Кнопка".  
+[KrProcessButtonVisibilityEvaluatorContext](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessButtonVisibilityEvaluatorContext.htm)|
+Контекст используемый при определении видимости тайла вторичного процесса
+работающего в режиме "Кнопка".  
+[KrProcessContainer](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessContainer.htm)|  
+[KrProcessExtensions](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessExtensions.htm)|
+Предоставляет вспомогательные методы используемые в подсистеме маршрутов.  
+[KrProcessHelper](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessHelper.htm)|  
+[KrProcessRunnerBase](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessRunnerBase.htm)|
+Абстрактный базовый класс раннера используемого для выполнения процессов
+маршрутов документов.  
+[KrProcessRunnerContext](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessRunnerContext.htm)|  
+[KrProcessRunnerNames](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessRunnerNames.htm)|  
+[KrProcessRunnerProvider](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessRunnerProvider.htm)|
+Объект, предоставляющий
+[IKrProcessRunner](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrProcessRunner.htm).  
+[KrProcessServerLauncher](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessServerLauncher.htm)|
+Объект, выполняющий запуск процессов.  
+[KrProcessServerLauncher.SpecificParameters](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessServerLauncher_SpecificParameters.htm)|
+Предоставляет параметры запуска процесса с сервера.  
+[KrProcessTraceItem](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessTraceItem.htm)|
+Элемент истории выполнения этапов.  
+[KrProcessTransition](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessTransition.htm)|  
+[KrProcessWorkflowContext](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessWorkflowContext.htm)|  
+[KrProcessWorkflowManager](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessWorkflowManager.htm)|  
+[KrProcessWorkflowWorker](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessWorkflowWorker.htm)|  
+[KrSecondaryProcessEvaluatorContext](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrSecondaryProcessEvaluatorContext.htm)|
+Предоставляет контекст содержащий информацию о запускаемом вторичном процессе.  
+[KrSecondaryProcessExecutionEvaluator](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrSecondaryProcessExecutionEvaluator.htm)|
+Предоставляет методы выполняющие проверку возможности выполнения вторичного
+процесса.  
+[KrStageInterrupter](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrStageInterrupter.htm)|  
+[KrStageInterrupterContext](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrStageInterrupterContext.htm)|  
+[KrSyncProcessRunner](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrSyncProcessRunner.htm)|
+Раннер используемый для выполнения синхронных процессов маршрутов документов.  
+[ProcessRunnerInterruptedException](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_ProcessRunnerInterruptedException.htm)|
+Исключение, возникающее при прерывании выполнения
+[IKrProcessRunner](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrProcessRunner.htm).  
+[Registrator](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_Registrator.htm)|  
+[TransitionHelper](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_TransitionHelper.htm)|
+Предоставляет вспомогательные методы для выполнения переходов между этапами.  
+[WorkflowAPIBridge](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_WorkflowAPIBridge.htm)|  
+## __Структуры
+[KrProcessRunnerBase.NextAction](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessRunnerBase_NextAction.htm)|
+Предоставляет информацию раннеру результат обработки результата выполнения
+обработчика этапа.  
+---|---  
+## __Интерфейсы
+[IKrProcessButtonVisibilityEvaluator](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrProcessButtonVisibilityEvaluator.htm)|
+Описывает объект определяющий возможность отображения вторичных процессов
+работающих в режиме "Кнопка".  
+---|---  
+[IKrProcessButtonVisibilityEvaluatorContext](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrProcessButtonVisibilityEvaluatorContext.htm)|
+Описывает контекст используемый при определении видимости тайла вторичного
+процесса работающего в режиме "Кнопка".  
+[IKrProcessContainer](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrProcessContainer.htm)|
+Описывает объект содержащий информацию о обработчиках используемых в
+подсистеме маршрутов.  
+[IKrProcessFilter<T>](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrProcessFilter_1.htm)|
+Описывает объект предоставляющий возможность фильтрации объекта типа T.  
+[IKrProcessRunner](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrProcessRunner.htm)|
+Описывает раннер используемый для выполнения процессов маршрутов документов.  
+[IKrProcessRunnerContext](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrProcessRunnerContext.htm)|
+Контекст
+[IKrProcessRunner](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrProcessRunner.htm).  
+[IKrProcessRunnerProvider](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrProcessRunnerProvider.htm)|
+Объект, предоставляющий
+[IKrProcessRunner](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrProcessRunner.htm).  
+[IKrSecondaryProcessEvaluatorContext](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrSecondaryProcessEvaluatorContext.htm)|
+Описывает контекст содержащий информацию о запускаемом вторичном процессе.  
+[IKrSecondaryProcessExecutionEvaluator](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrSecondaryProcessExecutionEvaluator.htm)|
+Описывает методы выполняющие проверку возможности выполнения вторичного
+процесса.  
+[IKrStageInterrupter](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrStageInterrupter.htm)|  
+[IKrStageInterrupterContext](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IKrStageInterrupterContext.htm)|  
+[IPreparingGroupRecalcStrategy](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IPreparingGroupRecalcStrategy.htm)|
+Описывает стратегию подготавливающую данные для пересчёта маршрута.  
+[IWorkflowAPIBridge](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_IWorkflowAPIBridge.htm)|  
+## __Перечисления
+[DirectionAfterInterrupt](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_DirectionAfterInterrupt.htm)|  
+---|---  
+[KrProcessRunnerInitiationCause](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_KrProcessRunnerInitiationCause.htm)|
+Перечисление причин запуска процесса.

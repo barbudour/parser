@@ -1,0 +1,21 @@
+# FileContentRequest - свойства
+##  __Свойства
+[Info](P_Tessa_Files_FileContentRequest_Info.htm)|  Информация для расширений.
+Информация может быть не сериализуемой. В стандартной реализации [IFileSource]
+информация не используется.  
+---|---  
+[ProcessContentActionAsync](P_Tessa_Files_FileContentRequest_ProcessContentActionAsync.htm)|
+Метод, которому передаётся полученный из внешней подсистемы контент и который
+должен его обработать, например, записать в локальный кэш. Если при загрузке
+происходит ошибка, то метод может быть ни разу не вызван. Делегат может быть
+равен null.  
+[RequestInfo](P_Tessa_Files_FileContentRequest_RequestInfo.htm)|
+Сериализуемые данные, которые будут записаны в объект запроса request.Info,
+отправляемый к серверу (в типовом сценарии). Такие данные могут перезаписать
+данные из [IFileObject.RequestInfo].  
+[Version](P_Tessa_Files_FileContentRequest_Version.htm)| Версия файла, для
+которой требуется получить контент.  
+##  __См. также
+#### Ссылки
+[FileContentRequest - ](T_Tessa_Files_FileContentRequest.htm)
+[Tessa.Files - пространство имён](N_Tessa_Files.htm)

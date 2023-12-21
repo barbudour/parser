@@ -1,0 +1,36 @@
+# Tessa.Compilation.Placeholders - пространство имён
+## __Классы
+[PlaceholderCompilationCache](T_Tessa_Compilation_Placeholders_PlaceholderCompilationCache.htm)|
+Кеш результатов компиляции текстов с плейсхолдерами и скриптами  
+---|---  
+[PlaceholderCompilationContext](T_Tessa_Compilation_Placeholders_PlaceholderCompilationContext.htm)|
+Контекст компиляции текста с плейсхолдерами  
+[PlaceholderCompilationDependencies](T_Tessa_Compilation_Placeholders_PlaceholderCompilationDependencies.htm)|
+Объект со всеми зависимостями, необходимыми для компиляции текста с
+плейсхолдерами внутри документов  
+[PlaceholderCompilationResult](T_Tessa_Compilation_Placeholders_PlaceholderCompilationResult.htm)|
+Результат компиляции текста с плейсхолдерами  
+[PlaceholderCompilationStorage](T_Tessa_Compilation_Placeholders_PlaceholderCompilationStorage.htm)|
+Объект, который производит сохранение, получение и удаление кешей сборок из
+базы  
+[PlaceholderCompiler](T_Tessa_Compilation_Placeholders_PlaceholderCompiler.htm)|
+Объект, производящий компиляцию текста с плейсхолдерами  
+[PlaceholderExtensionCompilationCache](T_Tessa_Compilation_Placeholders_PlaceholderExtensionCompilationCache.htm)|
+Кеш для результатов компиляции расширений плейсхолдеров
+[IPlaceholderExtensionCompilationResult](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderExtensionCompilationResult.htm)  
+[PlaceholderExtensionCompilationResult](T_Tessa_Compilation_Placeholders_PlaceholderExtensionCompilationResult.htm)|
+Результат компиляции
+[IPlaceholderExtensionCompiler](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderExtensionCompiler.htm)  
+[PlaceholderExtensionCompiler](T_Tessa_Compilation_Placeholders_PlaceholderExtensionCompiler.htm)|
+Компилятор расширений на замену плейсхолдеров  
+[PlaceholderExtensionScriptDescriptionProvider](T_Tessa_Compilation_Placeholders_PlaceholderExtensionScriptDescriptionProvider.htm)|
+Объект, осуществляюий получение
+[IPlaceholderExtensionScriptDescription](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderExtensionScriptDescription.htm)  
+[PlaceholderPreprocessor](T_Tessa_Compilation_Placeholders_PlaceholderPreprocessor.htm)|  
+[PlaceholderScriptDependencies](T_Tessa_Compilation_Placeholders_PlaceholderScriptDependencies.htm)|
+Объект со всеми зависимостями, необходимыми для выполнение скриптов
+плейсхолдеров  
+[PlaceholderScriptParser](T_Tessa_Compilation_Placeholders_PlaceholderScriptParser.htm)|
+Объект, производящий парсинг текста с плейсхолдерами в скрипт  
+[PlaceholderScriptParserResult](T_Tessa_Compilation_Placeholders_PlaceholderScriptParserResult.htm)|
+Результат парсинга текста с плейсхолдерами на скрипты

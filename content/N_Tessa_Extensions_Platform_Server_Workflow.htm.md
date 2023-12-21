@@ -1,0 +1,56 @@
+# Tessa.Extensions.Platform.Server.Workflow - пространство имён
+Расширения платформы на сервере, связанные с карточками бизнес-процессов
+Workflow.
+##  __Классы
+[BusinessProcessChangeBlockRequestExtension](T_Tessa_Extensions_Platform_Server_Workflow_BusinessProcessChangeBlockRequestExtension.htm)|
+Расширение для запроса на изменение состояния блокировки версии шаблона
+бизнес-процесса  
+---|---  
+[BusinessProcessGetBlockStatusRequestExtension](T_Tessa_Extensions_Platform_Server_Workflow_BusinessProcessGetBlockStatusRequestExtension.htm)|
+Расширение для запроса на получение статуса текущей блокировки версии или
+карточки шаблона бизнес-процесса  
+[BusinessProcessGetVersionDataRequestExtension](T_Tessa_Extensions_Platform_Server_Workflow_BusinessProcessGetVersionDataRequestExtension.htm)|
+Расширение для запроса на получение данных версии шаблона бизнес-процесса  
+[BusinessProcessSetIsDefaultRequestExtension](T_Tessa_Extensions_Platform_Server_Workflow_BusinessProcessSetIsDefaultRequestExtension.htm)|
+Расширение для запроса установки версии шаблона бизнес-процесса по умолчанию  
+[BusinessProcessTemplateExtendExtension](T_Tessa_Extensions_Platform_Server_Workflow_BusinessProcessTemplateExtendExtension.htm)|
+Расширение, осуществляющее работу с карточкой шаблона процесса, связанную с
+расширением прав доступа к тайлам.  
+[Registrator](T_Tessa_Extensions_Platform_Server_Workflow_Registrator.htm)|
+Регистратор расширений для WorkflowEngine  
+[RegistratorShared](T_Tessa_Extensions_Platform_Server_Workflow_RegistratorShared.htm)|  
+[WorkflowCheckRolesForExecutionTileManagerExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowCheckRolesForExecutionTileManagerExtension.htm)|
+Расширение прав доступа к тайлам процесса, которое проверяет доступ по ролям
+на выполнение.  
+[WorkflowEngineBackupExportExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineBackupExportExtension.htm)|
+Расширение, которое производит бекапирование процесса при удалении карточки в
+корзину и при экспорте карточки.  
+[WorkflowEngineCardMetadataExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineCardMetadataExtension.htm)|
+Расширение на метаданные для типа карточки "Шаблон бизнес-процесса". Добавляет
+в тип карточки новые секции и контролы из зарегистрированных в
+[IWorkflowEngineTileManagerExtensionRegistry](T_Tessa_Workflow_IWorkflowEngineTileManagerExtensionRegistry.htm)
+расширений на тайлы.  
+[WorkflowEngineCompiledTypesViewInterceptor](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineCompiledTypesViewInterceptor.htm)|  
+[WorkflowEngineCompilerRequestExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineCompilerRequestExtension.htm)|  
+[WorkflowEngineDeleteExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineDeleteExtension.htm)|
+Расширение, которое производит удаление процесса при удалении карточки  
+[WorkflowEngineGetSourcesRequestExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineGetSourcesRequestExtension.htm)|  
+[WorkflowEngineImportExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineImportExtension.htm)|
+Расширение, которое производит восстановление процессов при импорте карточки.  
+[WorkflowEngineProcessorRequestExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineProcessorRequestExtension.htm)|  
+[WorkflowEngineRepairExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineRepairExtension.htm)|
+Расширение для исправления структуры карточек экземпляров процессов.  
+[WorkflowEngineRestoreExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineRestoreExtension.htm)|
+Расширение, которое производит восстановление процессов при восстановлении
+карточки из корзины.  
+[WorkflowEngineStartProcessExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineStartProcessExtension.htm)|  
+[WorkflowEngineStoreExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineStoreExtension.htm)|
+Расширение на сохранение карточки для активации механизмов WorkflowEngine  
+[WorkflowEngineTileManagerExtensionsViewInterceptor](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineTileManagerExtensionsViewInterceptor.htm)|  
+[WorkflowGlobalButtonsInitializationExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowGlobalButtonsInitializationExtension.htm)|  
+[WorkflowProcessInstanceCardGetExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowProcessInstanceCardGetExtension.htm)|  
+[WorkflowServiceRequestExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowServiceRequestExtension.htm)|  
+[WorkflowTilesNewGetExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowTilesNewGetExtension.htm)|  
+[WorkflowViewsInterceptor](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowViewsInterceptor.htm)|
+Перед возвратом данных представлений по процессу проверяем доступ к этому
+процессу.

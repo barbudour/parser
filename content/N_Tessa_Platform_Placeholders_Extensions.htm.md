@@ -1,0 +1,18 @@
+# Tessa.Platform.Placeholders.Extensions - пространство имён
+## __Классы
+[PlaceholderReplaceExtension](T_Tessa_Platform_Placeholders_Extensions_PlaceholderReplaceExtension.htm)|  
+---|---  
+[PlaceholderReplaceExtensionContext](T_Tessa_Platform_Placeholders_Extensions_PlaceholderReplaceExtensionContext.htm)|
+Базовый класс контекста обработки расширений
+[IPlaceholderReplaceExtension](T_Tessa_Platform_Placeholders_Extensions_IPlaceholderReplaceExtension.htm)  
+[StringPlaceholderReplaceExtensionContext](T_Tessa_Platform_Placeholders_Extensions_StringPlaceholderReplaceExtensionContext.htm)|
+Контекст обработки расширений
+[IPlaceholderReplaceExtension](T_Tessa_Platform_Placeholders_Extensions_IPlaceholderReplaceExtension.htm)
+в текстовых документах и строках  
+## __Интерфейсы
+[IPlaceholderReplaceExtension](T_Tessa_Platform_Placeholders_Extensions_IPlaceholderReplaceExtension.htm)|
+Расширение на замену плейсхолдеров  
+---|---  
+[IPlaceholderReplaceExtensionContext](T_Tessa_Platform_Placeholders_Extensions_IPlaceholderReplaceExtensionContext.htm)|
+Контекст обработки расширений
+[IPlaceholderReplaceExtension](T_Tessa_Platform_Placeholders_Extensions_IPlaceholderReplaceExtension.htm)

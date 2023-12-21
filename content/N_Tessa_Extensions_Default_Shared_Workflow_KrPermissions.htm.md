@@ -1,0 +1,57 @@
+# Tessa.Extensions.Default.Shared.Workflow.KrPermissions - пространство имён
+Общие зависимости и константы типового решения, связанные с типовой системой
+правил доступа.
+##  __Классы
+[ClientMetadataRegistrator](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_ClientMetadataRegistrator.htm)|  
+---|---  
+[ExcludeFromSqlAttribute](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_ExcludeFromSqlAttribute.htm)|
+Аттрибут исключения флага из sql запроса  
+[KrPermissionExtendedCardSettings](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionExtendedCardSettings.htm)|  
+[KrPermissionExtendedCardSettingsStorage](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionExtendedCardSettingsStorage.htm)|  
+[KrPermissionExtensions](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionExtensions.htm)|  
+[KrPermissionFileRule](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionFileRule.htm)|  
+[KrPermissionFileSettings](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionFileSettings.htm)|  
+[KrPermissionFlagDescriptor](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionFlagDescriptor.htm)|
+Объект, содержащий информацию о текущем флаге настроек прав доступа  
+[KrPermissionFlagDescriptors](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionFlagDescriptors.htm)|  
+[KrPermissionMandatoryRule](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRule.htm)|  
+[KrPermissionMandatoryRuleStorage](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRuleStorage.htm)|  
+[KrPermissionSectionSettings](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings.htm)|
+Набор настроек для секций в правилах доступа  
+[KrPermissionSectionSettingsBuilder](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettingsBuilder.htm)|
+Билдер настроек секции с учетом приоритетов правил доступа.  
+[KrPermissionSectionSettingsStorage](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettingsStorage.htm)|  
+[KrPermissionsExtensionMetadataExtension](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsExtensionMetadataExtension.htm)|
+Расширение метаданных, модифицирующее тип карточки правила доступа.  
+[KrPermissionsHelper](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper.htm)|  
+[KrPermissionsHelper.AccessSettings](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_AccessSettings.htm)|
+Список настроек доступа к полям. Берется из таблицы
+KrPermissionRuleAccessSettings в схеме  
+[KrPermissionsHelper.ControlType](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_ControlType.htm)|
+Список типов контролов для настроек видимости  
+[KrPermissionsHelper.FileAccessSettings](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_FileAccessSettings.htm)|  
+[KrPermissionsHelper.MandatoryValidationType](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsHelper_MandatoryValidationType.htm)|
+Список типов проверки обязательности полей и секций  
+[KrPermissionsRulesRepairExtension](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionsRulesRepairExtension.htm)|
+Расширение должно выполняться перед
+[JsonRepairExtension](T_Tessa_Extensions_Platform_Shared_Cards_JsonRepairExtension.htm),
+чтобы весь объект ещё не был сериализован в строку.  
+[KrPermissionVisibilitySettingsBuilder](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionVisibilitySettingsBuilder.htm)|
+Билдер правил видимости элементов управления, который возвращает все
+добавленные правила с учетом приоритетов.  
+[KrRoleTypePermissionsManager](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrRoleTypePermissionsManager.htm)|  
+[Registrator](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_Registrator.htm)|  
+[RepairRegistrator](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_RepairRegistrator.htm)|  
+## __Структуры
+[KrPermissionVisibilitySettings](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionVisibilitySettings.htm)|  
+---|---  
+## __Интерфейсы
+[IKrPermissionExtendedCardSettings](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_IKrPermissionExtendedCardSettings.htm)|
+Описание объекта с расширенными настройками к карточке  
+---|---  
+[IKrPermissionSectionSettings](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_IKrPermissionSectionSettings.htm)|  
+[IKrPermissionSectionSettingsBuilder](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_IKrPermissionSectionSettingsBuilder.htm)|
+Билдер настроек секции с учетом приоритетов правил доступа.  
+## __Перечисления
+[EventType](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_EventType.htm)|  
+---|---

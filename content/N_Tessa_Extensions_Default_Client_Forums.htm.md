@@ -1,0 +1,24 @@
+# Tessa.Extensions.Default.Client.Forums - пространство имён
+## __Классы
+[FmSessionExecutor](T_Tessa_Extensions_Default_Client_Forums_FmSessionExecutor.htm)|  
+---|---  
+[ForumControlUIExtension](T_Tessa_Extensions_Default_Client_Forums_ForumControlUIExtension.htm)|  
+[HideForumTabUIExtension](T_Tessa_Extensions_Default_Client_Forums_HideForumTabUIExtension.htm)|  
+[KrClientForumPermissionsProvider](T_Tessa_Extensions_Default_Client_Forums_KrClientForumPermissionsProvider.htm)|
+Объект, определяющий доступ к обсуждениями на основании правил доступа типовой
+системы прав. Реализация для использования на клиенте.  
+[KrSettingsForumsSettingsUIExtension](T_Tessa_Extensions_Default_Client_Forums_KrSettingsForumsSettingsUIExtension.htm)|
+Визуальное расширение для карточки настроек типов карточек и типа документов,
+связанных с системой форумов.  
+[OpenForumContextMenuViewExtension](T_Tessa_Extensions_Default_Client_Forums_OpenForumContextMenuViewExtension.htm)|  
+[OpenForumContextMenuViewExtensionConfigurator](T_Tessa_Extensions_Default_Client_Forums_OpenForumContextMenuViewExtensionConfigurator.htm)|
+Конфигуратор расширения
+[OpenForumContextMenuViewExtension](T_Tessa_Extensions_Default_Client_Forums_OpenForumContextMenuViewExtension.htm).  
+[OpenTopicOnDoubleClickExtension](T_Tessa_Extensions_Default_Client_Forums_OpenTopicOnDoubleClickExtension.htm)|  
+[OpenTopicOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Default_Client_Forums_OpenTopicOnDoubleClickExtensionConfigurator.htm)|
+Конфигуратор расширения
+[OpenTopicOnDoubleClickExtension](T_Tessa_Extensions_Default_Client_Forums_OpenTopicOnDoubleClickExtension.htm).  
+[Registrator](T_Tessa_Extensions_Default_Client_Forums_Registrator.htm)|  
+[TopicParticipantsWorkplaceTab](T_Tessa_Extensions_Default_Client_Forums_TopicParticipantsWorkplaceTab.htm)|  
+[TopicsUIExtension](T_Tessa_Extensions_Default_Client_Forums_TopicsUIExtension.htm)|
+Класс для управления вкладкой обсуждения

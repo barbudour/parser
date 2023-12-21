@@ -1,0 +1,134 @@
+# FindAttachedFieldControlVisitor - класс
+Посещает элементы управления расположенные в типе карточки и формирует словарь
+содержащий информацию о колонках являющихся источником данных элементов
+управления расположенным на форме элемента управления типа
+[CardTypeTableControl](T_Tessa_Cards_CardTypeTableControl.htm).
+## __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Default.Client.UI](N_Tessa_Extensions_Default_Client_UI.htm)  
+ **Сборка:** Tessa.Extensions.Default.Client (в
+Tessa.Extensions.Default.Client.dll) Версия: 3.6.0.17
+C# __Копировать
+     public sealed class FindAttachedFieldControlVisitor : CardTypeVisitor
+VB __Копировать
+     Public NotInheritable Class FindAttachedFieldControlVisitor
+    	Inherits CardTypeVisitor
+C++ __Копировать
+     public ref class FindAttachedFieldControlVisitor sealed : public CardTypeVisitor
+F# __Копировать
+     [<SealedAttribute>]
+    type FindAttachedFieldControlVisitor = 
+        class
+            inherit CardTypeVisitor
+        end
+Inheritance
+    [Object](https://learn.microsoft.com/dotnet/api/system.object) __[CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm) __ FindAttachedFieldControlVisitor
+##  __Конструкторы
+[FindAttachedFieldControlVisitor](M_Tessa_Extensions_Default_Client_UI_FindAttachedFieldControlVisitor__ctor.htm)|
+Инициализирует новый экземпляр класса FindAttachedFieldControlVisitor.  
+---|---  
+## __Свойства
+[ValidationResult](P_Tessa_Cards_CardTypeVisitor_ValidationResult.htm)|
+Результат валидации, полученный посредством посещения объектов типа карточки.  
+(Унаследован от [CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm))  
+---|---  
+##  __Методы
+[BuildResultAsync](M_Tessa_Cards_CardTypeVisitor_BuildResultAsync.htm)|
+Возвращает результат валидации, полученный посредством посещения объектов типа
+карточки.  
+(Унаследован от [CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm))  
+---|---  
+[Equals](https://learn.microsoft.com/dotnet/api/system.object.equals#system-
+object-equals\(system-object\))| Determines whether the specified object is
+equal to the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[Finalize](https://learn.microsoft.com/dotnet/api/system.object.finalize#system-
+object-finalize)| Allows an object to try to free resources and perform other
+cleanup operations before it is reclaimed by garbage collection.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetColumnInfo](M_Tessa_Extensions_Default_Client_UI_FindAttachedFieldControlVisitor_GetColumnInfo.htm)|
+Возвращает словарь содержащий: ключ - имя секции; значение - коллекция,
+содержащая объекты
+[CardMetadataColumn](T_Tessa_Cards_Metadata_CardMetadataColumn.htm) с
+информацией о колонках являющихся источниками данных элементов управления.  
+[GetHashCode](https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-
+object-gethashcode)| Serves as the default hash function.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetType](https://learn.microsoft.com/dotnet/api/system.object.gettype#system-
+object-gettype)| Gets the
+[Type](https://learn.microsoft.com/dotnet/api/system.type) of the current
+instance.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[MemberwiseClone](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-
+object-memberwiseclone)| Creates a shallow copy of the current
+[Object](https://learn.microsoft.com/dotnet/api/system.object).  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[ToString](https://learn.microsoft.com/dotnet/api/system.object.tostring#system-
+object-tostring)| Returns a string that represents the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[VisitBlockAsync](M_Tessa_Cards_CardTypeVisitor_VisitBlockAsync.htm)|
+Посещает объект [Tessa.Cards.CardTypeBlock] в типе карточки.  
+(Унаследован от [CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm))  
+[VisitColumnAsync](M_Tessa_Cards_CardTypeVisitor_VisitColumnAsync.htm)|
+Посещает объект [Tessa.Cards.CardTypeColumn] в типе карточки.  
+(Унаследован от [CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm))  
+[VisitCompletionOptionAsync](M_Tessa_Cards_CardTypeVisitor_VisitCompletionOptionAsync.htm)|
+Посещает объект [Tessa.Cards.CardTypeCompletionOption] в типе карточки.  
+(Унаследован от [CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm))  
+[VisitControlAsync](M_Tessa_Extensions_Default_Client_UI_FindAttachedFieldControlVisitor_VisitControlAsync.htm)|
+Посещает объект [Tessa.Cards.CardTypeControl] в типе карточки.  
+(Переопределяет [CardTypeVisitor.VisitControlAsync(CardTypeControl,
+CardTypeBlock, CardTypeForm, CardType,
+CancellationToken)](M_Tessa_Cards_CardTypeVisitor_VisitControlAsync.htm))  
+[VisitExtensionAsync](M_Tessa_Cards_CardTypeVisitor_VisitExtensionAsync.htm)|
+Посещает объект [Tessa.Cards.CardTypeExtension] в типе карточки.  
+(Унаследован от [CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm))  
+[VisitNamedFormAsync](M_Tessa_Cards_CardTypeVisitor_VisitNamedFormAsync.htm)|
+Посещает объект [Tessa.Cards.CardTypeNamedForm] в типе карточки.  
+(Унаследован от [CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm))  
+[VisitSchemeItemAsync](M_Tessa_Cards_CardTypeVisitor_VisitSchemeItemAsync.htm)|
+Посещает объект [Tessa.Cards.CardTypeSchemeItem] в типе карточки.  
+(Унаследован от [CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm))  
+[VisitTabFormAsync](M_Tessa_Cards_CardTypeVisitor_VisitTabFormAsync.htm)|
+Посещает объект [Tessa.Cards.CardTypeTabForm] в типе карточки.  
+(Унаследован от [CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm))  
+[VisitTableFormAsync](M_Tessa_Cards_CardTypeVisitor_VisitTableFormAsync.htm)|
+Посещает объект [Tessa.Cards.CardTypeTableForm] в типе карточки.  
+(Унаследован от [CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm))  
+[VisitTypeFormAsync](M_Tessa_Cards_CardTypeVisitor_VisitTypeFormAsync.htm)|
+Посещает основную форму [Tessa.Cards.CardTypeTabForm] в типе карточки.  
+(Унаследован от [CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm))  
+[VisitValidatorAsync(CardTypeValidator, CardType,
+CancellationToken)](M_Tessa_Cards_CardTypeVisitor_VisitValidatorAsync.htm)|
+Посещает объект [Tessa.Cards.CardTypeValidator] в типе карточки.  
+(Унаследован от [CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm))  
+[VisitValidatorAsync(CardTypeValidator, CardTypeCompletionOption, CardType,
+CancellationToken)](M_Tessa_Cards_CardTypeVisitor_VisitValidatorAsync_1.htm)|
+Посещает объект [Tessa.Cards.CardTypeValidator] в типе карточки для варианта
+завершения.  
+(Унаследован от [CardTypeVisitor](T_Tessa_Cards_CardTypeVisitor.htm))  
+##  __Методы расширения
+[Get](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Get.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+---|---  
+[InternalMarkerCanvas](M_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor_InternalMarkerCanvas.htm)|
+Возвращает маркер аннотации  
+(Определяется
+[AnnotationInternalsAccessor](T_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor.htm))  
+[Invoke](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Invoke.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+[Set](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Set.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+##  __См. также
+#### Ссылки
+[Tessa.Extensions.Default.Client.UI - пространство
+имён](N_Tessa_Extensions_Default_Client_UI.htm)

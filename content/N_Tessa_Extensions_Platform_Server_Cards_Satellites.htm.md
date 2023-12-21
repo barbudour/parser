@@ -1,0 +1,41 @@
+# Tessa.Extensions.Platform.Server.Cards.Satellites - пространство имён
+## __Классы
+[ForumSatelliteTransferRepairExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_ForumSatelliteTransferRepairExtension.htm)|  
+---|---  
+[PersonalRoleSatelliteTransferRepairExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_PersonalRoleSatelliteTransferRepairExtension.htm)|  
+[Registrator](T_Tessa_Extensions_Platform_Server_Cards_Satellites_Registrator.htm)|  
+[RegistratorShared](T_Tessa_Extensions_Platform_Server_Cards_Satellites_RegistratorShared.htm)|  
+[SatelliteTypeDescriptor](T_Tessa_Extensions_Platform_Server_Cards_Satellites_SatelliteTypeDescriptor.htm)|
+Объект с описанием типа сателлита.  
+[SatelliteTypeDescriptors](T_Tessa_Extensions_Platform_Server_Cards_Satellites_SatelliteTypeDescriptors.htm)|
+Дескриптора платформенных сателлитов.  
+[SatelliteTypeRegistry](T_Tessa_Extensions_Platform_Server_Cards_Satellites_SatelliteTypeRegistry.htm)|  
+[UniversalSatelliteBackupExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_UniversalSatelliteBackupExtension.htm)|
+Расширение для загрузки сателлитов при удалении карточки в корзину.  
+[UniversalSatelliteDeleteExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_UniversalSatelliteDeleteExtension.htm)|
+Расширение для удаления сателлитов при удалении карточки.  
+[UniversalSatelliteExportExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_UniversalSatelliteExportExtension.htm)|
+Расширение для загрузки сателлитов при экспорте карточки.  
+[UniversalSatelliteGetExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_UniversalSatelliteGetExtension.htm)|
+Расширение для загрузки сателлита по идентификатору задания или карточки (в
+т.ч. создание виртуального сателлита), а также заполняем поля сателлита после
+успешной загрузки.  
+[UniversalSatelliteGetFileContentExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_UniversalSatelliteGetFileContentExtension.htm)|
+Расширения для получения контента файла карточки-сателлита.  
+[UniversalSatelliteGetFileVersionsExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_UniversalSatelliteGetFileVersionsExtension.htm)|
+Расширения для получения версий файла карточки-сателлита.  
+[UniversalSatelliteImportExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_UniversalSatelliteImportExtension.htm)|
+Расширение на импорт карточки с сателлитами.  
+[UniversalSatelliteNewExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_UniversalSatelliteNewExtension.htm)|
+Расширение, которое заполняет секцию с информацией о сателлите при его
+создании.  
+[UniversalSatelliteRepairExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_UniversalSatelliteRepairExtension.htm)|
+Расширение для исправления структуры карточек-сателлитов.  
+[UniversalSatelliteRestoreExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_UniversalSatelliteRestoreExtension.htm)|
+Расширение для создания восстановленных сателлитов при восстановлении карточки
+из корзины.  
+[UniversalSatelliteStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_UniversalSatelliteStoreExtension.htm)|
+Расширение по сохранению карточки-сателлита.  
+## __Интерфейсы
+[ISatelliteTypeRegistry](T_Tessa_Extensions_Platform_Server_Cards_Satellites_ISatelliteTypeRegistry.htm)|  
+---|---

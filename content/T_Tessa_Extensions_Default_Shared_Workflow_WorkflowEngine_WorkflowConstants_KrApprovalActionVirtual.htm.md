@@ -1,0 +1,46 @@
+# WorkflowConstants.KrApprovalActionVirtual - класс
+##  __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)  
+ **Сборка:** Tessa.Extensions.Default.Shared (в
+Tessa.Extensions.Default.Shared.dll) Версия: 3.6.0.17
+C# __Копировать
+     public static class KrApprovalActionVirtual
+VB __Копировать
+     Public NotInheritable Class KrApprovalActionVirtual
+C++ __Копировать
+     public ref class KrApprovalActionVirtual abstract sealed
+F# __Копировать
+     [<AbstractClassAttribute>]
+    [<SealedAttribute>]
+    type KrApprovalActionVirtual = class end
+Inheritance
+    [Object](https://learn.microsoft.com/dotnet/api/system.object) __ WorkflowConstants.KrApprovalActionVirtual
+##  __Поля
+[Author](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_Author.htm)|  
+---|---  
+[CanEditAnyFiles](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_CanEditAnyFiles.htm)|  
+[CanEditCard](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_CanEditCard.htm)|  
+[ChangeStateOnEnd](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_ChangeStateOnEnd.htm)|  
+[ChangeStateOnStart](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_ChangeStateOnStart.htm)|  
+[Digest](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_Digest.htm)|  
+[ExcludeDeputies](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_ExcludeDeputies.htm)|  
+[ExcludeSubscribers](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_ExcludeSubscribers.htm)|  
+[ExpectAllApprovers](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_ExpectAllApprovers.htm)|  
+[InitTaskScript](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_InitTaskScript.htm)|  
+[IsAdvisory](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_IsAdvisory.htm)|  
+[IsDisableAutoApproval](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_IsDisableAutoApproval.htm)|  
+[IsParallel](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_IsParallel.htm)|  
+[Kind](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_Kind.htm)|  
+[Notification](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_Notification.htm)|  
+[NotificationScript](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_NotificationScript.htm)|  
+[Period](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_Period.htm)|  
+[Planned](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_Planned.htm)|  
+[Result](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_Result.htm)|  
+[ReturnWhenApproved](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_ReturnWhenApproved.htm)|  
+[SectionName](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_SectionName.htm)|  
+[SqlPerformersScript](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrApprovalActionVirtual_SqlPerformersScript.htm)|  
+## __См. также
+#### Ссылки
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)

@@ -1,0 +1,113 @@
+# Tessa.Extensions.Default.Server.Workflow.KrPermissions - пространство имён
+Расширения типового решения на сервере, связанные с системой типовых правил
+доступа.
+##  __Классы
+[KrCardTaskTypePermissionFilterPolicy](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrCardTaskTypePermissionFilterPolicy.htm)|  
+---|---  
+[KrCardTypePermissionFilterPolicy](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrCardTypePermissionFilterPolicy.htm)|  
+[KrGetUnavailableTypesForCreationGetExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrGetUnavailableTypesForCreationGetExtension.htm)|  
+[KrPermissionRuleSettings](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionRuleSettings.htm)|
+Настройки правил доступа  
+[KrPermissionsCacheContainer](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsCacheContainer.htm)|
+Контейнер кеша правил доступа.  
+[KrPermissionsCreateContextParams](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsCreateContextParams.htm)|
+Объект с параметрами для создания контекста в
+[IKrPermissionsManager](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsManager.htm).  
+[KrPermissionsDeleteExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsDeleteExtension.htm)|
+Расширение должно выполняться до того, как будут удалены  
+[KrPermissionsDescriptor](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsDescriptor.htm)|  
+[KrPermissionsFlagsViewInterceptor](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsFlagsViewInterceptor.htm)|  
+[KrPermissionsLockStrategy](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsLockStrategy.htm)|
+Объект для получения блокировок на чтение и записи правил доступа  
+[KrPermissionsManager](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsManager.htm)|
+Объект, который выполняет проверку прав доступа  
+[KrPermissionsManagerCheckResult](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsManagerCheckResult.htm)|  
+[KrPermissionsManagerContext](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsManagerContext.htm)|
+Контекст проверки прав доступа с дополнительной информацией для перерасчета
+токена  
+[KrPermissionsManagerResult](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsManagerResult.htm)|
+Результат выполнения проверки прав доступа в
+[IKrPermissionsManager](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsManager.htm)  
+[KrPermissionsMaskDataGetExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsMaskDataGetExtension.htm)|  
+[KrPermissionsMaskGenerator](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsMaskGenerator.htm)|
+Объект, который генерирует маску для замаскированных данных  
+[KrPermissionsNewGetExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsNewGetExtension.htm)|
+Расширение на создание и получение карточки, которое рассчитывает доступ к
+карточке.  
+[KrPermissionsRuleExtensionContext](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsRuleExtensionContext.htm)|
+Контекст проверки прав доступа с дополнительной информацией для перерасчета
+токена  
+[KrPermissionsRulesExportExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsRulesExportExtension.htm)|
+При экспорте карточки "Правила доступа" очищает строковые поля для
+представления. Поля будут заполнены в расширении
+[KrPermissionsRulesStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsRulesStoreExtension.htm),
+которое также выполняется и на импорт. Десериализует настройки в таблице с
+условиями так, чтобы они выгружались в файл как единый json вместо строки с
+json.  
+[KrPermissionsRulesStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsRulesStoreExtension.htm)|
+При сохранении карточки "Правила доступа" прописывает флаг IsContext для всех
+ролей, а также выполняет изменение строковых полей для представления во
+вложенном сохранении.  
+[KrPermissionsStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsStoreExtension.htm)|  
+[KrPermissionsViewInterceptor](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsViewInterceptor.htm)|  
+[KrPermissionTestExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionTestExtension.htm)|
+Данный класс является примером расширений
+[IKrPermissionsRuleExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsRuleExtension.htm)
+и
+[ICardPermissionsExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_ICardPermissionsExtension.htm)
+Чтобы включить данные расширения необходимо из зарегистрировать в
+[IExtensionContainer](T_Tessa_Extensions_IExtensionContainer.htm)  
+[KrProcessTasksPermissionsExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrProcessTasksPermissionsExtension.htm)|
+Расширение на проверку прав доступа по заданию отправленному из подсистемы
+маршрутов. Выдаёт права на редактирование карточки и приложенных файлов.  
+[KrRequestCalculateFullCardPermissionExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrRequestCalculateFullCardPermissionExtension.htm)|
+Расширение прав доступа, которое добавляет в список запрашиваемых прав доступа
+все права, если состояние карточки
+[Draft](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrState_Draft.htm)  
+[KrWarnCannotCreateWhenCreatingTemplate](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrWarnCannotCreateWhenCreatingTemplate.htm)|
+Расширение проверяет воможность создания карточки текущим пользователем по
+создаваемому шаблону и, если прав для создание карточки по этому шаблону
+недостаточно, предупреждает пользователя об этом.  
+[Registrator](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_Registrator.htm)|  
+[TaskPermissionsExtensionContext](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_TaskPermissionsExtensionContext.htm)|
+Контекст проверки прав доступа с дополнительной информацией для перерасчета
+токена  
+## __Интерфейсы
+[ICardPermissionsExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_ICardPermissionsExtension.htm)|
+Расширение прав на карточку  
+---|---  
+[IKrPermissionRuleSettings](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionRuleSettings.htm)|
+Настройки правил доступа  
+[IKrPermissionsCache](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsCache.htm)|
+Кеш настроек правил доступа  
+[IKrPermissionsCacheContainer](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsCacheContainer.htm)|
+Контейнер кеша правил доступа.  
+[IKrPermissionsLockStrategy](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsLockStrategy.htm)|
+Объект для получения блокировок на чтение и записи правил доступа  
+[IKrPermissionsManager](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsManager.htm)|
+Объект, который выполняет проверку прав доступа  
+[IKrPermissionsManagerContext](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsManagerContext.htm)|
+Объект контекста менеджера проверки прав доступа
+[IKrPermissionsManager](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsManager.htm).  
+[IKrPermissionsManagerResult](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsManagerResult.htm)|
+Результат выполнения проверки прав доступа в
+[IKrPermissionsManager](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsManager.htm)  
+[IKrPermissionsMaskGenerator](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsMaskGenerator.htm)|
+Объект, который генерирует маску для замаскированных данных  
+[IKrPermissionsRecalcContext](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsRecalcContext.htm)|
+Контекст проверки прав доступа с дополнительной информацией для перерасчета
+токена  
+[IKrPermissionsRuleExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsRuleExtension.htm)|
+Расширение проверки прав по карточке правил доступа  
+[IKrPermissionsRuleExtensionContext](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsRuleExtensionContext.htm)|
+Контекст расширения проверки прав по правилам доступа  
+[ITaskPermissionsExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_ITaskPermissionsExtension.htm)|
+Расширение проверки прав доступа по заданию  
+[ITaskPermissionsExtensionContext](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_ITaskPermissionsExtensionContext.htm)|
+Контекст расширения проверки прав доступа по заданию  
+## __Перечисления
+[KrPermissionsCheckMode](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsCheckMode.htm)|
+Список режимов проверки прав доступа. Определяет методы проверки прав доступа
+в
+[IKrPermissionsManager](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_IKrPermissionsManager.htm)  
+---|---

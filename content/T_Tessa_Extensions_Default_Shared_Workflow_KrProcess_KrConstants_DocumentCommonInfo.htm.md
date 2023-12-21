@@ -1,0 +1,64 @@
+# KrConstants.DocumentCommonInfo - класс
+##  __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)  
+ **Сборка:** Tessa.Extensions.Default.Shared (в
+Tessa.Extensions.Default.Shared.dll) Версия: 3.6.0.17
+C# __Копировать
+     public static class DocumentCommonInfo
+VB __Копировать
+     Public NotInheritable Class DocumentCommonInfo
+C++ __Копировать
+     public ref class DocumentCommonInfo abstract sealed
+F# __Копировать
+     [<AbstractClassAttribute>]
+    [<SealedAttribute>]
+    type DocumentCommonInfo = class end
+Inheritance
+    [Object](https://learn.microsoft.com/dotnet/api/system.object) __ KrConstants.DocumentCommonInfo
+##  __Поля
+[Amount](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_Amount.htm)|  
+---|---  
+[AuthorID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_AuthorID.htm)|  
+[AuthorName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_AuthorName.htm)|  
+[Barcode](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_Barcode.htm)|  
+[CardTypeID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_CardTypeID.htm)|  
+[CategoryID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_CategoryID.htm)|  
+[CategoryName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_CategoryName.htm)|  
+[CreationDate](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_CreationDate.htm)|  
+[CurrencyID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_CurrencyID.htm)|  
+[CurrencyName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_CurrencyName.htm)|  
+[DepartmentID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_DepartmentID.htm)|  
+[DepartmentName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_DepartmentName.htm)|  
+[DocDate](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_DocDate.htm)|  
+[DocTypeID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_DocTypeID.htm)|  
+[DocTypeTitle](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_DocTypeTitle.htm)|  
+[FullNumber](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_FullNumber.htm)|  
+[ID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_ID.htm)|  
+[Name](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_Name.htm)|  
+[Number](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_Number.htm)|  
+[OutgoingNumber](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_OutgoingNumber.htm)|  
+[PartnerID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_PartnerID.htm)|  
+[PartnerName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_PartnerName.htm)|  
+[ReceiverName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_ReceiverName.htm)|  
+[ReceiverRowID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_ReceiverRowID.htm)|  
+[RefDocDescription](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_RefDocDescription.htm)|  
+[RefDocID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_RefDocID.htm)|  
+[RegistratorID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_RegistratorID.htm)|  
+[RegistratorName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_RegistratorName.htm)|  
+[SecondaryFullNumber](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_SecondaryFullNumber.htm)|  
+[SecondaryFullNumberID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_SecondaryFullNumberID.htm)|  
+[SecondaryNumber](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_SecondaryNumber.htm)|  
+[SecondaryNumberID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_SecondaryNumberID.htm)|  
+[SecondarySequence](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_SecondarySequence.htm)|  
+[SecondarySequenceID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_SecondarySequenceID.htm)|  
+[Sequence](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_Sequence.htm)|  
+[SignedByID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_SignedByID.htm)|  
+[SignedByName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_SignedByName.htm)|  
+[StateID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_StateID.htm)|  
+[StateName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_StateName.htm)|  
+[Subject](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_DocumentCommonInfo_Subject.htm)|  
+## __См. также
+#### Ссылки
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

@@ -1,0 +1,39 @@
+# Tessa.Extensions.Platform.Client.UI.TableViewExtension - пространство имён
+## __Классы
+[CardTableViewControlViewModel](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_CardTableViewControlViewModel.htm)|
+Модель-представление для элемента управления отображающего таблицу в
+представление в карточках.  
+---|---  
+[CardTableViewInitializationStrategy](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_CardTableViewInitializationStrategy.htm)|
+стратегия инициализации таблицы в представлении  
+[MakeViewTableControlUIExtension](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_MakeViewTableControlUIExtension.htm)|
+Реализация расширения типа карточки для добавления представлению функционала
+таблицы  
+[MoveButtonBase](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_MoveButtonBase.htm)|  
+[MoveDownButton](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_MoveDownButton.htm)|
+Кнопка использьзуется в
+[CardTableViewControlViewModel](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_CardTableViewControlViewModel.htm)
+для перемещения строк вниз (увеличения Order-а)  
+[MoveUpButton](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_MoveUpButton.htm)|
+Кнопка используется в
+[CardTableViewControlViewModel](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_CardTableViewControlViewModel.htm)
+для перемещения строк вверх (уменьшения Order-а)  
+[SortByOrderButton](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_SortByOrderButton.htm)|
+Кнопка использьзуется в
+[CardTableViewControlViewModel](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_CardTableViewControlViewModel.htm)
+сортировки строк по Order-у. По факту, сбрасывает текущую сортировку и
+вызывает рефреш.  
+[TableViewRowAddingEventArgs](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_TableViewRowAddingEventArgs.htm)|
+Аргументы события, происходящего перед добавлением строки в таблице
+[CardTableViewControlViewModel](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_CardTableViewControlViewModel.htm).  
+[TableViewRowChangedEventArgs](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_TableViewRowChangedEventArgs.htm)|
+Аргументы изменения строки таблицы-предствления  
+[TableViewRowEventArgs](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_TableViewRowEventArgs.htm)|
+Аргументы события, происходящего для строки в таблице
+[CardTableViewControlViewModel](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_CardTableViewControlViewModel.htm).  
+[TableViewSorting](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_TableViewSorting.htm)|
+Сортировка, которая может сортировать только по одному столбцу.  
+## __Перечисления
+[TableViewRowChangeType](T_Tessa_Extensions_Platform_Client_UI_TableViewExtension_TableViewRowChangeType.htm)|
+Типы изменений, проиходящих со строкой таблицы-представления.  
+---|---

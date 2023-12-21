@@ -1,0 +1,17 @@
+# KrPermissionSectionSettingsStorage - конструктор
+##  __Список перегрузок
+[KrPermissionSectionSettingsStorage(Dictionary<String,
+Object>)](M_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettingsStorage__ctor.htm)|
+Инициализирует новый экземпляр класса
+[KrPermissionSectionSettingsStorage](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettingsStorage.htm)  
+---|---  
+[KrPermissionSectionSettingsStorage(SerializationInfo,
+StreamingContext)](M_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettingsStorage__ctor_1.htm)|
+Инициализирует новый экземпляр класса
+[KrPermissionSectionSettingsStorage](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettingsStorage.htm)  
+##  __См. также
+#### Ссылки
+[KrPermissionSectionSettingsStorage -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettingsStorage.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrPermissions - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrPermissions.htm)

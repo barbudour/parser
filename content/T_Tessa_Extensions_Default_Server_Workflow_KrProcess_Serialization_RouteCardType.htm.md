@@ -1,0 +1,24 @@
+# RouteCardType - перечисление
+Перечисление типов карточек маршрута.
+## __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.Serialization](N_Tessa_Extensions_Default_Server_Workflow_KrProcess_Serialization.htm)  
+ **Сборка:** Tessa.Extensions.Default.Server (в
+Tessa.Extensions.Default.Server.dll) Версия: 3.6.0.17
+C# __Копировать
+     public enum RouteCardType
+VB __Копировать
+     Public Enumeration RouteCardType
+C++ __Копировать
+     public enum class RouteCardType
+F# __Копировать
+     type RouteCardType
+##  __Члены
+Template| 0|  Карточка шаблона маршрута.  
+---|---|---  
+Document| 1|  Карточка документа.  
+## __См. также
+#### Ссылки
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.Serialization -
+пространство
+имён](N_Tessa_Extensions_Default_Server_Workflow_KrProcess_Serialization.htm)

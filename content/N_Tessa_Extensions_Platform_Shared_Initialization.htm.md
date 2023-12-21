@@ -1,0 +1,19 @@
+# Tessa.Extensions.Platform.Shared.Initialization - пространство имён
+Общие зависимости и константы платформы, связанные с инициализацией
+приложений.
+##  __Классы
+[AllTablesMetadataClientInitializationExtension](T_Tessa_Extensions_Platform_Shared_Initialization_AllTablesMetadataClientInitializationExtension.htm)|  
+---|---  
+[CardClientInitializationExtension](T_Tessa_Extensions_Platform_Shared_Initialization_CardClientInitializationExtension.htm)|  
+[ConditionTypesClientInitializationExtension](T_Tessa_Extensions_Platform_Shared_Initialization_ConditionTypesClientInitializationExtension.htm)|
+Клиентское расширение на инициализацию типов условий для получения их на
+клиенте от сервера при загрузке приложения.  
+[ExtensionAssembliesClientInitializationExtension](T_Tessa_Extensions_Platform_Shared_Initialization_ExtensionAssembliesClientInitializationExtension.htm)|
+Загружает информацию по сборкам расширений, загруженным на сервере, и
+регистрирует её в объекте
+[IExtensionAssemblyInfo](T_Tessa_Extensions_IExtensionAssemblyInfo.htm).  
+[InitializationExtensionHelper](T_Tessa_Extensions_Platform_Shared_Initialization_InitializationExtensionHelper.htm)|
+Вспомогательные поля и методы для выполнения инициализации приложения.  
+[LicenseClientInitializationExtension](T_Tessa_Extensions_Platform_Shared_Initialization_LicenseClientInitializationExtension.htm)|  
+[Registrator](T_Tessa_Extensions_Platform_Shared_Initialization_Registrator.htm)|  
+[SingletonClientInitializationExtension](T_Tessa_Extensions_Platform_Shared_Initialization_SingletonClientInitializationExtension.htm)|

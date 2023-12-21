@@ -1,0 +1,15 @@
+# Tessa.Extensions.Platform.Server.BusinessCalendar - пространство имён
+Расширения платформы на сервере, связанные с бизнес-календарём.
+##  __Классы
+[AddWorkingDaysToDateExactRequestExtension](T_Tessa_Extensions_Platform_Server_BusinessCalendar_AddWorkingDaysToDateExactRequestExtension.htm)|  
+---|---  
+[AddWorkingDaysToDateRequestExtension](T_Tessa_Extensions_Platform_Server_BusinessCalendar_AddWorkingDaysToDateRequestExtension.htm)|  
+[AddWorkingQuantsToDateRequestExtension](T_Tessa_Extensions_Platform_Server_BusinessCalendar_AddWorkingQuantsToDateRequestExtension.htm)|  
+[GetDateDiffRequestExtension](T_Tessa_Extensions_Platform_Server_BusinessCalendar_GetDateDiffRequestExtension.htm)|  
+[GetFirstQuantStartRequestExtension](T_Tessa_Extensions_Platform_Server_BusinessCalendar_GetFirstQuantStartRequestExtension.htm)|  
+[GetLastQuantEndRequestExtension](T_Tessa_Extensions_Platform_Server_BusinessCalendar_GetLastQuantEndRequestExtension.htm)|  
+[GetRoleUtcOffsetRequestExtension](T_Tessa_Extensions_Platform_Server_BusinessCalendar_GetRoleUtcOffsetRequestExtension.htm)|  
+[IsWorkTimeRequestExtension](T_Tessa_Extensions_Platform_Server_BusinessCalendar_IsWorkTimeRequestExtension.htm)|  
+[RebuildCalendarRequestExtension](T_Tessa_Extensions_Platform_Server_BusinessCalendar_RebuildCalendarRequestExtension.htm)|  
+[Registrator](T_Tessa_Extensions_Platform_Server_BusinessCalendar_Registrator.htm)|  
+[ValidateCalendarRequestExtension](T_Tessa_Extensions_Platform_Server_BusinessCalendar_ValidateCalendarRequestExtension.htm)|

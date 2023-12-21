@@ -1,0 +1,25 @@
+# NumberEventType.Registry - свойство
+Реестр, содержащий все зарегистрированные типы.
+##  __Definition
+ **Пространство имён:** [Tessa.Cards.Numbers](N_Tessa_Cards_Numbers.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     protected override IRegistry<Guid, NumberEventType> Registry { get; }
+VB __Копировать
+     Protected Overrides ReadOnly Property Registry As IRegistry(Of Guid, NumberEventType)
+    	Get
+C++ __Копировать
+     protected:
+    virtual property IRegistry<Guid, NumberEventType^>^ Registry {
+    	IRegistry<Guid, NumberEventType^>^ get () override;
+    }
+F# __Копировать
+     abstract Registry : IRegistry<Guid, NumberEventType> with get
+    override Registry : IRegistry<Guid, NumberEventType> with get
+#### Значение свойства
+[IRegistry](T_Tessa_Platform_IRegistry_2.htm)<[Guid](https://learn.microsoft.com/dotnet/api/system.guid),
+[NumberEventType](T_Tessa_Cards_Numbers_NumberEventType.htm)>
+##  __См. также
+#### Ссылки
+[NumberEventType - ](T_Tessa_Cards_Numbers_NumberEventType.htm)
+[Tessa.Cards.Numbers - пространство имён](N_Tessa_Cards_Numbers.htm)

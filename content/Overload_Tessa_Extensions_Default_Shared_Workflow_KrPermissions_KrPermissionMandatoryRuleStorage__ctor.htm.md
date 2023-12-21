@@ -1,0 +1,21 @@
+# KrPermissionMandatoryRuleStorage - конструктор
+##  __Список перегрузок
+[KrPermissionMandatoryRuleStorage(Dictionary<String,
+Object>)](M_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRuleStorage__ctor.htm)|
+Инициализирует новый экземпляр класса
+[KrPermissionMandatoryRuleStorage](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRuleStorage.htm)  
+---|---  
+[KrPermissionMandatoryRuleStorage(Guid,
+IEnumerable<Guid>)](M_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRuleStorage__ctor_1.htm)|
+Инициализирует новый экземпляр класса
+[KrPermissionMandatoryRuleStorage](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRuleStorage.htm)  
+[KrPermissionMandatoryRuleStorage(SerializationInfo,
+StreamingContext)](M_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRuleStorage__ctor_2.htm)|
+Инициализирует новый экземпляр класса
+[KrPermissionMandatoryRuleStorage](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRuleStorage.htm)  
+##  __См. также
+#### Ссылки
+[KrPermissionMandatoryRuleStorage -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRuleStorage.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrPermissions - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrPermissions.htm)

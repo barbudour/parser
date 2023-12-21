@@ -1,0 +1,27 @@
+# ApplicationRegistrationException - конструктор
+##  __Список перегрузок
+[ApplicationRegistrationException()](M_Tessa_Applications_Services_PlatformApplication_ApplicationRegistrationException__ctor.htm)|
+Initializes a new instance of the
+[ApplicationRegistrationException](T_Tessa_Applications_Services_PlatformApplication_ApplicationRegistrationException.htm)
+class.  
+---|---  
+[ApplicationRegistrationException(String)](M_Tessa_Applications_Services_PlatformApplication_ApplicationRegistrationException__ctor_2.htm)|
+Initializes a new instance of the
+[ApplicationRegistrationException](T_Tessa_Applications_Services_PlatformApplication_ApplicationRegistrationException.htm)
+class.  
+[ApplicationRegistrationException(SerializationInfo,
+StreamingContext)](M_Tessa_Applications_Services_PlatformApplication_ApplicationRegistrationException__ctor_1.htm)|
+Initializes a new instance of the
+[ApplicationRegistrationException](T_Tessa_Applications_Services_PlatformApplication_ApplicationRegistrationException.htm)
+class.  
+[ApplicationRegistrationException(String,
+Exception)](M_Tessa_Applications_Services_PlatformApplication_ApplicationRegistrationException__ctor_3.htm)|
+Initializes a new instance of the
+[ApplicationRegistrationException](T_Tessa_Applications_Services_PlatformApplication_ApplicationRegistrationException.htm)
+class.  
+## __См. также
+#### Ссылки
+[ApplicationRegistrationException -
+](T_Tessa_Applications_Services_PlatformApplication_ApplicationRegistrationException.htm)
+[Tessa.Applications.Services.PlatformApplication - пространство
+имён](N_Tessa_Applications_Services_PlatformApplication.htm)

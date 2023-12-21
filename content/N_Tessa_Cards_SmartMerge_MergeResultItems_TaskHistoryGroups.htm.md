@@ -1,0 +1,10 @@
+# Tessa.Cards.SmartMerge.MergeResultItems.TaskHistoryGroups - пространство
+имён
+## __Классы
+[DeleteTaskHistoryGroupsMergeResultItem](T_Tessa_Cards_SmartMerge_MergeResultItems_TaskHistoryGroups_DeleteTaskHistoryGroupsMergeResultItem.htm)|
+Применяет результат слияния для удаления TaskHistoryItem из карточки  
+---|---  
+[InsertTaskHistoryGroupsMergeResultItem](T_Tessa_Cards_SmartMerge_MergeResultItems_TaskHistoryGroups_InsertTaskHistoryGroupsMergeResultItem.htm)|
+Применяет результат слияния для добавления TaskHistoryGroup в карточку  
+[TaskHistoryGroupsMergeResultItemBase](T_Tessa_Cards_SmartMerge_MergeResultItems_TaskHistoryGroups_TaskHistoryGroupsMergeResultItemBase.htm)|
+Базовый ResultItem для групп истории заданий

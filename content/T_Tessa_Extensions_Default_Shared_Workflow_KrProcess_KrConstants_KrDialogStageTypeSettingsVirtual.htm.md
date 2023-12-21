@@ -1,0 +1,44 @@
+# KrConstants.KrDialogStageTypeSettingsVirtual - класс
+##  __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)  
+ **Сборка:** Tessa.Extensions.Default.Shared (в
+Tessa.Extensions.Default.Shared.dll) Версия: 3.6.0.17
+C# __Копировать
+     public static class KrDialogStageTypeSettingsVirtual
+VB __Копировать
+     Public NotInheritable Class KrDialogStageTypeSettingsVirtual
+C++ __Копировать
+     public ref class KrDialogStageTypeSettingsVirtual abstract sealed
+F# __Копировать
+     [<AbstractClassAttribute>]
+    [<SealedAttribute>]
+    type KrDialogStageTypeSettingsVirtual = class end
+Inheritance
+    [Object](https://learn.microsoft.com/dotnet/api/system.object) __ KrConstants.KrDialogStageTypeSettingsVirtual
+##  __Поля
+[ButtonName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_ButtonName.htm)|  
+---|---  
+[CardStoreModeID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_CardStoreModeID.htm)|  
+[CardStoreModeName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_CardStoreModeName.htm)|  
+[DialogActionScript](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_DialogActionScript.htm)|  
+[DialogAlias](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_DialogAlias.htm)|  
+[DialogCardSavingScript](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_DialogCardSavingScript.htm)|  
+[DialogName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_DialogName.htm)|  
+[DialogTypeCaption](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_DialogTypeCaption.htm)|  
+[DialogTypeID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_DialogTypeID.htm)|  
+[DialogTypeName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_DialogTypeName.htm)|  
+[DisplayValue](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_DisplayValue.htm)|  
+[IsCloseWithoutConfirmation](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_IsCloseWithoutConfirmation.htm)|  
+[KeepFiles](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_KeepFiles.htm)|  
+[Name](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_Name.htm)|  
+[NotDisplayTabs](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_NotDisplayTabs.htm)|  
+[OpenModeID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_OpenModeID.htm)|  
+[OpenModeName](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_OpenModeName.htm)|  
+[TaskDigest](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_TaskDigest.htm)|  
+[TemplateCaption](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_TemplateCaption.htm)|  
+[TemplateID](F_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrConstants_KrDialogStageTypeSettingsVirtual_TemplateID.htm)|  
+## __См. также
+#### Ссылки
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

@@ -1,0 +1,19 @@
+# ICardMergeOptions - свойства
+##  __Свойства
+[FileSettings](P_Tessa_Cards_SmartMerge_ICardMergeOptions_FileSettings.htm)|
+Параметры слияния для прикрепленных файлов  
+---|---  
+[IgnoreDuplicateRows](P_Tessa_SmartMerge_IMergeOptions_IgnoreDuplicateRows.htm)|
+Отвечает за логику в случае более одного совпадения по ключевым полям на одном
+"тир-уровне", true - игнорировать дубликаты, false - логика зависит от
+реализации (например инсертить дубликаты с занесением как Warning в
+ValidationResult)  
+(Унаследован от [IMergeOptions](T_Tessa_SmartMerge_IMergeOptions.htm))  
+[SectionsSettings](P_Tessa_Cards_SmartMerge_ICardMergeOptions_SectionsSettings.htm)|
+Список параметров слияния для секций  
+[SkipIfCardExists](P_Tessa_Cards_SmartMerge_ICardMergeOptions_SkipIfCardExists.htm)|
+Пропустить импорт, если карточка уже существует в БД.  
+## __См. также
+#### Ссылки
+[ICardMergeOptions - ](T_Tessa_Cards_SmartMerge_ICardMergeOptions.htm)
+[Tessa.Cards.SmartMerge - пространство имён](N_Tessa_Cards_SmartMerge.htm)

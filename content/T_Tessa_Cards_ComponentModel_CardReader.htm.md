@@ -1,0 +1,108 @@
+# CardReader - класс
+Обеспечивает чтение данных из потока карточки.
+## __Definition
+ **Пространство имён:**
+[Tessa.Cards.ComponentModel](N_Tessa_Cards_ComponentModel.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public class CardReader : SerializableObjectReader
+VB __Копировать
+     Public Class CardReader
+    	Inherits SerializableObjectReader
+C++ __Копировать
+     public ref class CardReader : public SerializableObjectReader
+F# __Копировать
+     type CardReader = 
+        class
+            inherit SerializableObjectReader
+        end
+Inheritance
+    [Object](https://learn.microsoft.com/dotnet/api/system.object) __[SerializableObjectReader](T_Tessa_Platform_IO_SerializableObjectReader.htm) __ CardReader
+##  __Заметки
+Наследник класса может добавить методы по чтению объектов дополнительных
+типов.
+## __Конструкторы
+[CardReader](M_Tessa_Cards_ComponentModel_CardReader__ctor.htm)|  Создаёт
+экземпляр класса с указанием потока карточки.  
+---|---  
+## __Свойства
+[Format](P_Tessa_Platform_IO_SerializableObjectReader_Format.htm)|  Формат
+сериализации.  
+(Унаследован от
+[SerializableObjectReader](T_Tessa_Platform_IO_SerializableObjectReader.htm))  
+---|---  
+[Stream](P_Tessa_Platform_IO_SerializableObjectReader_Stream.htm)|  Поток, из
+которого выполняется чтение данных.  
+(Унаследован от
+[SerializableObjectReader](T_Tessa_Platform_IO_SerializableObjectReader.htm))  
+[StreamReader](P_Tessa_Platform_IO_SerializableObjectReader_StreamReader.htm)|
+Объект, выполняющий чтение данных из потока
+[Stream](P_Tessa_Platform_IO_SerializableObjectReader_Stream.htm).  
+(Унаследован от
+[SerializableObjectReader](T_Tessa_Platform_IO_SerializableObjectReader.htm))  
+##  __Методы
+[Equals](https://learn.microsoft.com/dotnet/api/system.object.equals#system-
+object-equals\(system-object\))| Determines whether the specified object is
+equal to the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+---|---  
+[Finalize](https://learn.microsoft.com/dotnet/api/system.object.finalize#system-
+object-finalize)| Allows an object to try to free resources and perform other
+cleanup operations before it is reclaimed by garbage collection.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetHashCode](https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-
+object-gethashcode)| Serves as the default hash function.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetType](https://learn.microsoft.com/dotnet/api/system.object.gettype#system-
+object-gettype)| Gets the
+[Type](https://learn.microsoft.com/dotnet/api/system.type) of the current
+instance.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[MemberwiseClone](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-
+object-memberwiseclone)| Creates a shallow copy of the current
+[Object](https://learn.microsoft.com/dotnet/api/system.object).  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[ReadCardAsync](M_Tessa_Cards_ComponentModel_CardReader_ReadCardAsync.htm)|
+Выполняет чтение пакета карточки из потока карточки.  
+[ReadCardGetFileContentResponseAsync](M_Tessa_Cards_ComponentModel_CardReader_ReadCardGetFileContentResponseAsync.htm)|
+Выполняет чтение ответа на запрос по получению контента версии файла.  
+[ReadCardStoreRequestAsync](M_Tessa_Cards_ComponentModel_CardReader_ReadCardStoreRequestAsync.htm)|
+Выполняет чтение запроса на сохранение карточки из потока карточки.  
+[ReadHeaderAsync](M_Tessa_Cards_ComponentModel_CardReader_ReadHeaderAsync.htm)|
+Выполняет чтение заголовка из потока карточки.  
+[ReadObjectAsync](M_Tessa_Platform_IO_SerializableObjectReader_ReadObjectAsync.htm)|
+Выполняет чтение сериализуемого объекта из потока.  
+(Унаследован от
+[SerializableObjectReader](T_Tessa_Platform_IO_SerializableObjectReader.htm))  
+[ReadStream](M_Tessa_Platform_IO_SerializableObjectReader_ReadStream.htm)|
+Выполняет потоковое чтение данных, ограниченных заданным размером length.  
+(Унаследован от
+[SerializableObjectReader](T_Tessa_Platform_IO_SerializableObjectReader.htm))  
+[ToString](https://learn.microsoft.com/dotnet/api/system.object.tostring#system-
+object-tostring)| Returns a string that represents the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+##  __Методы расширения
+[Get](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Get.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+---|---  
+[InternalMarkerCanvas](M_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor_InternalMarkerCanvas.htm)|
+Возвращает маркер аннотации  
+(Определяется
+[AnnotationInternalsAccessor](T_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor.htm))  
+[Invoke](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Invoke.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+[Set](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Set.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+##  __См. также
+#### Ссылки
+[Tessa.Cards.ComponentModel - пространство
+имён](N_Tessa_Cards_ComponentModel.htm)

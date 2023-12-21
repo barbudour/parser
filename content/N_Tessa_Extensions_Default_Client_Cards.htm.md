@@ -1,0 +1,23 @@
+# Tessa.Extensions.Default.Client.Cards - пространство имён
+Расширения типового решения на desktop-клиенте для действий, связанных с
+карточками.
+##  __Классы
+[AcquaintanceClientStoreExtension](T_Tessa_Extensions_Default_Client_Cards_AcquaintanceClientStoreExtension.htm)|  
+---|---  
+[KrDocStateClientDeleteExtension](T_Tessa_Extensions_Default_Client_Cards_KrDocStateClientDeleteExtension.htm)|
+Расширение на удаление виртуальной карточки состояния документа со стороны
+клиента.  
+[KrPermissionsMandatoryStoreExtension](T_Tessa_Extensions_Default_Client_Cards_KrPermissionsMandatoryStoreExtension.htm)|  
+[OpenFromKrDocStatesOnDoubleClickExtension](T_Tessa_Extensions_Default_Client_Cards_OpenFromKrDocStatesOnDoubleClickExtension.htm)|
+Расширение, выполняющее открытие виртуальной карточки по строке в активных
+операциях.  
+[OpenFromKrDocStatesOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Default_Client_Cards_OpenFromKrDocStatesOnDoubleClickExtensionConfigurator.htm)|
+Конфигуратор расширения
+[OpenFromKrDocStatesOnDoubleClickExtension](T_Tessa_Extensions_Default_Client_Cards_OpenFromKrDocStatesOnDoubleClickExtension.htm).  
+[OpenStageSettingsOnDoubleClickExtension](T_Tessa_Extensions_Default_Client_Cards_OpenStageSettingsOnDoubleClickExtension.htm)|
+Расширение, открывающее параметры этапа по двойному клику по строке
+представления **KrStageRows**.  
+[OpenStageSettingsOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Default_Client_Cards_OpenStageSettingsOnDoubleClickExtensionConfigurator.htm)|
+Конфигуратор расширения
+[OpenStageSettingsOnDoubleClickExtension](T_Tessa_Extensions_Default_Client_Cards_OpenStageSettingsOnDoubleClickExtension.htm).  
+[Registrator](T_Tessa_Extensions_Default_Client_Cards_Registrator.htm)|

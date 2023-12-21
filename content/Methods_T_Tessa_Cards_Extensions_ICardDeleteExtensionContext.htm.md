@@ -1,0 +1,119 @@
+# ICardDeleteExtensionContext - методы
+##  __Методы расширения
+[CardTypeIs](M_Tessa_Cards_Extensions_CardExtensionContextExtensions_CardTypeIs_2.htm)|
+Возвращает признак того, что идентификатор типа карточки равен заданному
+значению.  
+(Определяется
+[CardExtensionContextExtensions](T_Tessa_Cards_Extensions_CardExtensionContextExtensions.htm))  
+---|---  
+[CardTypeIs](M_Tessa_Cards_Extensions_CardExtensionContextExtensions_CardTypeIs_6.htm)|
+Возвращает признак того, что идентификатор типа карточки равен одному из
+заданных значений.  
+(Определяется
+[CardExtensionContextExtensions](T_Tessa_Cards_Extensions_CardExtensionContextExtensions.htm))  
+[CardTypeIs](M_Tessa_Cards_Extensions_CardExtensionContextExtensions_CardTypeIs.htm)|
+Возвращает признак того, что идентификатор типа карточки равен одному из
+заданных значений.  
+(Определяется
+[CardExtensionContextExtensions](T_Tessa_Cards_Extensions_CardExtensionContextExtensions.htm))  
+[CardTypeIs](M_Tessa_Cards_Extensions_CardExtensionContextExtensions_CardTypeIs_1.htm)|
+Возвращает признак того, что имя типа карточки равно одному из заданных
+значений.  
+(Определяется
+[CardExtensionContextExtensions](T_Tessa_Cards_Extensions_CardExtensionContextExtensions.htm))  
+[CardTypeIs](M_Tessa_Cards_Extensions_CardExtensionContextExtensions_CardTypeIs_7.htm)|
+Возвращает признак того, что имя типа карточки равно заданному значению.  
+(Определяется
+[CardExtensionContextExtensions](T_Tessa_Cards_Extensions_CardExtensionContextExtensions.htm))  
+[CardTypeIs](M_Tessa_Cards_Extensions_CardExtensionContextExtensions_CardTypeIs_11.htm)|
+Возвращает признак того, что имя типа карточки равно одному из заданных
+значений.  
+(Определяется
+[CardExtensionContextExtensions](T_Tessa_Cards_Extensions_CardExtensionContextExtensions.htm))  
+[CardTypeIs](M_Tessa_Cards_Extensions_CardExtensionContextExtensions_CardTypeIs_3.htm)|
+Возвращает признак того, что идентификатор типа карточки равен одному из
+заданных значений.  
+(Определяется
+[CardExtensionContextExtensions](T_Tessa_Cards_Extensions_CardExtensionContextExtensions.htm))  
+[CardTypeIs](M_Tessa_Cards_Extensions_CardExtensionContextExtensions_CardTypeIs_8.htm)|
+Возвращает признак того, что имя типа карточки равно одному из заданных
+значений.  
+(Определяется
+[CardExtensionContextExtensions](T_Tessa_Cards_Extensions_CardExtensionContextExtensions.htm))  
+[CardTypeIs](M_Tessa_Cards_Extensions_CardExtensionContextExtensions_CardTypeIs_4.htm)|
+Возвращает признак того, что идентификатор типа карточки равен одному из
+заданных значений.  
+(Определяется
+[CardExtensionContextExtensions](T_Tessa_Cards_Extensions_CardExtensionContextExtensions.htm))  
+[CardTypeIs](M_Tessa_Cards_Extensions_CardExtensionContextExtensions_CardTypeIs_9.htm)|
+Возвращает признак того, что имя типа карточки равно одному из заданных
+значений.  
+(Определяется
+[CardExtensionContextExtensions](T_Tessa_Cards_Extensions_CardExtensionContextExtensions.htm))  
+[CardTypeIs](M_Tessa_Cards_Extensions_CardExtensionContextExtensions_CardTypeIs_5.htm)|
+Возвращает признак того, что идентификатор типа карточки равен одному из
+заданных значений.  
+(Определяется
+[CardExtensionContextExtensions](T_Tessa_Cards_Extensions_CardExtensionContextExtensions.htm))  
+[CardTypeIs](M_Tessa_Cards_Extensions_CardExtensionContextExtensions_CardTypeIs_10.htm)|
+Возвращает признак того, что имя типа карточки равно одному из заданных
+значений.  
+(Определяется
+[CardExtensionContextExtensions](T_Tessa_Cards_Extensions_CardExtensionContextExtensions.htm))  
+[IsWithoutTransaction](M_Tessa_Cards_Extensions_CardExtensionContextExtensions_IsWithoutTransaction.htm)|
+Возвращает признак того, что используется стратегия обеспечения блокировок без
+транзакций.  
+(Определяется
+[CardExtensionContextExtensions](T_Tessa_Cards_Extensions_CardExtensionContextExtensions.htm))  
+[SetActionHistoryRowID](M_Tessa_Cards_CardRequestExtensions_SetActionHistoryRowID.htm)|
+Устанавливает идентификатор записи в историю действий, которая была записана в
+процессе обработки запроса, или null, если требуется удалить предыдущий
+идентификатор.  
+(Определяется
+[CardRequestExtensions](T_Tessa_Cards_CardRequestExtensions.htm))  
+[SetCardAccessAsync](M_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionExtensions_SetCardAccessAsync.htm)|  
+(Определяется
+[KrPermissionExtensions](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionExtensions.htm))  
+[SetCardAccessAsync](M_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionExtensions_SetCardAccessAsync_1.htm)|  
+(Определяется
+[KrPermissionExtensions](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionExtensions.htm))  
+[SetCardToDelete](M_Tessa_Cards_CardRequestExtensions_SetCardToDelete.htm)|
+Устанавливает карточку, для которой выполняется удаление с восстановлением,
+окончательное удаление или восстановление, или null, если установленную
+карточку требуется удалить.  
+(Определяется
+[CardRequestExtensions](T_Tessa_Cards_CardRequestExtensions.htm))  
+[SetContextData](M_Tessa_Cards_CardRequestExtensions_SetContextData.htm)|
+Устанавливает данные в контексте цепочки расширений для заданного объекта-
+отправителя sender. Данные существует в пределах цепочки расширений.  
+(Определяется
+[CardRequestExtensions](T_Tessa_Cards_CardRequestExtensions.htm))  
+[TryGetActionHistoryRowID](M_Tessa_Cards_CardRequestExtensions_TryGetActionHistoryRowID.htm)|
+Возвращает идентификатор записи в историю действий, которая была записана в
+процессе обработки запроса, или null, если записи в истории действий не было
+сделано.  
+(Определяется
+[CardRequestExtensions](T_Tessa_Cards_CardRequestExtensions.htm))  
+[TryGetCardToDelete](M_Tessa_Cards_CardRequestExtensions_TryGetCardToDelete.htm)|
+Возвращает карточку, для которой выполняется удаление с восстановлением,
+окончательное удаление или восстановление, или null, если карточка неизвестна.
+Рекомендуется использовать метод в цепочке расширений на удаление карточки,
+для которой выполняется удаление с восстановлением, или на удаление карточки
+Deleted, причём значение заполнено начиная с
+[AfterBeginTransaction(ICardDeleteExtensionContext)](M_Tessa_Cards_Extensions_ICardDeleteExtension_AfterBeginTransaction.htm)
+этапа [AfterPlatform](T_Tessa_Extensions_ExtensionStage.htm)  
+(Определяется
+[CardRequestExtensions](T_Tessa_Cards_CardRequestExtensions.htm))  
+[TryGetContextData<T>](M_Tessa_Cards_CardRequestExtensions_TryGetContextData__1.htm)|
+Возвращает данные, записанные методом [SetContextData(ICardExtensionContext,
+Object, Object)](M_Tessa_Cards_CardRequestExtensions_SetContextData.htm) в
+контекст цепочки расширений для заданного объекта-отправителя sender. Данные
+существует в пределах цепочки расширений. Возвращает null, если данные не
+найдены или были установлены как null.  
+(Определяется
+[CardRequestExtensions](T_Tessa_Cards_CardRequestExtensions.htm))  
+##  __См. также
+#### Ссылки
+[ICardDeleteExtensionContext -
+](T_Tessa_Cards_Extensions_ICardDeleteExtensionContext.htm)
+[Tessa.Cards.Extensions - пространство имён](N_Tessa_Cards_Extensions.htm)

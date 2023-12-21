@@ -1,0 +1,33 @@
+# Tessa.UI.WorkflowViewer.Actions - пространство имён
+Отображение действий в конструкторе бизнес-процессов.
+##  __Классы
+[WorkflowActionUIHandlerBase](T_Tessa_UI_WorkflowViewer_Actions_WorkflowActionUIHandlerBase.htm)|
+Базовый класс UI части описания действий WorkflowEngine.  
+---|---  
+[WorkflowActionUIHandlerRegistry](T_Tessa_UI_WorkflowViewer_Actions_WorkflowActionUIHandlerRegistry.htm)|
+Класс реестра типов действи
+[IWorkflowActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_IWorkflowActionUIHandler.htm)  
+[WorkflowAndActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowAndActionUIHandler.htm)|  
+[WorkflowCommandActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowCommandActionUIHandler.htm)|  
+[WorkflowConditionActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowConditionActionUIHandler.htm)|  
+[WorkflowDialogActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowDialogActionUIHandler.htm)|  
+[WorkflowDialogButtonRowEventHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowDialogButtonRowEventHandler.htm)|  
+[WorkflowEmailActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowEmailActionUIHandler.htm)|  
+[WorkflowEndActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowEndActionUIHandler.htm)|  
+[WorkflowScriptActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowScriptActionUIHandler.htm)|  
+[WorkflowSendSignalActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowSendSignalActionUIHandler.htm)|  
+[WorkflowStartActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowStartActionUIHandler.htm)|  
+[WorkflowSubprocessActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowSubprocessActionUIHandler.htm)|  
+[WorkflowTaskActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowTaskActionUIHandler.htm)|  
+[WorkflowTaskControlActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowTaskControlActionUIHandler.htm)|  
+[WorkflowTaskGroupActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowTaskGroupActionUIHandler.htm)|  
+[WorkflowTaskGroupControlActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowTaskGroupControlActionUIHandler.htm)|  
+[WorkflowTimerActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowTimerActionUIHandler.htm)|  
+[WorkflowTimerControlActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_WorkflowTimerControlActionUIHandler.htm)|  
+## __Интерфейсы
+[IWorkflowActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_IWorkflowActionUIHandler.htm)|
+Интерфейс UI части описания действий WorkflowEngine.  
+---|---  
+[IWorkflowActionUIHandlerRegistry](T_Tessa_UI_WorkflowViewer_Actions_IWorkflowActionUIHandlerRegistry.htm)|
+Интерфейс реестра типов действий
+[IWorkflowActionUIHandler](T_Tessa_UI_WorkflowViewer_Actions_IWorkflowActionUIHandler.htm)

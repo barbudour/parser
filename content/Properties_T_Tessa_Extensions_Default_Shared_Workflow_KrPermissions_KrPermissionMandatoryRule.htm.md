@@ -1,0 +1,18 @@
+# KrPermissionMandatoryRule - свойства
+##  __Свойства
+[ColumnIDs](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRule_ColumnIDs.htm)|  
+---|---  
+[CompletionOptions](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRule_CompletionOptions.htm)|  
+[HasColumns](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRule_HasColumns.htm)|  
+[HasCompletionOptions](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRule_HasCompletionOptions.htm)|  
+[HasTaskTypes](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRule_HasTaskTypes.htm)|  
+[SectionID](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRule_SectionID.htm)|  
+[TaskTypes](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRule_TaskTypes.htm)|  
+[Text](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRule_Text.htm)|  
+[ValidationType](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRule_ValidationType.htm)|  
+## __См. также
+#### Ссылки
+[KrPermissionMandatoryRule -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionMandatoryRule.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrPermissions - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrPermissions.htm)

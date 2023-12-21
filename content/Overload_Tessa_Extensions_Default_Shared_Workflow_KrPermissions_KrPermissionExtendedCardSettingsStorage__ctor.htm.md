@@ -1,0 +1,16 @@
+# KrPermissionExtendedCardSettingsStorage - конструктор
+##  __Список перегрузок
+[KrPermissionExtendedCardSettingsStorage()](M_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionExtendedCardSettingsStorage__ctor.htm)|
+Инициализирует новый экземпляр класса
+[KrPermissionExtendedCardSettingsStorage](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionExtendedCardSettingsStorage.htm)  
+---|---  
+[KrPermissionExtendedCardSettingsStorage(Dictionary<String,
+Object>)](M_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionExtendedCardSettingsStorage__ctor_1.htm)|
+Инициализирует новый экземпляр класса
+[KrPermissionExtendedCardSettingsStorage](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionExtendedCardSettingsStorage.htm)  
+##  __См. также
+#### Ссылки
+[KrPermissionExtendedCardSettingsStorage -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionExtendedCardSettingsStorage.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrPermissions - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrPermissions.htm)

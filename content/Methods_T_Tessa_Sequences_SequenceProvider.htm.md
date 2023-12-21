@@ -1,0 +1,69 @@
+# SequenceProvider - методы
+##  __Методы
+[AcquireNumberAsync](M_Tessa_Sequences_SequenceProvider_AcquireNumberAsync.htm)|
+Выделяет номер без резервирования и возвращает его.  
+---|---  
+[AcquireReservedNumberAsync](M_Tessa_Sequences_SequenceProvider_AcquireReservedNumberAsync.htm)|
+Выделяет ранее зарезервированный номер.  
+[AcquireUnreservedNumberAsync](M_Tessa_Sequences_SequenceProvider_AcquireUnreservedNumberAsync.htm)|
+Выделяет указанный номер без резервирования и возвращает его.  
+[DereserveNumberAsync](M_Tessa_Sequences_SequenceProvider_DereserveNumberAsync.htm)|
+Снимает резервирование с указанного номера.  
+[Equals](https://learn.microsoft.com/dotnet/api/system.object.equals#system-
+object-equals\(system-object\))| Determines whether the specified object is
+equal to the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[Finalize](https://learn.microsoft.com/dotnet/api/system.object.finalize#system-
+object-finalize)| Allows an object to try to free resources and perform other
+cleanup operations before it is reclaimed by garbage collection.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[FixIntervalsAfterRemovingReserved](M_Tessa_Sequences_SequenceProvider_FixIntervalsAfterRemovingReserved.htm)|
+Изменяет интервалы занятых номеров после удаления заданного зарезервированного
+номера.  
+[GetHashCode](https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-
+object-gethashcode)| Serves as the default hash function.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetType](https://learn.microsoft.com/dotnet/api/system.object.gettype#system-
+object-gettype)| Gets the
+[Type](https://learn.microsoft.com/dotnet/api/system.type) of the current
+instance.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[MemberwiseClone](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-
+object-memberwiseclone)| Creates a shallow copy of the current
+[Object](https://learn.microsoft.com/dotnet/api/system.object).  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[ReleaseNumberAsync](M_Tessa_Sequences_SequenceProvider_ReleaseNumberAsync.htm)|
+Освобождает номер, который был выделен.  
+[ReserveAcquiredNumberAsync](M_Tessa_Sequences_SequenceProvider_ReserveAcquiredNumberAsync.htm)|
+Резервирует номер, который мог быть выделен. Если номер уже зарезервирован, не
+выполняет действий.  
+[ReserveNumberAsync](M_Tessa_Sequences_SequenceProvider_ReserveNumberAsync.htm)|
+Резервирует номер и возвращает его.  
+[ToString](https://learn.microsoft.com/dotnet/api/system.object.tostring#system-
+object-tostring)| Returns a string that represents the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+##  __Методы расширения
+[Get](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Get.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+---|---  
+[InternalMarkerCanvas](M_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor_InternalMarkerCanvas.htm)|
+Возвращает маркер аннотации  
+(Определяется
+[AnnotationInternalsAccessor](T_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor.htm))  
+[Invoke](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Invoke.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+[Set](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Set.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+##  __См. также
+#### Ссылки
+[SequenceProvider - ](T_Tessa_Sequences_SequenceProvider.htm)
+[Tessa.Sequences - пространство имён](N_Tessa_Sequences.htm)

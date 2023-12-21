@@ -1,0 +1,71 @@
+# Tessa.UI.Scheme - пространство имён
+Модели представления и средства для редактирования схемы данных.
+##  __Классы
+[ColumnsToPhysicalColumnsConverter](T_Tessa_UI_Scheme_ColumnsToPhysicalColumnsConverter.htm)|  
+---|---  
+[ColumnToDataGridColumnConverter](T_Tessa_UI_Scheme_ColumnToDataGridColumnConverter.htm)|  
+[ColumnToReferencingColumnExistanceConverter](T_Tessa_UI_Scheme_ColumnToReferencingColumnExistanceConverter.htm)|  
+[ColumnViewModel](T_Tessa_UI_Scheme_ColumnViewModel.htm)|  
+[ColumnViewModelCollection](T_Tessa_UI_Scheme_ColumnViewModelCollection.htm)|  
+[ComplexColumnViewModel](T_Tessa_UI_Scheme_ComplexColumnViewModel.htm)|  
+[ConstraintViewModel](T_Tessa_UI_Scheme_ConstraintViewModel.htm)|  
+[ConstraintViewModelCollection](T_Tessa_UI_Scheme_ConstraintViewModelCollection.htm)|  
+[DatabaseViewModel](T_Tessa_UI_Scheme_DatabaseViewModel.htm)|  
+[DatabaseViewModelCollection](T_Tessa_UI_Scheme_DatabaseViewModelCollection.htm)|  
+[DefaultConstraintViewModel](T_Tessa_UI_Scheme_DefaultConstraintViewModel.htm)|  
+[DiagnosticsExtensions](T_Tessa_UI_Scheme_DiagnosticsExtensions.htm)|  
+[ForeignKeyColumnViewModel](T_Tessa_UI_Scheme_ForeignKeyColumnViewModel.htm)|  
+[ForeignKeyColumnViewModelCollection](T_Tessa_UI_Scheme_ForeignKeyColumnViewModelCollection.htm)|  
+[ForeignKeyViewModel](T_Tessa_UI_Scheme_ForeignKeyViewModel.htm)|  
+[FunctionViewModel](T_Tessa_UI_Scheme_FunctionViewModel.htm)|  
+[FunctionViewModelCollection](T_Tessa_UI_Scheme_FunctionViewModelCollection.htm)|  
+[GroupableObjectViewModel<TModel>](T_Tessa_UI_Scheme_GroupableObjectViewModel_1.htm)|  
+[IncludedColumnViewModel](T_Tessa_UI_Scheme_IncludedColumnViewModel.htm)|  
+[IncludedColumnViewModelCollection](T_Tessa_UI_Scheme_IncludedColumnViewModelCollection.htm)|  
+[IndexedColumnOptionsDialog](T_Tessa_UI_Scheme_IndexedColumnOptionsDialog.htm)|
+IndexedColumnOptionsDialog  
+[IndexedColumnViewModel](T_Tessa_UI_Scheme_IndexedColumnViewModel.htm)|  
+[IndexedColumnViewModelCollection](T_Tessa_UI_Scheme_IndexedColumnViewModelCollection.htm)|  
+[IndexViewModel](T_Tessa_UI_Scheme_IndexViewModel.htm)|  
+[IndexViewModelCollection](T_Tessa_UI_Scheme_IndexViewModelCollection.htm)|  
+[MigrationViewModel](T_Tessa_UI_Scheme_MigrationViewModel.htm)|  
+[MigrationViewModelCollection](T_Tessa_UI_Scheme_MigrationViewModelCollection.htm)|  
+[NamedObjectViewModel<TModel>](T_Tessa_UI_Scheme_NamedObjectViewModel_1.htm)|  
+[NamedObjectViewModelCollection<TItemModel,
+TItemViewModel>](T_Tessa_UI_Scheme_NamedObjectViewModelCollection_2.htm)|  
+[ObjectViewModel<TModel>](T_Tessa_UI_Scheme_ObjectViewModel_1.htm)|  
+[ObjectViewModelCollection<TItemModel,
+TItemViewModel>](T_Tessa_UI_Scheme_ObjectViewModelCollection_2.htm)|  
+[PartionableObjectViewModel<TModel>](T_Tessa_UI_Scheme_PartionableObjectViewModel_1.htm)|  
+[PartitionViewModel](T_Tessa_UI_Scheme_PartitionViewModel.htm)|  
+[PartitionViewModelCollection](T_Tessa_UI_Scheme_PartitionViewModelCollection.htm)|  
+[PhysicalColumnViewModel](T_Tessa_UI_Scheme_PhysicalColumnViewModel.htm)|  
+[PrimaryKeyViewModel](T_Tessa_UI_Scheme_PrimaryKeyViewModel.htm)|  
+[ProcedureViewModel](T_Tessa_UI_Scheme_ProcedureViewModel.htm)|  
+[ProcedureViewModelCollection](T_Tessa_UI_Scheme_ProcedureViewModelCollection.htm)|  
+[ProgrammableObjectViewModel<TModel>](T_Tessa_UI_Scheme_ProgrammableObjectViewModel_1.htm)|  
+[ProgrammableObjectViewModelCollection<TItemModel,
+TItemViewModel>](T_Tessa_UI_Scheme_ProgrammableObjectViewModelCollection_2.htm)|  
+[RecordViewModel](T_Tessa_UI_Scheme_RecordViewModel.htm)|  
+[RecordViewModelCollection](T_Tessa_UI_Scheme_RecordViewModelCollection.htm)|  
+[ReferencingColumnExistanceViewModel](T_Tessa_UI_Scheme_ReferencingColumnExistanceViewModel.htm)|  
+[ReferencingColumnViewModel](T_Tessa_UI_Scheme_ReferencingColumnViewModel.htm)|  
+[SchemeEditor](T_Tessa_UI_Scheme_SchemeEditor.htm)|  SchemeEditor  
+[SchemeEditorViewModel](T_Tessa_UI_Scheme_SchemeEditorViewModel.htm)|  
+[SchemeObjectDataTemplateSelector](T_Tessa_UI_Scheme_SchemeObjectDataTemplateSelector.htm)|  
+[SchemeTreeItemViewModel](T_Tessa_UI_Scheme_SchemeTreeItemViewModel.htm)|  
+[SchemeTreeItemViewModel.ReadOnlyItemCollection](T_Tessa_UI_Scheme_SchemeTreeItemViewModel_ReadOnlyItemCollection.htm)|  
+[SchemeTreeViewModel](T_Tessa_UI_Scheme_SchemeTreeViewModel.htm)|  
+[SortOrderToBooleanConverter](T_Tessa_UI_Scheme_SortOrderToBooleanConverter.htm)|  
+[TableViewModel](T_Tessa_UI_Scheme_TableViewModel.htm)|  
+[TableViewModelCollection](T_Tessa_UI_Scheme_TableViewModelCollection.htm)|  
+[UniqueKeyViewModel](T_Tessa_UI_Scheme_UniqueKeyViewModel.htm)|  
+[ValueToStringConverter](T_Tessa_UI_Scheme_ValueToStringConverter.htm)|  
+[ViewModelScopeExtensions](T_Tessa_UI_Scheme_ViewModelScopeExtensions.htm)|  
+## __Интерфейсы
+[ISchemeViewModel](T_Tessa_UI_Scheme_ISchemeViewModel.htm)|  
+---|---  
+[ISchemeViewModelCollection<T>](T_Tessa_UI_Scheme_ISchemeViewModelCollection_1.htm)|  
+## __Перечисления
+[IndexedColumnOption](T_Tessa_UI_Scheme_IndexedColumnOption.htm)|  
+---|---

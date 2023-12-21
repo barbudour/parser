@@ -1,0 +1,50 @@
+# Tessa.Extensions.Default.Server.Workflow.KrCompilers.Requests - пространство
+имён
+Расширения типового решения на сервере, связанные с компиляцией маршрутов по
+части запросов.
+##  __Классы
+[KrCompileCommonMethodStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrCompileCommonMethodStoreExtension.htm)|  
+---|---  
+[KrCompileSecondaryProcessStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrCompileSecondaryProcessStoreExtension.htm)|  
+[KrCompileSourceDeleteExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrCompileSourceDeleteExtension.htm)|  
+[KrCompileSourceStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrCompileSourceStoreExtension.htm)|  
+[KrCompileStageGroupStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrCompileStageGroupStoreExtension.htm)|  
+[KrCompileStageTemplateStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrCompileStageTemplateStoreExtension.htm)|
+Расширение на сохранение карточки KrStageTemplates Выполняет компиляцию при
+наличии соответствующих флагов в Info При изменении исходных кодов
+сбрасывается кэш компиляции и кэш этапов При изменении данных, не относящихся
+к компиляции, сбрасывается кэш этапов  
+[KrRecalcStagesStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrRecalcStagesStoreExtension.htm)|
+Расширение на процесс сохранения карточки, выполняющее пересчёт маршрута по
+требованию.  
+[KrSecondaryProcessNewGetExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrSecondaryProcessNewGetExtension.htm)|
+Класс расширений
+[ICardNewExtension](T_Tessa_Cards_Extensions_ICardNewExtension.htm) для
+процесса создания и
+[ICardGetExtension](T_Tessa_Cards_Extensions_ICardGetExtension.htm) для
+процесса загрузки карточки вторичного процесса.  
+[KrSecondaryProcessStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrSecondaryProcessStoreExtension.htm)|
+Расширение для процесса сохранения карточки содержащей вторичный процесс
+маршрута документов.  
+[KrSourceGetExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrSourceGetExtension.htm)|
+Расширение выполняет заполнение виртуальных секций результата компиляции для
+карточек содержащих шаблоны маршрутов.  
+[KrStageGroupNewGetExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrStageGroupNewGetExtension.htm)|  
+[KrStageTemplateNewGetExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrStageTemplateNewGetExtension.htm)|
+Расширение [ICardNewExtension](T_Tessa_Cards_Extensions_ICardNewExtension.htm)
+для процесса создания и
+[ICardGetExtension](T_Tessa_Cards_Extensions_ICardGetExtension.htm) для
+процесса загрузки карточки шаблона этапов.  
+[KrStageTemplateStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrStageTemplateStoreExtension.htm)|
+Расширение для процесса сохранения карточки шаблона этапов маршрута
+документов.  
+[KrTemplateNewGetExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrTemplateNewGetExtension.htm)|
+Базовый класс расширений
+[ICardNewExtension](T_Tessa_Cards_Extensions_ICardNewExtension.htm) для
+процесса создания и
+[ICardGetExtension](T_Tessa_Cards_Extensions_ICardGetExtension.htm) для
+процесса загрузки карточки содержащей этапы маршрута документа.  
+[KrTemplateStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrTemplateStoreExtension.htm)|
+Базовый класс расширений для процесса сохранения карточки содержащей шаблон
+этапов маршрута документов.  
+[Registrator](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_Registrator.htm)|

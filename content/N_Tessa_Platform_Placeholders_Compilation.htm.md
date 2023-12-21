@@ -1,0 +1,55 @@
+# Tessa.Platform.Placeholders.Compilation - пространство имён
+## __Классы
+[PlaceholderExtensionScriptDescription](T_Tessa_Platform_Placeholders_Compilation_PlaceholderExtensionScriptDescription.htm)|
+Описание скрипта для компиляции  
+---|---  
+[PlaceholderScriptContext](T_Tessa_Platform_Placeholders_Compilation_PlaceholderScriptContext.htm)|
+Контекст для выполнения скомпилированных скриптов
+[IPlaceholderScript](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderScript.htm)  
+[PlaceholderScriptMethod](T_Tessa_Platform_Placeholders_Compilation_PlaceholderScriptMethod.htm)|
+Объект, содержащий информацию о методе скрипта подсистемы плейсхолдеров  
+## __Интерфейсы
+[IPlaceholderCompilationCache](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderCompilationCache.htm)|
+Кеш результатов компиляции текстов с плейсхолдерами и скриптами  
+---|---  
+[IPlaceholderCompilationContext](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderCompilationContext.htm)|
+Контекст компиляции текста с плейсхолдерами  
+[IPlaceholderCompilationDependencies](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderCompilationDependencies.htm)|
+Объект со всеми зависимостями, необходимыми для компиляции текста с
+плейсхолдерами внутри документов  
+[IPlaceholderCompilationResult](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderCompilationResult.htm)|
+Результат компиляции текста с плейсхолдерами  
+[IPlaceholderCompilationStorage](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderCompilationStorage.htm)|
+Объект, который производит сохранение, получение и удаление кешей сборок из
+базы  
+[IPlaceholderCompiler](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderCompiler.htm)|
+Объект, производящий компиляцию текста с плейсхолдерами  
+[IPlaceholderExtensionCompilationCache](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderExtensionCompilationCache.htm)|
+Кеш для результатов компиляции расширений плейсхолдеров
+[IPlaceholderExtensionCompilationResult](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderExtensionCompilationResult.htm)  
+[IPlaceholderExtensionCompilationResult](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderExtensionCompilationResult.htm)|
+Результат компиляции
+[IPlaceholderExtensionCompiler](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderExtensionCompiler.htm)  
+[IPlaceholderExtensionCompiler](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderExtensionCompiler.htm)|
+Компилятор расширений на замену плейсхолдеров  
+[IPlaceholderExtensionScriptDescription](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderExtensionScriptDescription.htm)|
+Описание скрипта для компиляции  
+[IPlaceholderExtensionScriptDescriptionProvider](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderExtensionScriptDescriptionProvider.htm)|
+Объект, осуществляюий получение
+[IPlaceholderExtensionScriptDescription](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderExtensionScriptDescription.htm)  
+[IPlaceholderScript](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderScript.htm)|
+Компилируемый с помощью
+[IPlaceholderCompiler](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderCompiler.htm)
+объект  
+[IPlaceholderScriptContext](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderScriptContext.htm)|
+Контекст для выполнения скомпилированных скриптов
+[IPlaceholderScript](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderScript.htm)  
+[IPlaceholderScriptDependencies](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderScriptDependencies.htm)|
+Объект со всеми зависимостями, необходимыми для выполнение скриптов
+плейсхолдеров  
+[IPlaceholderScriptMethod](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderScriptMethod.htm)|
+Объект, содержащий информацию о методе скрипта подсистемы плейсхолдеров  
+[IPlaceholderScriptParser](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderScriptParser.htm)|
+Объект, производящий парсинг текста с плейсхолдерами в скрипт  
+[IPlaceholderScriptParserResult](T_Tessa_Platform_Placeholders_Compilation_IPlaceholderScriptParserResult.htm)|
+Результат парсинга текста с плейсхолдерами на скрипты

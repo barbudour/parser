@@ -1,0 +1,22 @@
+# PerformanceTest.Maximum - свойство
+##  __Definition
+ **Пространство имён:** [Tessa.Diagnostics](N_Tessa_Diagnostics.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public long Maximum { get; }
+VB __Копировать
+     Public ReadOnly Property Maximum As Long
+    	Get
+C++ __Копировать
+     public:
+    property long long Maximum {
+    	long long get ();
+    }
+F# __Копировать
+     member Maximum : int64 with get
+#### Значение свойства
+[Int64](https://learn.microsoft.com/dotnet/api/system.int64)
+##  __См. также
+#### Ссылки
+[PerformanceTest - ](T_Tessa_Diagnostics_PerformanceTest.htm)
+[Tessa.Diagnostics - пространство имён](N_Tessa_Diagnostics.htm)

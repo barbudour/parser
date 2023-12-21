@@ -1,0 +1,236 @@
+# CardStoreExtension - класс
+Базовый класс расширений для процесса сохранения карточки.
+## __Definition
+ **Пространство имён:** [Tessa.Cards.Extensions](N_Tessa_Cards_Extensions.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public abstract class CardStoreExtension : ICardStoreExtension, 
+    	ICardExtension, IExtension
+VB __Копировать
+     Public MustInherit Class CardStoreExtension
+    	Implements ICardStoreExtension, ICardExtension, IExtension
+C++ __Копировать
+     public ref class CardStoreExtension abstract : ICardStoreExtension, 
+    	ICardExtension, IExtension
+F# __Копировать
+     [<AbstractClassAttribute>]
+    type CardStoreExtension = 
+        class
+            interface ICardStoreExtension
+            interface ICardExtension
+            interface IExtension
+        end
+Inheritance
+    [Object](https://learn.microsoft.com/dotnet/api/system.object) __ CardStoreExtension
+Derived
+[Tessa.Cards.Extensions.Templates.CardSatelliteImportExtension](T_Tessa_Cards_Extensions_Templates_CardSatelliteImportExtension.htm)
+[Tessa.Cards.Extensions.Templates.TaskSatelliteImportExtension](T_Tessa_Cards_Extensions_Templates_TaskSatelliteImportExtension.htm)
+[Tessa.Cards.Extensions.Templates.TaskSatelliteStoreExtension](T_Tessa_Cards_Extensions_Templates_TaskSatelliteStoreExtension.htm)
+[Tessa.Cards.Workflow.WorkflowStoreExtension](T_Tessa_Cards_Workflow_WorkflowStoreExtension.htm)
+[Tessa.Extensions.Default.Client.Cards.AcquaintanceClientStoreExtension](T_Tessa_Extensions_Default_Client_Cards_AcquaintanceClientStoreExtension.htm)
+[Tessa.Extensions.Default.Client.Cards.KrPermissionsMandatoryStoreExtension](T_Tessa_Extensions_Default_Client_Cards_KrPermissionsMandatoryStoreExtension.htm)
+[Tessa.Extensions.Default.Client.EDS.SignatureSettingsStoreExtension](T_Tessa_Extensions_Default_Client_EDS_SignatureSettingsStoreExtension.htm)
+[Tessa.Extensions.Default.Client.Workflow.KrCompilers.KrReplaceRecalcMessageStoreExtension](T_Tessa_Extensions_Default_Client_Workflow_KrCompilers_KrReplaceRecalcMessageStoreExtension.htm)
+[Tessa.Extensions.Default.Client.Workflow.KrPermissions.KrKeepReadCardPermissionStoreExtension](T_Tessa_Extensions_Default_Client_Workflow_KrPermissions_KrKeepReadCardPermissionStoreExtension.htm)
+[Tessa.Extensions.Default.Client.Workflow.KrProcess.Requests.KrCardStoreExtension](T_Tessa_Extensions_Default_Client_Workflow_KrProcess_Requests_KrCardStoreExtension.htm)
+[Tessa.Extensions.Default.Client.Workflow.KrProcess.Requests.KrClientCommandStoreExtension](T_Tessa_Extensions_Default_Client_Workflow_KrProcess_Requests_KrClientCommandStoreExtension.htm)
+[Tessa.Extensions.Default.Server.BusinessCalendar.CalendarStoreExtension](T_Tessa_Extensions_Default_Server_BusinessCalendar_CalendarStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Cards.CardNumberStoreExtension](T_Tessa_Extensions_Default_Server_Cards_CardNumberStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Cards.CardPermissionsStoreExtension](T_Tessa_Extensions_Default_Server_Cards_CardPermissionsStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Cards.ContractStoreExtension](T_Tessa_Extensions_Default_Server_Cards_ContractStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Cards.CreateOrAddPartnerCardStoreExtension](T_Tessa_Extensions_Default_Server_Cards_CreateOrAddPartnerCardStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Cards.DefaultConfigurationVersionStoreExtension](T_Tessa_Extensions_Default_Server_Cards_DefaultConfigurationVersionStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Cards.DocLoadBarcodeStoreExtension](T_Tessa_Extensions_Default_Server_Cards_DocLoadBarcodeStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Cards.FileTemplateInvalidateCacheStoreExtension](T_Tessa_Extensions_Default_Server_Cards_FileTemplateInvalidateCacheStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Cards.KrDocStateStoreExtension](T_Tessa_Extensions_Default_Server_Cards_KrDocStateStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Cards.KrPersonalRolesStoreExtension](T_Tessa_Extensions_Default_Server_Cards_KrPersonalRolesStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Cards.KrVirtualFileStoreExtension](T_Tessa_Extensions_Default_Server_Cards_KrVirtualFileStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Cards.PartnerContractStoreExtension](T_Tessa_Extensions_Default_Server_Cards_PartnerContractStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Cards.SaveFileTemplateOnCardStoreExtension](T_Tessa_Extensions_Default_Server_Cards_SaveFileTemplateOnCardStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Cards.TaskFilesExampleStoreExtension](T_Tessa_Extensions_Default_Server_Cards_TaskFilesExampleStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Forums.Satellite.ForumSatelliteStoreExtension](T_Tessa_Extensions_Default_Server_Forums_Satellite_ForumSatelliteStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Notices.NotificationStoreExtension](T_Tessa_Extensions_Default_Server_Notices_NotificationStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrCompilers.Requests.KrCompileSourceStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrCompileSourceStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrCompilers.Requests.KrRecalcStagesStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrRecalcStagesStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrCompilers.Requests.KrTemplateStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrCompilers_Requests_KrTemplateStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrPermissions.KrPermissionsRulesStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsRulesStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrPermissions.KrPermissionsStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrPermissions_KrPermissionsStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.Actions.CardStoreEventEmitter](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Actions_CardStoreEventEmitter.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.FixTaskHistoryCardStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_FixTaskHistoryCardStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.KrAcquaintanceSettingsStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_KrAcquaintanceSettingsStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.KrAdditionalApprovalCardStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_KrAdditionalApprovalCardStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.KrNotificationSettingsStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_KrNotificationSettingsStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.KrReassignAdditionalApprovalStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_KrReassignAdditionalApprovalStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.KrStagesImportExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_KrStagesImportExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.KrStrictSecurityCardStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_KrStrictSecurityCardStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.KrUniversalTaskSettingsStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_KrUniversalTaskSettingsStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.Requests.KrCardStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Requests_KrCardStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.Requests.KrCheckGroupBoundariesInSatelliteStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Requests_KrCheckGroupBoundariesInSatelliteStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.Requests.KrCheckGroupBoundariesStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Requests_KrCheckGroupBoundariesStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.Requests.KrCheckStageRowModifiedStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Requests_KrCheckStageRowModifiedStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.Requests.KrLaunchProcessStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Requests_KrLaunchProcessStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.Requests.KrStartProcessSignalInterceptorStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Requests_KrStartProcessSignalInterceptorStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.Scope.KrLifecycleScopeStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Scope_KrLifecycleScopeStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.Scope.KrScopeStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Scope_KrScopeStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.StageTypeRequests.DialogStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_StageTypeRequests_DialogStoreExtension.htm)
+[Tessa.Extensions.Default.Server.Workflow.KrProcess.StageTypeRequests.ExtraTaskTypesSettingsStoreExtension](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_StageTypeRequests_ExtraTaskTypesSettingsStoreExtension.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess.KrDocTypeInvalidateSettingsCacheStoreExtension](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrDocTypeInvalidateSettingsCacheStoreExtension.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess.KrSettingsInvalidateTypeCacheStoreExtension](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrSettingsInvalidateTypeCacheStoreExtension.htm)
+[Tessa.Extensions.Platform.Client.Cards.CardTemplateStoreExtension](T_Tessa_Extensions_Platform_Client_Cards_CardTemplateStoreExtension.htm)
+[Tessa.Extensions.Platform.Client.Cards.SetDigestStoreExtension](T_Tessa_Extensions_Platform_Client_Cards_SetDigestStoreExtension.htm)
+[Tessa.Extensions.Platform.Client.Cards.WarnWhenErrorAfterVersionIncrementedStoreExtension](T_Tessa_Extensions_Platform_Client_Cards_WarnWhenErrorAfterVersionIncrementedStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.AdSync.AdSyncCardStoreExtension](T_Tessa_Extensions_Platform_Server_AdSync_AdSyncCardStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.AdSync.AdSyncSettingsCardStoreExtension](T_Tessa_Extensions_Platform_Server_AdSync_AdSyncSettingsCardStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.ActionHistoryStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_ActionHistoryStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.ApplicationFileHashingStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_ApplicationFileHashingStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.ApplicationImportExtension](T_Tessa_Extensions_Platform_Server_Cards_ApplicationImportExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.ApplicationStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_ApplicationStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.AutoStartTaskRollbackStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_AutoStartTaskRollbackStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.AutoStartTaskStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_AutoStartTaskStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.BusinessProcessCardImportExtension](T_Tessa_Extensions_Platform_Server_Cards_BusinessProcessCardImportExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.BusinessProcessCardStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_BusinessProcessCardStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.CardStrictSecurityStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_CardStrictSecurityStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.CheckFilesStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_CheckFilesStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.CheckRequestStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_CheckRequestStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.CompletionOptionStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_CompletionOptionStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.ConditionTypeStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_ConditionTypeStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.ConfigurationVersionStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_ConfigurationVersionStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.DeferredNotificationSendStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_DeferredNotificationSendStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.DocLoadStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_DocLoadStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.ErrorStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_ErrorStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.ExecuteValidationTransactionActionsStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_ExecuteValidationTransactionActionsStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.FileConverterCacheStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_FileConverterCacheStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.FileSatelliteCardStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_FileSatelliteCardStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.FileSignaturesStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_FileSignaturesStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.FileTemplateStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_FileTemplateStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.FileTemplateValidatorStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_FileTemplateValidatorStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.FixSignatureVersionsStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_FixSignatureVersionsStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.FunctionRoleStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_FunctionRoleStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.ImportCardStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_ImportCardStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.LicenseStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_LicenseStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.NotificationSubscriptionsCardStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_NotificationSubscriptionsCardStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.NotificationSubscriptionsRestoreExtension](T_Tessa_Extensions_Platform_Server_Cards_NotificationSubscriptionsRestoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.NotificationTypeStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_NotificationTypeStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.PlaceholderCompilationStoreRequestExtension](T_Tessa_Extensions_Platform_Server_Cards_PlaceholderCompilationStoreRequestExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.Satellites.UniversalSatelliteImportExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_UniversalSatelliteImportExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.Satellites.UniversalSatelliteStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_Satellites_UniversalSatelliteStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.SealedApplicationStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_SealedApplicationStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.SealedSingletonStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_SealedSingletonStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.SequenceStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_SequenceStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.ServerInstanceStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_ServerInstanceStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.SetFileSourceStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_SetFileSourceStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.SingletonStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_SingletonStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.TemplateStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_TemplateStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.ValidateNotNullTableStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_ValidateNotNullTableStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.ValidateUniqueStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_ValidateUniqueStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.ViewCardStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_ViewCardStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.WebApplicationImportExtension](T_Tessa_Extensions_Platform_Server_Cards_WebApplicationImportExtension.htm)
+[Tessa.Extensions.Platform.Server.Cards.WorkplaceCardStoreExtension](T_Tessa_Extensions_Platform_Server_Cards_WorkplaceCardStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Forums.FullTextSearchServerInstanceStoreExtension](T_Tessa_Extensions_Platform_Server_Forums_FullTextSearchServerInstanceStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Numbers.NumberImportExtension](T_Tessa_Extensions_Platform_Server_Numbers_NumberImportExtension.htm)
+[Tessa.Extensions.Platform.Server.Numbers.NumberStoreExtension](T_Tessa_Extensions_Platform_Server_Numbers_NumberStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.AddToRolesUserStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_AddToRolesUserStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.CheckParentRoleCycleStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_CheckParentRoleCycleStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.CheckRoleDeputiesStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_CheckRoleDeputiesStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.CheckRoleSchedulingFieldsStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_CheckRoleSchedulingFieldsStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.FixContextRoleStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_FixContextRoleStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.FixDeputiesManagementStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_FixDeputiesManagementStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.FixDynamicRoleStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_FixDynamicRoleStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.FixMetaRoleStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_FixMetaRoleStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.FixPersonalRolesStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_FixPersonalRolesStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.FixRoleGeneratorStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_FixRoleGeneratorStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.FixRoleTypesStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_FixRoleTypesStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.FixRoleUsersWithDeputiesStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_FixRoleUsersWithDeputiesStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.PersonalRoleImportExtension](T_Tessa_Extensions_Platform_Server_Roles_PersonalRoleImportExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.PersonalRoleStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_PersonalRoleStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.RecalcDeputiesRolesStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_RecalcDeputiesRolesStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.RoleDeputiesManagementStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_RoleDeputiesManagementStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.RolesDeputiesStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_RolesDeputiesStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.RoleUsersVirtualStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_RoleUsersVirtualStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.StrictSecurityRoleStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_StrictSecurityRoleStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.UniqueDepartmentNameStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_UniqueDepartmentNameStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Roles.UniqueRoleNameStoreExtension](T_Tessa_Extensions_Platform_Server_Roles_UniqueRoleNameStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.TimeZones.DefaultTimeZoneForRolesCardStoreExtension](T_Tessa_Extensions_Platform_Server_TimeZones_DefaultTimeZoneForRolesCardStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.TimeZones.DepartmentEmployeesTimeZonesStoreExtension](T_Tessa_Extensions_Platform_Server_TimeZones_DepartmentEmployeesTimeZonesStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.TimeZones.FixCardTimeZonesStoreExtension](T_Tessa_Extensions_Platform_Server_TimeZones_FixCardTimeZonesStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.TimeZones.ImportRolesStoreExtension](T_Tessa_Extensions_Platform_Server_TimeZones_ImportRolesStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.TimeZones.InheritTimeZonesStoreExtension](T_Tessa_Extensions_Platform_Server_TimeZones_InheritTimeZonesStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.TimeZones.TimeZonesStoreExtension](T_Tessa_Extensions_Platform_Server_TimeZones_TimeZonesStoreExtension.htm)
+[Tessa.Extensions.Platform.Server.Workflow.BusinessProcessTemplateExtendExtension](T_Tessa_Extensions_Platform_Server_Workflow_BusinessProcessTemplateExtendExtension.htm)
+[Tessa.Extensions.Platform.Server.Workflow.WorkflowEngineImportExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineImportExtension.htm)
+[Tessa.Extensions.Platform.Server.Workflow.WorkflowEngineRestoreExtension](T_Tessa_Extensions_Platform_Server_Workflow_WorkflowEngineRestoreExtension.htm)
+[Tessa.Extensions.Platform.Shared.Cards.ExtendTasksStoreExtension](T_Tessa_Extensions_Platform_Shared_Cards_ExtendTasksStoreExtension.htm)
+[Tessa.Extensions.Platform.Shared.Cards.InvalidateSingletonStoreExtension](T_Tessa_Extensions_Platform_Shared_Cards_InvalidateSingletonStoreExtension.htm)
+[Tessa.Extensions.Platform.Shared.Cards.ValidateCardStoreExtension](T_Tessa_Extensions_Platform_Shared_Cards_ValidateCardStoreExtension.htm)
+[Tessa.Extensions.Platform.Shared.Roles.InvalidateContextRoleStoreExtension](T_Tessa_Extensions_Platform_Shared_Roles_InvalidateContextRoleStoreExtension.htm)
+Подробнее __Less __
+Implements
+    [ICardExtension](T_Tessa_Cards_Extensions_ICardExtension.htm), [ICardStoreExtension](T_Tessa_Cards_Extensions_ICardStoreExtension.htm), [IExtension](T_Tessa_Extensions_IExtension.htm)
+##  __Конструкторы
+[CardStoreExtension](M_Tessa_Cards_Extensions_CardStoreExtension__ctor.htm)|
+Инициализирует новый экземпляр класса CardStoreExtension  
+---|---  
+##  __Методы
+[AfterBeginTransaction](M_Tessa_Cards_Extensions_CardStoreExtension_AfterBeginTransaction.htm)|
+Действие, выполняемое после начала транзакции.  
+---|---  
+[AfterRequest](M_Tessa_Cards_Extensions_CardStoreExtension_AfterRequest.htm)|
+Действие, выполняемое после сохранения карточки как при успешном, так и при
+неудачном результате.  
+[AfterRequestFinally](M_Tessa_Cards_Extensions_CardStoreExtension_AfterRequestFinally.htm)|
+Действие, выполняемое при возникновении исключения или после сохранения
+карточки как при успешном, так и при неудачном результате. Необработанные
+исключения не прерывают выполнение цепочки расширений.  
+[BeforeCommitTransaction](M_Tessa_Cards_Extensions_CardStoreExtension_BeforeCommitTransaction.htm)|
+Действие, выполняемое перед коммитом транзакции.  
+[BeforeRequest](M_Tessa_Cards_Extensions_CardStoreExtension_BeforeRequest.htm)|
+Действие, выполняемое перед сохранением карточки стандартными средствами.
+Может установить ответ на запрос для того, чтобы сохранение карточки
+стандартными средствами не выполнялось.  
+[Equals](https://learn.microsoft.com/dotnet/api/system.object.equals#system-
+object-equals\(system-object\))| Determines whether the specified object is
+equal to the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[Finalize](https://learn.microsoft.com/dotnet/api/system.object.finalize#system-
+object-finalize)| Allows an object to try to free resources and perform other
+cleanup operations before it is reclaimed by garbage collection.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetHashCode](https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-
+object-gethashcode)| Serves as the default hash function.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[GetType](https://learn.microsoft.com/dotnet/api/system.object.gettype#system-
+object-gettype)| Gets the
+[Type](https://learn.microsoft.com/dotnet/api/system.type) of the current
+instance.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[MemberwiseClone](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-
+object-memberwiseclone)| Creates a shallow copy of the current
+[Object](https://learn.microsoft.com/dotnet/api/system.object).  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+[ToString](https://learn.microsoft.com/dotnet/api/system.object.tostring#system-
+object-tostring)| Returns a string that represents the current object.  
+(Унаследован от
+[Object](https://learn.microsoft.com/dotnet/api/system.object))  
+##  __Методы расширения
+[Get](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Get.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+---|---  
+[InternalMarkerCanvas](M_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor_InternalMarkerCanvas.htm)|
+Возвращает маркер аннотации  
+(Определяется
+[AnnotationInternalsAccessor](T_Tessa_UI_Views_Charting_Annotations_AnnotationInternalsAccessor.htm))  
+[Invoke](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Invoke.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+[Set](M_Tessa_Extensions_Default_Client_EDS_ComHelper_Set.htm)|  
+(Определяется
+[ComHelper](T_Tessa_Extensions_Default_Client_EDS_ComHelper.htm))  
+##  __См. также
+#### Ссылки
+[Tessa.Cards.Extensions - пространство имён](N_Tessa_Cards_Extensions.htm)

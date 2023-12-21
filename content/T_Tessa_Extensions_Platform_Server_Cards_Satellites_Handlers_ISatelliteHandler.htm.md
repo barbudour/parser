@@ -1,0 +1,34 @@
+# ISatelliteHandler - интерфейс
+##  __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Platform.Server.Cards.Satellites.Handlers](N_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers.htm)  
+ **Сборка:** Tessa (в Tessa.dll) Версия: 3.6.0.17
+C# __Копировать
+     public interface ISatelliteHandler
+VB __Копировать
+     Public Interface ISatelliteHandler
+C++ __Копировать
+     public interface class ISatelliteHandler
+F# __Копировать
+     type ISatelliteHandler = interface end
+##  __Методы
+[CheckFileAccessAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_CheckFileAccessAsync.htm)|  
+---|---  
+[CheckFileVersionsAccessAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_CheckFileVersionsAccessAsync.htm)|  
+[GetExternalFileSourcesAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_GetExternalFileSourcesAsync.htm)|  
+[IsMainCardFileAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_IsMainCardFileAsync.htm)|  
+[IsMainCardTypeAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_IsMainCardTypeAsync.htm)|  
+[PrepareMainCardFileToStoreAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_PrepareMainCardFileToStoreAsync.htm)|  
+[PrepareSatelliteForBackupAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_PrepareSatelliteForBackupAsync.htm)|  
+[PrepareSatelliteForCreateAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_PrepareSatelliteForCreateAsync.htm)|  
+[PrepareSatelliteForDeleteAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_PrepareSatelliteForDeleteAsync.htm)|  
+[PrepareSatelliteForExportAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_PrepareSatelliteForExportAsync.htm)|  
+[PrepareSatelliteForGetAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_PrepareSatelliteForGetAsync.htm)|  
+[PrepareSatelliteForImportAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_PrepareSatelliteForImportAsync.htm)|  
+[PrepareSatelliteForRepareAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_PrepareSatelliteForRepareAsync.htm)|  
+[PrepareSatelliteForRestoreAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_PrepareSatelliteForRestoreAsync.htm)|  
+[SetupSatelliteFileAsync](M_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers_ISatelliteHandler_SetupSatelliteFileAsync.htm)|  
+## __См. также
+#### Ссылки
+[Tessa.Extensions.Platform.Server.Cards.Satellites.Handlers - пространство
+имён](N_Tessa_Extensions_Platform_Server_Cards_Satellites_Handlers.htm)

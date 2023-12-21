@@ -1,0 +1,46 @@
+# WorkflowConstants.KrSigningActionVirtual - класс
+##  __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)  
+ **Сборка:** Tessa.Extensions.Default.Shared (в
+Tessa.Extensions.Default.Shared.dll) Версия: 3.6.0.17
+C# __Копировать
+     public static class KrSigningActionVirtual
+VB __Копировать
+     Public NotInheritable Class KrSigningActionVirtual
+C++ __Копировать
+     public ref class KrSigningActionVirtual abstract sealed
+F# __Копировать
+     [<AbstractClassAttribute>]
+    [<SealedAttribute>]
+    type KrSigningActionVirtual = class end
+Inheritance
+    [Object](https://learn.microsoft.com/dotnet/api/system.object) __ WorkflowConstants.KrSigningActionVirtual
+##  __Поля
+[AllowAdditionalApproval](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_AllowAdditionalApproval.htm)|  
+---|---  
+[Author](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_Author.htm)|  
+[CanEditAnyFiles](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_CanEditAnyFiles.htm)|  
+[CanEditCard](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_CanEditCard.htm)|  
+[ChangeStateOnEnd](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_ChangeStateOnEnd.htm)|  
+[ChangeStateOnStart](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_ChangeStateOnStart.htm)|  
+[Digest](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_Digest.htm)|  
+[ExcludeDeputies](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_ExcludeDeputies.htm)|  
+[ExcludeSubscribers](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_ExcludeSubscribers.htm)|  
+[ExpectAllSigners](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_ExpectAllSigners.htm)|  
+[InitTaskScript](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_InitTaskScript.htm)|  
+[IsAdvisory](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_IsAdvisory.htm)|  
+[IsParallel](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_IsParallel.htm)|  
+[Kind](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_Kind.htm)|  
+[Notification](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_Notification.htm)|  
+[NotificationScript](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_NotificationScript.htm)|  
+[Period](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_Period.htm)|  
+[Planned](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_Planned.htm)|  
+[Result](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_Result.htm)|  
+[ReturnWhenApproved](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_ReturnWhenApproved.htm)|  
+[SectionName](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_SectionName.htm)|  
+[SqlPerformersScript](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrSigningActionVirtual_SqlPerformersScript.htm)|  
+## __См. также
+#### Ссылки
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)

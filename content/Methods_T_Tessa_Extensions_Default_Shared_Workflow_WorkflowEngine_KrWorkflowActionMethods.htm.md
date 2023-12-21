@@ -1,0 +1,29 @@
+# KrWorkflowActionMethods - методы
+##  __Методы
+[CreateActionCompleteNotificationMethodTemplate](M_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrWorkflowActionMethods_CreateActionCompleteNotificationMethodTemplate.htm)|
+Создаёт дескриптор метода изменения уведомления отправляющегося при завершении
+задания с определённым вариантом завершения.  
+---|---  
+[CreateActionOptionMethodTemplate](M_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrWorkflowActionMethods_CreateActionOptionMethodTemplate.htm)|
+Создаёт дескриптор метода выполняющегося при завершении действия с
+определённым вариантом завершения.  
+[CreateCompletionTaskNotificationMethodTemplate](M_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrWorkflowActionMethods_CreateCompletionTaskNotificationMethodTemplate.htm)|
+Создаёт дескриптор метода изменения уведомления отправляющегося при завершении
+задания.  
+[CreateTaskCompleteNotificationMethodTemplate](M_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrWorkflowActionMethods_CreateTaskCompleteNotificationMethodTemplate.htm)|
+Создаёт дескриптор метода изменения уведомления отправляющегося при завершении
+задания с определённым вариантом завершения.  
+[CreateTaskInitMethodTemplate](M_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrWorkflowActionMethods_CreateTaskInitMethodTemplate.htm)|
+Создаёт дескриптор метода инициализации задания.  
+[CreateTaskOptionMethodTemplate](M_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrWorkflowActionMethods_CreateTaskOptionMethodTemplate.htm)|
+Создаёт дескриптор метода выполняющегося при завершении задания с определённым
+вариантом завершения.  
+[CreateTaskStartNotificationMethodTemplate](M_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrWorkflowActionMethods_CreateTaskStartNotificationMethodTemplate.htm)|
+Создаёт дескриптор метода изменения уведомления отправляющегося при
+отправлении задания.  
+## __См. также
+#### Ссылки
+[KrWorkflowActionMethods -
+](T_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_KrWorkflowActionMethods.htm)
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)

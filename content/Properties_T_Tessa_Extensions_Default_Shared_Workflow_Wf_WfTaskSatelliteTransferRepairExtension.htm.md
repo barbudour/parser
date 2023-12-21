@@ -1,0 +1,25 @@
+# WfTaskSatelliteTransferRepairExtension - свойства
+##  __Свойства
+[IsTaskSatelite](P_Tessa_Extensions_Default_Shared_Workflow_Wf_WfTaskSatelliteTransferRepairExtension_IsTaskSatelite.htm)|  
+(Переопределяет
+[CardSatelliteTransferRepairExtension.IsTaskSatelite](P_Tessa_Cards_Extensions_Templates_CardSatelliteTransferRepairExtension_IsTaskSatelite.htm))  
+---|---  
+[MainCardIDColumnName](P_Tessa_Cards_Extensions_Templates_CardSatelliteTransferRepairExtension_MainCardIDColumnName.htm)|
+Имя колонки с ссылкой на основную карточку, к которой относится сателлит.  
+(Унаследован от
+[CardSatelliteTransferRepairExtension](T_Tessa_Cards_Extensions_Templates_CardSatelliteTransferRepairExtension.htm))  
+[SatelliteSectionName](P_Tessa_Extensions_Default_Shared_Workflow_Wf_WfTaskSatelliteTransferRepairExtension_SatelliteSectionName.htm)|  
+(Переопределяет
+[CardSatelliteTransferRepairExtension.SatelliteSectionName](P_Tessa_Cards_Extensions_Templates_CardSatelliteTransferRepairExtension_SatelliteSectionName.htm))  
+[StoreKey](P_Tessa_Extensions_Default_Shared_Workflow_Wf_WfTaskSatelliteTransferRepairExtension_StoreKey.htm)|  
+(Переопределяет
+[CardSatelliteTransferRepairExtension.StoreKey](P_Tessa_Cards_Extensions_Templates_CardSatelliteTransferRepairExtension_StoreKey.htm))  
+[TaskRowIDColumnName](P_Tessa_Extensions_Default_Shared_Workflow_Wf_WfTaskSatelliteTransferRepairExtension_TaskRowIDColumnName.htm)|  
+(Переопределяет
+[CardSatelliteTransferRepairExtension.TaskRowIDColumnName](P_Tessa_Cards_Extensions_Templates_CardSatelliteTransferRepairExtension_TaskRowIDColumnName.htm))  
+##  __См. также
+#### Ссылки
+[WfTaskSatelliteTransferRepairExtension -
+](T_Tessa_Extensions_Default_Shared_Workflow_Wf_WfTaskSatelliteTransferRepairExtension.htm)
+[Tessa.Extensions.Default.Shared.Workflow.Wf - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_Wf.htm)

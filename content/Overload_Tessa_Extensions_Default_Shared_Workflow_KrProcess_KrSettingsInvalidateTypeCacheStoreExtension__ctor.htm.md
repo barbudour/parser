@@ -1,0 +1,18 @@
+# KrSettingsInvalidateTypeCacheStoreExtension - конструктор
+##  __Список перегрузок
+[KrSettingsInvalidateTypeCacheStoreExtension(CardMetadataCache, IKrTypesCache,
+ISession)](M_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrSettingsInvalidateTypeCacheStoreExtension__ctor_1.htm)|
+Инициализирует новый экземпляр класса
+[KrSettingsInvalidateTypeCacheStoreExtension](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrSettingsInvalidateTypeCacheStoreExtension.htm)  
+---|---  
+[KrSettingsInvalidateTypeCacheStoreExtension(ICardCachedMetadata,
+IKrTypesCache,
+ISession)](M_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrSettingsInvalidateTypeCacheStoreExtension__ctor.htm)|
+Инициализирует новый экземпляр класса
+[KrSettingsInvalidateTypeCacheStoreExtension](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrSettingsInvalidateTypeCacheStoreExtension.htm)  
+##  __См. также
+#### Ссылки
+[KrSettingsInvalidateTypeCacheStoreExtension -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_KrSettingsInvalidateTypeCacheStoreExtension.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)

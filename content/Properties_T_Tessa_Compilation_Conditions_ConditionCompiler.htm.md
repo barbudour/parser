@@ -1,0 +1,12 @@
+# ConditionCompiler - свойства
+##  __Свойства
+[DefaultReferences](P_Tessa_Compilation_Conditions_ConditionCompiler_DefaultReferences.htm)|
+Список зависимостей, используемых данным компилятором по умолчанию  
+---|---  
+[DefaultUsings](P_Tessa_Compilation_Conditions_ConditionCompiler_DefaultUsings.htm)|
+Список юзингов, используемых данным компилятором по умолчанию  
+## __См. также
+#### Ссылки
+[ConditionCompiler - ](T_Tessa_Compilation_Conditions_ConditionCompiler.htm)
+[Tessa.Compilation.Conditions - пространство
+имён](N_Tessa_Compilation_Conditions.htm)

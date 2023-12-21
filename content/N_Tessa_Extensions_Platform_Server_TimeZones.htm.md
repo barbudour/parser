@@ -1,0 +1,24 @@
+# Tessa.Extensions.Platform.Server.TimeZones - пространство имён
+Расширения платформы на сервере, связанные с временными зонами.
+##  __Классы
+[AllowToModifyTimeZonesGetExtension](T_Tessa_Extensions_Platform_Server_TimeZones_AllowToModifyTimeZonesGetExtension.htm)|  
+---|---  
+[CheckTimeZonesInheritanceRequestExtension](T_Tessa_Extensions_Platform_Server_TimeZones_CheckTimeZonesInheritanceRequestExtension.htm)|  
+[DefaultTimeZoneForRolesCardStoreExtension](T_Tessa_Extensions_Platform_Server_TimeZones_DefaultTimeZoneForRolesCardStoreExtension.htm)|  
+[DepartmentEmployeesTimeZonesStoreExtension](T_Tessa_Extensions_Platform_Server_TimeZones_DepartmentEmployeesTimeZonesStoreExtension.htm)|  
+[FillTimeZoneInRolesNewExtension](T_Tessa_Extensions_Platform_Server_TimeZones_FillTimeZoneInRolesNewExtension.htm)|  
+[FixCardTimeZonesStoreExtension](T_Tessa_Extensions_Platform_Server_TimeZones_FixCardTimeZonesStoreExtension.htm)|  
+[GenerateTimeZonesRequestExtension](T_Tessa_Extensions_Platform_Server_TimeZones_GenerateTimeZonesRequestExtension.htm)|  
+[ImportRolesStoreExtension](T_Tessa_Extensions_Platform_Server_TimeZones_ImportRolesStoreExtension.htm)|  
+[InheritTimeZonesStoreExtension](T_Tessa_Extensions_Platform_Server_TimeZones_InheritTimeZonesStoreExtension.htm)|  
+[Registrator](T_Tessa_Extensions_Platform_Server_TimeZones_Registrator.htm)|  
+[SetDefaultTimeZoneRequestExtension](T_Tessa_Extensions_Platform_Server_TimeZones_SetDefaultTimeZoneRequestExtension.htm)|  
+[TimeZonesDeleteExtension](T_Tessa_Extensions_Platform_Server_TimeZones_TimeZonesDeleteExtension.htm)|
+Расширение удаляет информацию для физической таблицы TimeZones, т.к. её
+содержимое настраивается удаляемой карточкой.  
+[TimeZonesGetExtension](T_Tessa_Extensions_Platform_Server_TimeZones_TimeZonesGetExtension.htm)|
+Расширение загружает информацию для виртуальной секции TimeZonesVirtual из
+физической таблицы TimeZones.  
+[TimeZonesNewExtension](T_Tessa_Extensions_Platform_Server_TimeZones_TimeZonesNewExtension.htm)|  
+[TimeZonesStoreExtension](T_Tessa_Extensions_Platform_Server_TimeZones_TimeZonesStoreExtension.htm)|  
+[UpdateZonesOffsetsRequestExtension](T_Tessa_Extensions_Platform_Server_TimeZones_UpdateZonesOffsetsRequestExtension.htm)|

@@ -1,0 +1,32 @@
+# StageTypeFormatterContext.DisplaySettings - свойство
+Возвращает или задаёт отображаемые настройки.
+## __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess.Formatters](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess_Formatters.htm)  
+ **Сборка:** Tessa.Extensions.Default.Shared (в
+Tessa.Extensions.Default.Shared.dll) Версия: 3.6.0.17
+C# __Копировать
+     public string DisplaySettings { get; set; }
+VB __Копировать
+     Public Property DisplaySettings As String
+    	Get
+    	Set
+C++ __Копировать
+     public:
+    virtual property String^ DisplaySettings {
+    	String^ get () sealed;
+    	void set (String^ value) sealed;
+    }
+F# __Копировать
+     abstract DisplaySettings : string with get, set
+    override DisplaySettings : string with get, set
+#### Значение свойства
+[String](https://learn.microsoft.com/dotnet/api/system.string)
+#### Реализации
+[IStageTypeFormatterContext.DisplaySettings](P_Tessa_Extensions_Default_Shared_Workflow_KrProcess_Formatters_IStageTypeFormatterContext_DisplaySettings.htm)  
+##  __См. также
+#### Ссылки
+[StageTypeFormatterContext -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_Formatters_StageTypeFormatterContext.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess.Formatters - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess_Formatters.htm)

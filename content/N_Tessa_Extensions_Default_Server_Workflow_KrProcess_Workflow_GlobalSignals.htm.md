@@ -1,0 +1,27 @@
+# Tessa.Extensions.Default.Server.Workflow.KrProcess.Workflow.GlobalSignals -
+пространство имён
+Расширения типового решения на сервере, связанные с выполнением процессов
+маршрутов по части передачи глобальных сигналов.
+##  __Классы
+[CancelProcessSignalHandler](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_GlobalSignals_CancelProcessSignalHandler.htm)|  
+---|---  
+[GlobalSignalHandlerBase](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_GlobalSignals_GlobalSignalHandlerBase.htm)|  
+[GlobalSignalHandlerContext](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_GlobalSignals_GlobalSignalHandlerContext.htm)|  
+[GlobalSignalHandlerResult](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_GlobalSignals_GlobalSignalHandlerResult.htm)|
+Представляет результат обработки глобального сигнала.  
+[Registrator](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_GlobalSignals_Registrator.htm)|  
+[SignalFilterItem](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_GlobalSignals_SignalFilterItem.htm)|  
+[SkipProcessSignalHandler](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_GlobalSignals_SkipProcessSignalHandler.htm)|  
+[TransitionGlobalSignalHandler](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_GlobalSignals_TransitionGlobalSignalHandler.htm)|  
+## __Структуры
+[SignalFilter](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_GlobalSignals_SignalFilter.htm)|
+Фильтр типов сигналов.  
+---|---  
+[SignalHandlerFilter](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_GlobalSignals_SignalHandlerFilter.htm)|
+Фильтр обработчиков сигналов.  
+## __Интерфейсы
+[IGlobalSignalHandler](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_GlobalSignals_IGlobalSignalHandler.htm)|  
+---|---  
+[IGlobalSignalHandlerContext](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_GlobalSignals_IGlobalSignalHandlerContext.htm)|  
+[IGlobalSignalHandlerResult](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_GlobalSignals_IGlobalSignalHandlerResult.htm)|
+Описывает результат обработки глобального сигнала.

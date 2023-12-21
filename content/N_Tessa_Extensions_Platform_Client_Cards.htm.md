@@ -1,0 +1,125 @@
+# Tessa.Extensions.Platform.Client.Cards - пространство имён
+Расширения платформы на desktop-клиенте, связанные с карточками платформы.
+##  __Классы
+[CardPlatformExtensionHelper](T_Tessa_Extensions_Platform_Client_Cards_CardPlatformExtensionHelper.htm)|
+Вспомогательный класс для платформенных расширений карточек.  
+---|---  
+[CardTaskDialogGetFileContentExtension](T_Tessa_Extensions_Platform_Client_Cards_CardTaskDialogGetFileContentExtension.htm)|  
+[CardTemplateGetExtension](T_Tessa_Extensions_Platform_Client_Cards_CardTemplateGetExtension.htm)|
+Расширение, загружающее карточку в шаблоне таким образом, что она подменяется
+на карточку шаблона, а затем преобразуется обратно в карточку в шаблоне.  
+[CardTemplateStoreExtension](T_Tessa_Extensions_Platform_Client_Cards_CardTemplateStoreExtension.htm)|
+Расширение, исправляющее карточку в шаблоне перед сохранением шаблона, если
+эта карточка была изменена.  
+[CompletionOptionGetTypeIDListRequestExtension](T_Tessa_Extensions_Platform_Client_Cards_CompletionOptionGetTypeIDListRequestExtension.htm)|
+Расширение на получение списка типов карточек из представления "Варианты
+завершения".  
+[CreateFromTemplateOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_CreateFromTemplateOnDoubleClickExtension.htm)|
+Расширение, выполняющее создание карточки по шаблону вместо открытия шаблона
+по двойному клику.  
+[CreateFromTemplateOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Platform_Client_Cards_CreateFromTemplateOnDoubleClickExtensionConfigurator.htm)|
+Конфигуратор расширения
+[CreateFromTemplateOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_CreateFromTemplateOnDoubleClickExtension.htm).  
+[DeletedCardGetExtension](T_Tessa_Extensions_Platform_Client_Cards_DeletedCardGetExtension.htm)|
+Установка DeletedVirtual.CardStorage для карточки Deleted.  
+[FileConverterCacheClientGetExtension](T_Tessa_Extensions_Platform_Client_Cards_FileConverterCacheClientGetExtension.htm)|
+Расширение устанавливает флаг, по которому будут загружены только данные
+виртуальных секций. В противном случае на клиент может начать загружаться
+информация по десяткам тысяч файлов в кэше.  
+[FileTemplate](T_Tessa_Extensions_Platform_Client_Cards_FileTemplate.htm)|  
+[FileTemplateCache](T_Tessa_Extensions_Platform_Client_Cards_FileTemplateCache.htm)|
+Класс, хранящий информацию о шаблонах файлов.  
+[FillAuthorTaskRowIDListGetExtension](T_Tessa_Extensions_Platform_Client_Cards_FillAuthorTaskRowIDListGetExtension.htm)|
+Если загружается та же карточка, которая содержится в текущем контексте, то из
+карточки в контексте все задания с флагом
+[UnlockedForAuthor](T_Tessa_Cards_CardTaskFlags.htm) переносятся в запрос
+[AuthorTaskRowIDList](P_Tessa_Cards_CardGetRequest_AuthorTaskRowIDList.htm).  
+[FunctionRoleGetTypeIDListRequestExtension](T_Tessa_Extensions_Platform_Client_Cards_FunctionRoleGetTypeIDListRequestExtension.htm)|
+Расширение на получение списка типов карточек из представления "Функциональные
+роли".  
+[OpenFromActionHistoryOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromActionHistoryOnDoubleClickExtension.htm)|
+Расширение, выполняющее открытие виртуальной карточки по записи в истории
+действий.  
+[OpenFromActionHistoryOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Platform_Client_Cards_OpenFromActionHistoryOnDoubleClickExtensionConfigurator.htm)|
+Конфигуратор расширения
+[OpenFromActionHistoryOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromActionHistoryOnDoubleClickExtension.htm).  
+[OpenFromCompletionOptionsOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromCompletionOptionsOnDoubleClickExtension.htm)|
+Расширение, выполняющее открытие виртуальной карточки по строке в активных
+операциях.  
+[OpenFromCompletionOptionsOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Platform_Client_Cards_OpenFromCompletionOptionsOnDoubleClickExtensionConfigurator.htm)|
+Конфигуратор расширения
+[OpenFromCompletionOptionsOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromCompletionOptionsOnDoubleClickExtension.htm).  
+[OpenFromDeputiesManagementOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromDeputiesManagementOnDoubleClickExtension.htm)|
+Расширение, выполняющее открытие виртуальной карточки "Мои замещения" по
+двойному клику из представления, предоставляющего идентификатор сотрудника как
+референс для двойного клика.  
+[OpenFromDeputiesManagementOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Platform_Client_Cards_OpenFromDeputiesManagementOnDoubleClickExtensionConfigurator.htm)|
+Конфигуратор расширения
+[OpenFromDeputiesManagementOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromDeputiesManagementOnDoubleClickExtension.htm).  
+[OpenFromFunctionRolesOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromFunctionRolesOnDoubleClickExtension.htm)|
+Расширение, выполняющее открытие виртуальной карточки по строке в активных
+операциях.  
+[OpenFromFunctionRolesOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Platform_Client_Cards_OpenFromFunctionRolesOnDoubleClickExtensionConfigurator.htm)|
+Конфигуратор расширения
+[OpenFromFunctionRolesOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromFunctionRolesOnDoubleClickExtension.htm).  
+[OpenFromOperationsOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromOperationsOnDoubleClickExtension.htm)|
+Расширение, выполняющее открытие виртуальной карточки по строке в активных
+операциях.  
+[OpenFromOperationsOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Platform_Client_Cards_OpenFromOperationsOnDoubleClickExtensionConfigurator.htm)|
+Конфигуратор расширения
+[OpenFromOperationsOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromOperationsOnDoubleClickExtension.htm).  
+[OpenFromViewsOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromViewsOnDoubleClickExtension.htm)|
+Расширение, выполняющее открытие виртуальной карточки по записи в списке
+представлений.  
+[OpenFromViewsOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Platform_Client_Cards_OpenFromViewsOnDoubleClickExtensionConfigurator.htm)|
+Конфигуратор расширения
+[OpenFromViewsOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromViewsOnDoubleClickExtension.htm).  
+[OpenFromWorkplacesOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromWorkplacesOnDoubleClickExtension.htm)|
+Расширение, выполняющее открытие виртуальной карточки по записи в списке
+рабочих мест.  
+[OpenFromWorkplacesOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Platform_Client_Cards_OpenFromWorkplacesOnDoubleClickExtensionConfigurator.htm)|
+Конфигуратор расширения
+[OpenFromWorkplacesOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenFromWorkplacesOnDoubleClickExtension.htm).  
+[OpenInModalDialogOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenInModalDialogOnDoubleClickExtension.htm)|
+Расширение, выполняющее открытие карточки в диалоге из представления по
+двойному клику.  
+[OpenInModalDialogOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Platform_Client_Cards_OpenInModalDialogOnDoubleClickExtensionConfigurator.htm)|
+Конфигуратор расширения
+[OpenInModalDialogOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenInModalDialogOnDoubleClickExtension.htm).  
+[OpenInModalDialogOnDoubleClickExtensionSettings](T_Tessa_Extensions_Platform_Client_Cards_OpenInModalDialogOnDoubleClickExtensionSettings.htm)|
+Настройки для расширения
+[OpenInModalDialogOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenInModalDialogOnDoubleClickExtension.htm).
+Используются также в конфигураторе .  
+[OpenWorkflowEditorOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenWorkflowEditorOnDoubleClickExtension.htm)|
+Расширение, выполняющее открытие редактора экземпляра бизнес-процесса.  
+[OpenWorkflowEditorOnDoubleClickExtensionConfigurator](T_Tessa_Extensions_Platform_Client_Cards_OpenWorkflowEditorOnDoubleClickExtensionConfigurator.htm)|
+Конфигуратор расширения
+[OpenWorkflowEditorOnDoubleClickExtension](T_Tessa_Extensions_Platform_Client_Cards_OpenWorkflowEditorOnDoubleClickExtension.htm).  
+[PlatformCardExtensionHelper](T_Tessa_Extensions_Platform_Client_Cards_PlatformCardExtensionHelper.htm)|
+Вспомогательные средства, связанные с карточками шаблонов.  
+[Registrator](T_Tessa_Extensions_Platform_Client_Cards_Registrator.htm)|  
+[SequenceGetExtension](T_Tessa_Extensions_Platform_Client_Cards_SequenceGetExtension.htm)|  
+[SetDigestDeleteExtension](T_Tessa_Extensions_Platform_Client_Cards_SetDigestDeleteExtension.htm)|
+Устанавливает Digest перед запросом к серверу, используя тип запроса
+[GetDigest](F_Tessa_Cards_CardRequestTypes_GetDigest.htm).  
+[SetDigestGetExtension](T_Tessa_Extensions_Platform_Client_Cards_SetDigestGetExtension.htm)|
+Устанавливает Digest перед запросом к серверу, используя тип запроса
+[GetDigest](F_Tessa_Cards_CardRequestTypes_GetDigest.htm).  
+[SetDigestGetFileContentExtension](T_Tessa_Extensions_Platform_Client_Cards_SetDigestGetFileContentExtension.htm)|
+Устанавливает Digest перед запросом к серверу, используя тип запроса
+[GetDigest](F_Tessa_Cards_CardRequestTypes_GetDigest.htm).  
+[SetDigestGetFileVersionsExtension](T_Tessa_Extensions_Platform_Client_Cards_SetDigestGetFileVersionsExtension.htm)|
+Устанавливает Digest перед запросом к серверу, используя тип запроса
+[GetDigest](F_Tessa_Cards_CardRequestTypes_GetDigest.htm).  
+[SetDigestStoreExtension](T_Tessa_Extensions_Platform_Client_Cards_SetDigestStoreExtension.htm)|
+Устанавливает Digest перед запросом к серверу, используя тип запроса
+[GetDigest](F_Tessa_Cards_CardRequestTypes_GetDigest.htm).  
+[TemplateRecordNewExtension](T_Tessa_Extensions_Platform_Client_Cards_TemplateRecordNewExtension.htm)|
+Расширение на процесс создания карточки по шаблону.  
+[TemplateRecordNewExtension.RemovableInfo](T_Tessa_Extensions_Platform_Client_Cards_TemplateRecordNewExtension_RemovableInfo.htm)|
+Предоставляет информацию, которая не должна передаваться на сервер.  
+[WarnWhenErrorAfterVersionIncrementedStoreExtension](T_Tessa_Extensions_Platform_Client_Cards_WarnWhenErrorAfterVersionIncrementedStoreExtension.htm)|
+Предупреждение, добавляемое в случае, если при сохранении карточки версия
+карточки поменялась, но после этого возникли любые ошибки. Тогда карточка не
+будет загружена после сохранения, а пользователю надо сказать, что сейчас у
+него открыта старая версия карточки, и возможны конфликты сохранения.

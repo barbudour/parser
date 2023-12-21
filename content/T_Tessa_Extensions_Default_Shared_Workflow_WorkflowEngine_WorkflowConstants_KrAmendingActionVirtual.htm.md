@@ -1,0 +1,46 @@
+# WorkflowConstants.KrAmendingActionVirtual - класс
+##  __Definition
+ **Пространство имён:**
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)  
+ **Сборка:** Tessa.Extensions.Default.Shared (в
+Tessa.Extensions.Default.Shared.dll) Версия: 3.6.0.17
+C# __Копировать
+     public static class KrAmendingActionVirtual
+VB __Копировать
+     Public NotInheritable Class KrAmendingActionVirtual
+C++ __Копировать
+     public ref class KrAmendingActionVirtual abstract sealed
+F# __Копировать
+     [<AbstractClassAttribute>]
+    [<SealedAttribute>]
+    type KrAmendingActionVirtual = class end
+Inheritance
+    [Object](https://learn.microsoft.com/dotnet/api/system.object) __ WorkflowConstants.KrAmendingActionVirtual
+##  __Поля
+[Author](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_Author.htm)|  
+---|---  
+[CompleteOptionExcludeDeputies](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_CompleteOptionExcludeDeputies.htm)|  
+[CompleteOptionExcludeSubscribers](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_CompleteOptionExcludeSubscribers.htm)|  
+[CompleteOptionNotification](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_CompleteOptionNotification.htm)|  
+[CompleteOptionNotificationScript](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_CompleteOptionNotificationScript.htm)|  
+[CompleteOptionSendToAuthor](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_CompleteOptionSendToAuthor.htm)|  
+[CompleteOptionSendToPerformer](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_CompleteOptionSendToPerformer.htm)|  
+[CompleteOptionTaskScript](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_CompleteOptionTaskScript.htm)|  
+[Digest](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_Digest.htm)|  
+[ExcludeDeputies](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_ExcludeDeputies.htm)|  
+[ExcludeSubscribers](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_ExcludeSubscribers.htm)|  
+[InitTaskScript](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_InitTaskScript.htm)|  
+[IsChangeState](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_IsChangeState.htm)|  
+[IsIncrementCycle](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_IsIncrementCycle.htm)|  
+[Kind](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_Kind.htm)|  
+[Notification](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_Notification.htm)|  
+[NotificationScript](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_NotificationScript.htm)|  
+[Period](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_Period.htm)|  
+[Planned](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_Planned.htm)|  
+[Result](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_Result.htm)|  
+[Role](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_Role.htm)|  
+[SectionName](F_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine_WorkflowConstants_KrAmendingActionVirtual_SectionName.htm)|  
+## __См. также
+#### Ссылки
+[Tessa.Extensions.Default.Shared.Workflow.WorkflowEngine - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_WorkflowEngine.htm)

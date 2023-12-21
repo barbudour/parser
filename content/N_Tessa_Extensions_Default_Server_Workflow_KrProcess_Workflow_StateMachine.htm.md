@@ -1,0 +1,27 @@
+# Tessa.Extensions.Default.Server.Workflow.KrProcess.Workflow.StateMachine -
+пространство имён
+Расширения типового решения на сервере, связанные с выполнением процессов
+маршрутов по части машины состояний.
+##  __Классы
+[CancelProcessStateHandler](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_CancelProcessStateHandler.htm)|  
+---|---  
+[DefaultStateHandler](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_DefaultStateHandler.htm)|  
+[InterruptionStateHandler](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_InterruptionStateHandler.htm)|  
+[KrProcessState](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_KrProcessState.htm)|
+Представляет состояние процесса.  
+[KrProcessStateMachine](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_KrProcessStateMachine.htm)|  
+[KrProcessStateMachineExtensions](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_KrProcessStateMachineExtensions.htm)|  
+[Registrator](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_Registrator.htm)|  
+[SkipProcessStateHandler](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_SkipProcessStateHandler.htm)|  
+[StateHandlerBase](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_StateHandlerBase.htm)|  
+[StateHandlerContext](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_StateHandlerContext.htm)|  
+[StateHandlerResult](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_StateHandlerResult.htm)|
+Результат обработки состояния.  
+[TransitionStateHandler](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_TransitionStateHandler.htm)|  
+## __Интерфейсы
+[IKrProcessStateMachine](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_IKrProcessStateMachine.htm)|  
+---|---  
+[IStateHandler](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_IStateHandler.htm)|  
+[IStateHandlerContext](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_IStateHandlerContext.htm)|  
+[IStateHandlerResult](T_Tessa_Extensions_Default_Server_Workflow_KrProcess_Workflow_StateMachine_IStateHandlerResult.htm)|
+Описывает результат обработки состояния.

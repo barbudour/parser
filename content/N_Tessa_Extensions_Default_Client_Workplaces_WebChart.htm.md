@@ -1,0 +1,15 @@
+# Tessa.Extensions.Default.Client.Workplaces.WebChart - пространство имён
+## __Классы
+[WebChartColorPickerViewModel](T_Tessa_Extensions_Default_Client_Workplaces_WebChart_WebChartColorPickerViewModel.htm)|  
+---|---  
+[WebChartSettingsDialog](T_Tessa_Extensions_Default_Client_Workplaces_WebChart_WebChartSettingsDialog.htm)|
+Interaction logic for ChartDesignerWindow.xaml  
+[WebChartSettingsEditorView](T_Tessa_Extensions_Default_Client_Workplaces_WebChart_WebChartSettingsEditorView.htm)|
+Interaction logic for WebChartSettingsEditorView.xaml  
+[WebChartSettingsViewModel](T_Tessa_Extensions_Default_Client_Workplaces_WebChart_WebChartSettingsViewModel.htm)|
+Модель-представление для редактирования настроек веб-диаграмм  
+[WebChartWorkplaceExtension](T_Tessa_Extensions_Default_Client_Workplaces_WebChart_WebChartWorkplaceExtension.htm)|
+Расширение вывода диаграммы вместо представления для лёгкого клиента.  
+[WebChartWorkplaceExtensionConfigurator](T_Tessa_Extensions_Default_Client_Workplaces_WebChart_WebChartWorkplaceExtensionConfigurator.htm)|
+Конфигуратор расширения
+[WebChartWorkplaceExtension](T_Tessa_Extensions_Default_Client_Workplaces_WebChart_WebChartWorkplaceExtension.htm).

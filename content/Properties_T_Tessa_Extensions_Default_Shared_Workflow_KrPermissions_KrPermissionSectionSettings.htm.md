@@ -1,0 +1,26 @@
+# KrPermissionSectionSettings - свойства
+##  __Свойства
+[AllowedFields](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_AllowedFields.htm)|  
+---|---  
+[DisallowedFields](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_DisallowedFields.htm)|  
+[DisallowRowAdding](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_DisallowRowAdding.htm)|  
+[DisallowRowDeleting](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_DisallowRowDeleting.htm)|  
+[HiddenFields](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_HiddenFields.htm)|  
+[ID](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_ID.htm)|  
+[IsAllowed](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_IsAllowed.htm)|  
+[IsDisallowed](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_IsDisallowed.htm)|  
+[IsHidden](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_IsHidden.htm)|  
+[IsMandatory](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_IsMandatory.htm)|  
+[IsMasked](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_IsMasked.htm)|  
+[IsVisible](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_IsVisible.htm)|  
+[MandatoryFields](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_MandatoryFields.htm)|  
+[Mask](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_Mask.htm)|  
+[MaskedFields](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_MaskedFields.htm)|  
+[MaskedFieldsData](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_MaskedFieldsData.htm)|  
+[VisibleFields](P_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings_VisibleFields.htm)|  
+## __См. также
+#### Ссылки
+[KrPermissionSectionSettings -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrPermissions_KrPermissionSectionSettings.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrPermissions - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrPermissions.htm)

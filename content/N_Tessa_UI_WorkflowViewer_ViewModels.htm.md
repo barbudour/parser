@@ -1,0 +1,33 @@
+# Tessa.UI.WorkflowViewer.ViewModels - пространство имён
+Модели представления для элементов управления, используемых в конструкторе
+бизнес-процессов.
+##  __Классы
+[CommandActionViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_CommandActionViewModel.htm)|  
+---|---  
+[DragActionViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_DragActionViewModel.htm)|  
+[WorkflowActionEditorViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowActionEditorViewModel.htm)|  
+[WorkflowActionStateEditorViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowActionStateEditorViewModel.htm)|  
+[WorkflowEditorViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowEditorViewModel.htm)|
+Объект редактора бизнес-процессов WorkflowEngine  
+[WorkflowElementTemplateViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowElementTemplateViewModel.htm)|  
+[WorkflowFilterRowViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowFilterRowViewModel.htm)|  
+[WorkflowFilterSubRowViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowFilterSubRowViewModel.htm)|  
+[WorkflowInEditorBaseViewModel<T>](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowInEditorBaseViewModel_1.htm)|  
+[WorkflowLinkEditorViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowLinkEditorViewModel.htm)|  
+[WorkflowNodeAdditionalViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowNodeAdditionalViewModel.htm)|  
+[WorkflowNodeContentViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowNodeContentViewModel.htm)|  
+[WorkflowNodeEditorViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowNodeEditorViewModel.htm)|  
+[WorkflowNodeStateEditorViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowNodeStateEditorViewModel.htm)|  
+[WorkflowPanelItemViewModelBase](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowPanelItemViewModelBase.htm)|  
+[WorkflowProcessEditorViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowProcessEditorViewModel.htm)|  
+[WorkflowProcessStateEditorViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowProcessStateEditorViewModel.htm)|  
+[WorkflowSignalViewModel](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowSignalViewModel.htm)|  
+[WorkflowStateBaseEditorViewModel<S,
+T>](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowStateBaseEditorViewModel_2.htm)|  
+[WorkflowTemplateBaseViewModel<T>](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowTemplateBaseViewModel_1.htm)|  
+[WorkflowTemplateBaseWithDescriptionViewModel<T>](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowTemplateBaseWithDescriptionViewModel_1.htm)|  
+## __Делегаты
+[WorkflowEditorViewModel.DragDelegate](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowEditorViewModel_DragDelegate.htm)|  
+---|---  
+[WorkflowEditorViewModel.DragStartDelegate](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowEditorViewModel_DragStartDelegate.htm)|  
+[WorkflowEditorViewModel.DropDelegate](T_Tessa_UI_WorkflowViewer_ViewModels_WorkflowEditorViewModel_DropDelegate.htm)|

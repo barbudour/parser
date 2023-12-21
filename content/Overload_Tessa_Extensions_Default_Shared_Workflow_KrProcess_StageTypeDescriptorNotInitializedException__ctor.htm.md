@@ -1,0 +1,24 @@
+# StageTypeDescriptorNotInitializedException - конструктор
+##  __Список перегрузок
+[StageTypeDescriptorNotInitializedException(String)](M_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptorNotInitializedException__ctor_2.htm)|
+Инициализирует новый экземпляр класса
+[StageTypeDescriptorNotInitializedException](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptorNotInitializedException.htm).  
+---|---  
+[StageTypeDescriptorNotInitializedException(SerializationInfo,
+StreamingContext)](M_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptorNotInitializedException__ctor_1.htm)|
+Инициализирует новый экземпляр класса
+[StageTypeDescriptorNotInitializedException](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptorNotInitializedException.htm).  
+[StageTypeDescriptorNotInitializedException(String,
+Exception)](M_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptorNotInitializedException__ctor_3.htm)|
+Инициализирует новый экземпляр класса
+[StageTypeDescriptorNotInitializedException](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptorNotInitializedException.htm).  
+[StageTypeDescriptorNotInitializedException(Guid, String,
+String)](M_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptorNotInitializedException__ctor.htm)|
+Инициализирует новый экземпляр класса
+[StageTypeDescriptorNotInitializedException](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptorNotInitializedException.htm).  
+## __См. также
+#### Ссылки
+[StageTypeDescriptorNotInitializedException -
+](T_Tessa_Extensions_Default_Shared_Workflow_KrProcess_StageTypeDescriptorNotInitializedException.htm)
+[Tessa.Extensions.Default.Shared.Workflow.KrProcess - пространство
+имён](N_Tessa_Extensions_Default_Shared_Workflow_KrProcess.htm)
